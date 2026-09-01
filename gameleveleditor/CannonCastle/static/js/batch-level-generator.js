@@ -1159,7 +1159,8 @@ export async function generateLevelBatch({ seed, targetCount = 10, config, asset
       + (platformAttempt % 4 === 0 ? explorationOffset : 0);
     let candidateFamilyIndex = familyIndex;
     const macroFamilyKey = [...macroOrder]
-      .filter(key => macroFamilyCounts.get(key) < macroFamilyLimit)
+      .filter(key => macroFamilyCounts.get(key) < macroFamilyLimit
+        && (targetCount === 20 || macroFamilyAttempts.get(key) < (macroFamilyCounts.get(key) + 1) * 32))
       .sort((left, right) => (
         macroFamilyCounts.get(left) + Math.floor(macroFamilyAttempts.get(left) / 12)
           - macroFamilyCounts.get(right) - Math.floor(macroFamilyAttempts.get(right) / 12)
@@ -1179,7 +1180,9 @@ export async function generateLevelBatch({ seed, targetCount = 10, config, asset
     } : { ...rarityWeights, batchMode: true, compactWing: true };
     platformAttempts.set(platformType, platformAttempt + 1);
     diagnostics.platforms[platformType].attempted += 1;
-    const structuralShape = candidates.length === 0 ? 'circle' : candidates.length === 1 || platformAttempt % 2 ? 'isosceles-triangle' : 'circle';
+    const structuralShape = targetCount === 20
+      ? (platformAttempt % 2 ? 'isosceles-triangle' : 'circle')
+      : candidates.length === 0 ? 'circle' : candidates.length === 1 || platformAttempt % 2 ? 'isosceles-triangle' : 'circle';
     const localRetry = candidates.length >= 9 && candidates.length < 13 ? LOCAL_RETRY_OFFSETS.length : 0;
     let candidate;
     try {
@@ -1293,7 +1296,7 @@ export async function generateLevelBatch({ seed, targetCount = 10, config, asset
       let stability = await validateStability(candidate.level, { config, assets, signal });
       if (!stability.ok) {
         reject(stability.reason);
-        if (optimizeCrossBatch || (optimizeBatchSubset && !topologyCounts.has(staticResult.descriptor.topologyKey))) try {
+        if (!topologyCounts.has(staticResult.descriptor.topologyKey)) try {
           const alternateShape = structuralShape === 'circle' ? 'isosceles-triangle' : 'circle';
           const alternate = buildGeneratedCandidate({
             seed, attempt: candidateAttempt, number: baseNumber + candidates.length, platformType, familyIndex: candidateFamilyIndex + 4, macroFamilyKey, assets, rarityWeights: attemptRarityWeights, budgetExponent: 3, preserveParallelRatio: 0.35, terminationRatio: 0.75, adaptiveConnections: true, wideStructuralFallback: true, randomizeCross: true, shiftFamilyOnRetry: false,

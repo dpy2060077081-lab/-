@@ -202,6 +202,15 @@ test('20-request batch retries a platform after a transient physics failure', { 
   assert.ok(batch.candidates.length >= 15, JSON.stringify(batch.diagnostics));
 });
 
+test('20-request batch does not exhaust macro families before the caller attempt limit', { timeout: 40_000 }, async () => {
+  const batch = await generateLevelBatch({
+    seed: '1a9tkhu-1npq19t', targetCount: 20, config, assets, existingLevels: historicalLevels,
+    validateStability: async () => ({ ok: true }), yieldControl: async () => {}, maxAttempts: 400,
+  });
+  assert.equal(batch.diagnostics.attempted, 400, JSON.stringify(batch.diagnostics));
+  assert.ok(batch.candidates.length > 1, JSON.stringify(batch.diagnostics));
+});
+
 test('a second 20-request batch escapes normalized foundations in recent generated history', { timeout: 40_000 }, async () => {
   const batch = await generateLevelBatch({
     seed: 'tusnzy-nqaqjk', targetCount: 20, config, assets, existingLevels: historicalLevels,
