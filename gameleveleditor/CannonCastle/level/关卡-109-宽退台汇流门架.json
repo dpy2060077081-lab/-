@@ -7,6 +7,13 @@
       {
         "id": "frozen-1",
         "memberIds": [
+          "generated-109-034",
+          "generated-109-035",
+          "generated-109-036",
+          "generated-109-037",
+          "generated-109-038",
+          "generated-109-039",
+          "generated-109-040",
           "generated-109-041",
           "generated-109-042",
           "generated-109-043",
@@ -27,10 +34,10 @@
           "generated-109-058",
           "generated-109-059",
           "generated-109-060",
+          "generated-109-061",
           "long-thin-rectangle-1",
           "long-thin-rectangle-2",
-          "long-thin-rectangle-3",
-          "long-thin-rectangle-4"
+          "long-thin-rectangle-3"
         ]
       }
     ],
@@ -326,7 +333,7 @@
       {
         "id": "generated-109-032",
         "name": "矩形",
-        "x": 3.78,
+        "x": 3.68,
         "y": 9.03,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -335,7 +342,7 @@
       {
         "id": "generated-109-033",
         "name": "矩形",
-        "x": 5.22,
+        "x": 5.319999999999999,
         "y": 9.03,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -709,6 +716,24 @@
         "angle": 1.5707963267948966,
         "shapePresetId": "long-thin-rectangle",
         "materialId": "metal"
+      },
+      {
+        "id": "rectangle-1",
+        "name": "矩形",
+        "x": 4.125000000000002,
+        "y": 9.047400267374226,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-2",
+        "name": "矩形",
+        "x": 4.8999999999999995,
+        "y": 9.05,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
       }
     ]
   }

@@ -633,7 +633,7 @@
         "y": 5.04,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
-        "materialId": "rubber"
+        "materialId": "metal"
       },
       {
         "id": "generated-101-069",
@@ -660,7 +660,7 @@
         "y": 5.04,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
-        "materialId": "glass"
+        "materialId": "metal"
       },
       {
         "id": "explosive-barrel-1",

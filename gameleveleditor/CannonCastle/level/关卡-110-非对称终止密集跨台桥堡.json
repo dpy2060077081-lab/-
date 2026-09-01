@@ -17,6 +17,39 @@
           "generated-110-012",
           "rectangle-1"
         ]
+      },
+      {
+        "id": "frozen-2",
+        "memberIds": [
+          "generated-110-056",
+          "generated-110-057",
+          "generated-110-058"
+        ]
+      },
+      {
+        "id": "frozen-3",
+        "memberIds": [
+          "generated-110-061",
+          "generated-110-068",
+          "generated-110-069",
+          "generated-110-070"
+        ]
+      },
+      {
+        "id": "frozen-4",
+        "memberIds": [
+          "generated-110-071",
+          "generated-110-072",
+          "generated-110-073"
+        ]
+      },
+      {
+        "id": "frozen-5",
+        "memberIds": [
+          "generated-110-074",
+          "generated-110-075",
+          "generated-110-076"
+        ]
       }
     ],
     "number": 110,
@@ -464,7 +497,7 @@
       {
         "id": "generated-110-049",
         "name": "矩形",
-        "x": 2.16,
+        "x": 2.4099999999999993,
         "y": 8.88,
         "angle": 0,
         "shapePresetId": "rectangle",
@@ -473,7 +506,7 @@
       {
         "id": "generated-110-050",
         "name": "细矩形",
-        "x": 2.16,
+        "x": 2.4099999999999993,
         "y": 8.57,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -509,7 +542,7 @@
       {
         "id": "generated-110-054",
         "name": "矩形",
-        "x": 6.75,
+        "x": 6.500000000000001,
         "y": 8.88,
         "angle": 0,
         "shapePresetId": "rectangle",
@@ -518,7 +551,7 @@
       {
         "id": "generated-110-055",
         "name": "细矩形",
-        "x": 6.75,
+        "x": 6.500000000000001,
         "y": 8.57,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -527,7 +560,7 @@
       {
         "id": "generated-110-056",
         "name": "小正方形",
-        "x": 1.94,
+        "x": 2.1899999999999995,
         "y": 8.285,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -536,7 +569,7 @@
       {
         "id": "generated-110-057",
         "name": "小正方形",
-        "x": 2.38,
+        "x": 2.629999999999999,
         "y": 8.285,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -545,7 +578,7 @@
       {
         "id": "generated-110-058",
         "name": "细矩形",
-        "x": 2.16,
+        "x": 2.4099999999999993,
         "y": 8,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -608,7 +641,7 @@
       {
         "id": "generated-110-065",
         "name": "小正方形",
-        "x": 6.53,
+        "x": 6.280000000000001,
         "y": 8.285,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -617,7 +650,7 @@
       {
         "id": "generated-110-066",
         "name": "小正方形",
-        "x": 6.97,
+        "x": 6.720000000000001,
         "y": 8.285,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -626,7 +659,7 @@
       {
         "id": "generated-110-067",
         "name": "细矩形",
-        "x": 6.75,
+        "x": 6.500000000000001,
         "y": 8,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -689,7 +722,7 @@
       {
         "id": "generated-110-074",
         "name": "小正方形",
-        "x": 6.53,
+        "x": 6.280000000000001,
         "y": 7.715,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -698,7 +731,7 @@
       {
         "id": "generated-110-075",
         "name": "小正方形",
-        "x": 6.97,
+        "x": 6.720000000000001,
         "y": 7.715,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -707,7 +740,7 @@
       {
         "id": "generated-110-076",
         "name": "细矩形",
-        "x": 6.75,
+        "x": 6.500000000000001,
         "y": 7.43,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",

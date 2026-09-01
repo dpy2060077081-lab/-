@@ -3,6 +3,22 @@
   "type": "level",
   "levelId": "level-128",
   "level": {
+    "frozenBodies": [
+      {
+        "id": "frozen-1",
+        "memberIds": [
+          "generated-152-062",
+          "generated-152-063",
+          "generated-152-064",
+          "generated-152-065",
+          "generated-152-066",
+          "generated-152-067",
+          "generated-152-068",
+          "generated-152-069",
+          "generated-152-070"
+        ]
+      }
+    ],
     "number": 128,
     "name": "均衡汇流门架",
     "difficulty": "normal",
@@ -490,7 +506,7 @@
       {
         "id": "generated-152-053",
         "name": "小正方形",
-        "x": 5.045,
+        "x": 4.8950000000000005,
         "y": 6.365,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -499,7 +515,7 @@
       {
         "id": "generated-152-054",
         "name": "小正方形",
-        "x": 5.405,
+        "x": 5.305000000000001,
         "y": 6.365,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -508,7 +524,7 @@
       {
         "id": "generated-152-055",
         "name": "细矩形",
-        "x": 5.225,
+        "x": 5.075,
         "y": 6.08,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -517,7 +533,7 @@
       {
         "id": "generated-152-056",
         "name": "小正方形",
-        "x": 3.745,
+        "x": 3.5950000000000006,
         "y": 5.795,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -526,7 +542,7 @@
       {
         "id": "generated-152-057",
         "name": "小正方形",
-        "x": 4.105,
+        "x": 4.055000000000001,
         "y": 5.795,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -535,7 +551,7 @@
       {
         "id": "generated-152-058",
         "name": "细矩形",
-        "x": 3.925,
+        "x": 3.875,
         "y": 5.51,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -544,7 +560,7 @@
       {
         "id": "generated-152-059",
         "name": "小正方形",
-        "x": 5.005,
+        "x": 4.905,
         "y": 5.795,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -553,7 +569,7 @@
       {
         "id": "generated-152-060",
         "name": "小正方形",
-        "x": 5.445,
+        "x": 5.295000000000001,
         "y": 5.795,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -562,7 +578,7 @@
       {
         "id": "generated-152-061",
         "name": "细矩形",
-        "x": 5.225,
+        "x": 5.125,
         "y": 5.51,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -571,7 +587,7 @@
       {
         "id": "generated-152-062",
         "name": "矩形",
-        "x": 3.855,
+        "x": 3.805,
         "y": 4.99,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -580,7 +596,7 @@
       {
         "id": "generated-152-063",
         "name": "矩形",
-        "x": 5.295,
+        "x": 5.245,
         "y": 4.99,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -589,7 +605,7 @@
       {
         "id": "generated-152-064",
         "name": "细长矩形",
-        "x": 4.575,
+        "x": 4.525,
         "y": 4.46,
         "angle": 0,
         "shapePresetId": "long-thin-rectangle",
@@ -598,7 +614,7 @@
       {
         "id": "generated-152-065",
         "name": "小正方形",
-        "x": 3.805,
+        "x": 3.7550000000000003,
         "y": 4.165,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -607,7 +623,7 @@
       {
         "id": "generated-152-066",
         "name": "小正方形",
-        "x": 4.245,
+        "x": 4.195,
         "y": 4.165,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -616,7 +632,7 @@
       {
         "id": "generated-152-067",
         "name": "等腰三角形",
-        "x": 4.025,
+        "x": 3.9750000000000005,
         "y": 3.725,
         "angle": 0,
         "shapePresetId": "isosceles-triangle",
@@ -625,7 +641,7 @@
       {
         "id": "generated-152-068",
         "name": "小正方形",
-        "x": 4.905,
+        "x": 4.855,
         "y": 4.165,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -634,7 +650,7 @@
       {
         "id": "generated-152-069",
         "name": "小正方形",
-        "x": 5.345,
+        "x": 5.295,
         "y": 4.165,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -643,7 +659,7 @@
       {
         "id": "generated-152-070",
         "name": "细矩形",
-        "x": 5.125,
+        "x": 5.075,
         "y": 3.88,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",

@@ -3,23 +3,7 @@
   "type": "level",
   "levelId": "level-108",
   "level": {
-    "frozenBodies": [
-      {
-        "id": "frozen-1",
-        "memberIds": [
-          "generated-108-001",
-          "generated-108-002",
-          "generated-108-003",
-          "generated-108-004",
-          "generated-108-005",
-          "generated-108-010",
-          "generated-108-011",
-          "generated-108-012",
-          "generated-108-013",
-          "generated-108-014"
-        ]
-      }
-    ],
+    "frozenBodies": [],
     "number": 108,
     "name": "宽退台错层跨架",
     "difficulty": "normal",
@@ -267,7 +251,7 @@
       {
         "id": "generated-108-027",
         "name": "矩形",
-        "x": 2.35,
+        "x": 2.4,
         "y": 9.39,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -276,7 +260,7 @@
       {
         "id": "generated-108-028",
         "name": "矩形",
-        "x": 3.07,
+        "x": 3.1199999999999997,
         "y": 9.39,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -285,7 +269,7 @@
       {
         "id": "generated-108-029",
         "name": "矩形",
-        "x": 3.79,
+        "x": 3.84,
         "y": 9.39,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -294,7 +278,7 @@
       {
         "id": "generated-108-030",
         "name": "细长矩形",
-        "x": 3.07,
+        "x": 3.1199999999999997,
         "y": 8.86,
         "angle": 0,
         "shapePresetId": "long-thin-rectangle",
@@ -330,7 +314,7 @@
       {
         "id": "generated-108-034",
         "name": "细长矩形",
-        "x": 5.93,
+        "x": 5.88,
         "y": 8.86,
         "angle": 0,
         "shapePresetId": "long-thin-rectangle",
@@ -649,7 +633,7 @@
         "y": 5.05,
         "angle": 0,
         "shapePresetId": "rectangle",
-        "materialId": "glass"
+        "materialId": "stone"
       },
       {
         "id": "generated-108-070",
@@ -658,7 +642,7 @@
         "y": 5.15,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
-        "materialId": "glass"
+        "materialId": "stone"
       },
       {
         "id": "generated-108-071",
@@ -667,7 +651,7 @@
         "y": 4.94,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
-        "materialId": "glass"
+        "materialId": "stone"
       },
       {
         "id": "generated-108-072",
@@ -676,7 +660,7 @@
         "y": 4.73,
         "angle": 0,
         "shapePresetId": "long-thin-rectangle",
-        "materialId": "rubber"
+        "materialId": "stone"
       }
     ]
   }

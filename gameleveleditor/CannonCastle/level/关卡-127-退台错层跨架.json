@@ -3,7 +3,19 @@
   "type": "level",
   "levelId": "level-127",
   "level": {
-    "frozenBodies": [],
+    "frozenBodies": [
+      {
+        "id": "frozen-1",
+        "memberIds": [
+          "generated-149-065",
+          "generated-149-066",
+          "generated-149-067",
+          "generated-149-068",
+          "generated-149-069",
+          "generated-149-071"
+        ]
+      }
+    ],
     "number": 127,
     "name": "退台错层跨架",
     "difficulty": "normal",

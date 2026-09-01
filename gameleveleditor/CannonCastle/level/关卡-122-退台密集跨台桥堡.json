@@ -3,6 +3,19 @@
   "type": "level",
   "levelId": "level-122",
   "level": {
+    "frozenBodies": [
+      {
+        "id": "frozen-1",
+        "memberIds": [
+          "generated-135-064",
+          "generated-135-068",
+          "generated-135-069",
+          "generated-135-070",
+          "generated-135-071",
+          "generated-135-072"
+        ]
+      }
+    ],
     "number": 122,
     "name": "退台密集跨台桥堡",
     "difficulty": "normal",

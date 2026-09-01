@@ -254,7 +254,8 @@
         "y": 10.09,
         "angle": 0,
         "shapePresetId": "long-thin-rectangle",
-        "materialId": "stone"
+        "materialId": "wood",
+        "fixedBolt": true
       },
       {
         "id": "generated-128-028",
@@ -299,7 +300,8 @@
         "y": 10.09,
         "angle": 0,
         "shapePresetId": "long-thin-rectangle",
-        "materialId": "stone"
+        "materialId": "wood",
+        "fixedBolt": true
       },
       {
         "id": "generated-128-033",
@@ -565,7 +567,7 @@
       {
         "id": "generated-128-062",
         "name": "小正方形",
-        "x": 3.445,
+        "x": 3.4949999999999997,
         "y": 6.875,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -574,7 +576,7 @@
       {
         "id": "generated-128-063",
         "name": "小正方形",
-        "x": 3.885,
+        "x": 3.9349999999999996,
         "y": 6.875,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -583,7 +585,7 @@
       {
         "id": "generated-128-064",
         "name": "细矩形",
-        "x": 3.665,
+        "x": 3.715,
         "y": 6.59,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -619,7 +621,7 @@
       {
         "id": "generated-128-068",
         "name": "小正方形",
-        "x": 3.445,
+        "x": 3.4949999999999997,
         "y": 6.305,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -628,7 +630,7 @@
       {
         "id": "generated-128-069",
         "name": "小正方形",
-        "x": 3.885,
+        "x": 3.9349999999999996,
         "y": 6.305,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -637,11 +639,11 @@
       {
         "id": "generated-128-070",
         "name": "细矩形",
-        "x": 3.665,
+        "x": 3.715,
         "y": 6.02,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
-        "materialId": "rubber"
+        "materialId": "glass"
       },
       {
         "id": "generated-128-071",

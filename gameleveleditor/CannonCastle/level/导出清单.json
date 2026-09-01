@@ -744,13 +744,13 @@
       "id": "level-124",
       "number": 124,
       "name": "非对称终止密集跨台桥堡",
-      "difficulty": "normal"
+      "difficulty": "hard"
     },
     {
       "id": "level-125",
       "number": 125,
       "name": "均衡汇流门架",
-      "difficulty": "normal"
+      "difficulty": "super-hard"
     },
     {
       "id": "level-126",
@@ -774,13 +774,13 @@
       "id": "level-129",
       "number": 129,
       "name": "均衡错层跨架",
-      "difficulty": "normal"
+      "difficulty": "hard"
     },
     {
       "id": "level-130",
       "number": 130,
       "name": "宽退台密集跨台桥堡",
-      "difficulty": "normal"
+      "difficulty": "super-hard"
     }
   ]
 }

@@ -23,6 +23,25 @@
           "circle-8",
           "isosceles-triangle-2"
         ]
+      },
+      {
+        "id": "frozen-3",
+        "memberIds": [
+          "generated-136-067",
+          "generated-136-068",
+          "generated-136-069",
+          "generated-136-070",
+          "generated-136-071",
+          "generated-136-072"
+        ]
+      },
+      {
+        "id": "frozen-4",
+        "memberIds": [
+          "generated-136-064",
+          "generated-136-065",
+          "generated-136-066"
+        ]
       }
     ],
     "number": 123,
@@ -434,8 +453,8 @@
       {
         "id": "generated-136-045",
         "name": "矩形",
-        "x": 5.37,
-        "y": 9.225,
+        "x": 5.220000000000001,
+        "y": 9.174999999999999,
         "angle": 0,
         "shapePresetId": "rectangle",
         "materialId": "wood"
@@ -632,7 +651,7 @@
       {
         "id": "generated-136-067",
         "name": "小正方形",
-        "x": 4.87,
+        "x": 4.82,
         "y": 6.385,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -641,7 +660,7 @@
       {
         "id": "generated-136-068",
         "name": "小正方形",
-        "x": 5.31,
+        "x": 5.26,
         "y": 6.385,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -650,7 +669,7 @@
       {
         "id": "generated-136-069",
         "name": "细矩形",
-        "x": 5.09,
+        "x": 5.04,
         "y": 6.1,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -659,7 +678,7 @@
       {
         "id": "generated-136-070",
         "name": "小正方形",
-        "x": 4.87,
+        "x": 4.82,
         "y": 5.815,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -668,7 +687,7 @@
       {
         "id": "generated-136-071",
         "name": "小正方形",
-        "x": 5.31,
+        "x": 5.26,
         "y": 5.815,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -677,7 +696,7 @@
       {
         "id": "generated-136-072",
         "name": "等腰三角形",
-        "x": 5.09,
+        "x": 5.04,
         "y": 5.375,
         "angle": 0,
         "shapePresetId": "isosceles-triangle",

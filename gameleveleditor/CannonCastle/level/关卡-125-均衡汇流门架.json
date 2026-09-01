@@ -21,13 +21,25 @@
           "circle-7",
           "circle-8"
         ]
+      },
+      {
+        "id": "frozen-3",
+        "memberIds": [
+          "generated-143-064",
+          "generated-143-065",
+          "generated-143-066",
+          "generated-143-067",
+          "generated-143-068",
+          "generated-143-069",
+          "generated-143-070"
+        ]
       }
     ],
     "number": 125,
     "name": "均衡汇流门架",
     "difficulty": "super-hard",
     "description": "自定义生成关卡",
-    "normalAmmo": 17,
+    "normalAmmo": 18,
     "explosiveAmmo": 1,
     "splitAmmo": 0,
     "blackHoleAmmo": 0,
@@ -265,7 +277,8 @@
         "y": 8.86,
         "angle": 0,
         "shapePresetId": "long-thin-rectangle",
-        "materialId": "stone"
+        "materialId": "wood",
+        "fixedBolt": true
       },
       {
         "id": "generated-143-031",
@@ -301,7 +314,8 @@
         "y": 8.86,
         "angle": 0,
         "shapePresetId": "long-thin-rectangle",
-        "materialId": "stone"
+        "materialId": "wood",
+        "fixedBolt": true
       },
       {
         "id": "generated-143-035",
@@ -414,7 +428,7 @@
       {
         "id": "generated-143-047",
         "name": "小正方形",
-        "x": 4.74,
+        "x": 4.79,
         "y": 6.935,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -423,7 +437,7 @@
       {
         "id": "generated-143-048",
         "name": "小正方形",
-        "x": 5.18,
+        "x": 5.2299999999999995,
         "y": 6.935,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -432,7 +446,7 @@
       {
         "id": "generated-143-049",
         "name": "细矩形",
-        "x": 4.96,
+        "x": 5.06,
         "y": 6.65,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -468,7 +482,7 @@
       {
         "id": "generated-143-053",
         "name": "小正方形",
-        "x": 4.74,
+        "x": 4.79,
         "y": 6.365,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -477,7 +491,7 @@
       {
         "id": "generated-143-054",
         "name": "小正方形",
-        "x": 5.18,
+        "x": 5.2299999999999995,
         "y": 6.365,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -486,7 +500,7 @@
       {
         "id": "generated-143-055",
         "name": "细矩形",
-        "x": 4.96,
+        "x": 5.06,
         "y": 6.08,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -495,7 +509,7 @@
       {
         "id": "generated-143-056",
         "name": "小正方形",
-        "x": 3.68,
+        "x": 3.78,
         "y": 5.795,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -504,7 +518,7 @@
       {
         "id": "generated-143-057",
         "name": "小正方形",
-        "x": 4.04,
+        "x": 4.14,
         "y": 5.795,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -513,7 +527,7 @@
       {
         "id": "generated-143-058",
         "name": "细矩形",
-        "x": 3.8600000000000003,
+        "x": 3.96,
         "y": 5.51,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
@@ -522,7 +536,7 @@
       {
         "id": "generated-143-059",
         "name": "小正方形",
-        "x": 4.74,
+        "x": 4.79,
         "y": 5.795,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -531,7 +545,7 @@
       {
         "id": "generated-143-060",
         "name": "小正方形",
-        "x": 5.18,
+        "x": 5.2299999999999995,
         "y": 5.795,
         "angle": 1.5707963267948966,
         "shapePresetId": "small-square",
@@ -540,7 +554,7 @@
       {
         "id": "generated-143-061",
         "name": "细矩形",
-        "x": 4.96,
+        "x": 5.06,
         "y": 5.51,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",

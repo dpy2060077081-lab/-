@@ -18,13 +18,21 @@
           "circle-6",
           "circle-7"
         ]
+      },
+      {
+        "id": "frozen-2",
+        "memberIds": [
+          "generated-139-064",
+          "generated-139-065",
+          "generated-139-066"
+        ]
       }
     ],
     "number": 124,
     "name": "非对称终止密集跨台桥堡",
     "difficulty": "hard",
     "description": "自定义生成关卡",
-    "normalAmmo": 22,
+    "normalAmmo": 25,
     "explosiveAmmo": 1,
     "splitAmmo": 0,
     "blackHoleAmmo": 0,
@@ -501,7 +509,7 @@
       {
         "id": "generated-139-053",
         "name": "矩形",
-        "x": 1.97,
+        "x": 1.8199999999999998,
         "y": 7.93,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -510,7 +518,7 @@
       {
         "id": "generated-139-054",
         "name": "矩形",
-        "x": 2.69,
+        "x": 2.5400000000000005,
         "y": 7.93,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -519,7 +527,7 @@
       {
         "id": "generated-139-055",
         "name": "矩形",
-        "x": 3.41,
+        "x": 3.2600000000000007,
         "y": 7.93,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -532,12 +540,13 @@
         "y": 7.4,
         "angle": 0,
         "shapePresetId": "long-thin-rectangle",
-        "materialId": "wood"
+        "materialId": "wood",
+        "fixedBolt": true
       },
       {
         "id": "generated-139-057",
         "name": "矩形",
-        "x": 5.32,
+        "x": 5.47,
         "y": 7.93,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -546,7 +555,7 @@
       {
         "id": "generated-139-058",
         "name": "矩形",
-        "x": 6.04,
+        "x": 6.1899999999999995,
         "y": 7.93,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -555,7 +564,7 @@
       {
         "id": "generated-139-059",
         "name": "矩形",
-        "x": 6.76,
+        "x": 6.909999999999999,
         "y": 7.93,
         "angle": 1.5707963267948966,
         "shapePresetId": "rectangle",
@@ -568,7 +577,8 @@
         "y": 7.4,
         "angle": 0,
         "shapePresetId": "long-thin-rectangle",
-        "materialId": "wood"
+        "materialId": "wood",
+        "fixedBolt": true
       },
       {
         "id": "generated-139-061",

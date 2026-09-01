@@ -22,6 +22,14 @@
           "generated-105-032",
           "generated-105-038"
         ]
+      },
+      {
+        "id": "frozen-2",
+        "memberIds": [
+          "generated-105-063",
+          "generated-105-064",
+          "generated-105-065"
+        ]
       }
     ],
     "number": 105,
@@ -442,7 +450,7 @@
       {
         "id": "generated-105-046",
         "name": "细矩形",
-        "x": 5.2,
+        "x": 5.25,
         "y": 7.32,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",

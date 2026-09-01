@@ -36,6 +36,38 @@
           "generated-105-042",
           "generated-105-043"
         ]
+      },
+      {
+        "id": "frozen-3",
+        "memberIds": [
+          "generated-105-072",
+          "generated-105-077",
+          "generated-105-078",
+          "generated-105-079",
+          "generated-105-080",
+          "generated-105-081",
+          "generated-105-082",
+          "generated-105-083",
+          "generated-105-084",
+          "generated-105-085",
+          "generated-105-086"
+        ]
+      },
+      {
+        "id": "frozen-4",
+        "memberIds": [
+          "generated-105-060",
+          "generated-105-061",
+          "generated-105-062"
+        ]
+      },
+      {
+        "id": "frozen-5",
+        "memberIds": [
+          "generated-105-064",
+          "generated-105-065",
+          "generated-105-066"
+        ]
       }
     ],
     "number": 94,
@@ -655,7 +687,7 @@
         "id": "generated-105-068",
         "name": "细矩形",
         "x": 3.59,
-        "y": 6.53,
+        "y": 6.58,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "wood"
@@ -664,7 +696,7 @@
         "id": "generated-105-069",
         "name": "细矩形",
         "x": 3.79,
-        "y": 6.53,
+        "y": 6.58,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "wood"
@@ -673,7 +705,7 @@
         "id": "generated-105-070",
         "name": "细矩形",
         "x": 3.99,
-        "y": 6.53,
+        "y": 6.58,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "wood"
@@ -682,7 +714,7 @@
         "id": "generated-105-071",
         "name": "细矩形",
         "x": 4.19,
-        "y": 6.53,
+        "y": 6.58,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "wood"
@@ -691,7 +723,7 @@
         "id": "generated-105-072",
         "name": "细矩形",
         "x": 3.89,
-        "y": 5.97,
+        "y": 6.069999999999999,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "glass"
@@ -700,7 +732,7 @@
         "id": "generated-105-073",
         "name": "细矩形",
         "x": 4.63,
-        "y": 6.53,
+        "y": 6.58,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "wood"
@@ -709,7 +741,7 @@
         "id": "generated-105-074",
         "name": "细矩形",
         "x": 4.83,
-        "y": 6.53,
+        "y": 6.58,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "wood"
@@ -718,7 +750,7 @@
         "id": "generated-105-075",
         "name": "细矩形",
         "x": 5.03,
-        "y": 6.53,
+        "y": 6.58,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "wood"
@@ -727,7 +759,7 @@
         "id": "generated-105-076",
         "name": "细矩形",
         "x": 5.23,
-        "y": 6.53,
+        "y": 6.58,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "wood"
@@ -736,7 +768,7 @@
         "id": "generated-105-077",
         "name": "细矩形",
         "x": 4.93,
-        "y": 5.97,
+        "y": 6.069999999999999,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "wood"
@@ -745,7 +777,7 @@
         "id": "generated-105-078",
         "name": "细矩形",
         "x": 3.7,
-        "y": 5.41,
+        "y": 5.51,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "glass"
@@ -754,7 +786,7 @@
         "id": "generated-105-079",
         "name": "细矩形",
         "x": 3.9,
-        "y": 5.41,
+        "y": 5.51,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "glass"
@@ -763,7 +795,7 @@
         "id": "generated-105-080",
         "name": "细矩形",
         "x": 4.1,
-        "y": 5.41,
+        "y": 5.51,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "glass"
@@ -772,7 +804,7 @@
         "id": "generated-105-081",
         "name": "等腰三角形",
         "x": 3.8,
-        "y": 4.695,
+        "y": 4.795,
         "angle": 0,
         "shapePresetId": "isosceles-triangle",
         "materialId": "rubber"
@@ -781,7 +813,7 @@
         "id": "generated-105-082",
         "name": "细矩形",
         "x": 4.63,
-        "y": 5.41,
+        "y": 5.51,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "glass"
@@ -790,7 +822,7 @@
         "id": "generated-105-083",
         "name": "细矩形",
         "x": 4.83,
-        "y": 5.41,
+        "y": 5.51,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "glass"
@@ -799,7 +831,7 @@
         "id": "generated-105-084",
         "name": "细矩形",
         "x": 5.03,
-        "y": 5.41,
+        "y": 5.51,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "glass"
@@ -808,7 +840,7 @@
         "id": "generated-105-085",
         "name": "细矩形",
         "x": 5.23,
-        "y": 5.41,
+        "y": 5.51,
         "angle": 1.5707963267948966,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "glass"
@@ -817,7 +849,7 @@
         "id": "generated-105-086",
         "name": "细矩形",
         "x": 4.93,
-        "y": 4.85,
+        "y": 4.949999999999999,
         "angle": 0,
         "shapePresetId": "short-thin-rectangle",
         "materialId": "rubber"

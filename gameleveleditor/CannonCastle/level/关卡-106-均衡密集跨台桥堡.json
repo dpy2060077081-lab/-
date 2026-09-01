@@ -3,6 +3,26 @@
   "type": "level",
   "levelId": "level-106",
   "level": {
+    "frozenBodies": [
+      {
+        "id": "frozen-1",
+        "memberIds": [
+          "generated-106-062",
+          "generated-106-066",
+          "generated-106-067",
+          "generated-106-068"
+        ]
+      },
+      {
+        "id": "frozen-2",
+        "memberIds": [
+          "generated-106-065",
+          "generated-106-069",
+          "generated-106-070",
+          "generated-106-071"
+        ]
+      }
+    ],
     "number": 106,
     "name": "均衡密集跨台桥堡",
     "difficulty": "normal",
