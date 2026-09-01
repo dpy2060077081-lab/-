@@ -362,12 +362,15 @@ function macroStageIndex(progress) {
 function macroPlanScore(option, family, stageIndex, frame, direction) {
   const target = family.stages[stageIndex];
   const metrics = macroLayoutMetrics(option.children, frame);
-  const expectedOffset = target.centerOffset * direction;
+  const alternatingOffset = family.stages.slice(2).some((stage, index) => (
+    Math.sign(stage.centerOffset) !== Math.sign(family.stages[index + 1].centerOffset)
+  ));
+  const expectedOffset = target.centerOffset * direction * (alternatingOffset && stageIndex === 3 ? 1.3 : 1);
   const operations = option.children.map(value => value.child.operation).filter(operation => operation !== 'hold');
   return Math.abs(metrics.spanCount - target.spanCount) * 5
     + Math.abs(metrics.widthRatio - target.widthRatio) * 8
-    + Math.abs(metrics.centerOffset - expectedOffset) * 10
-    + Number(metrics.centerVoid !== target.centerVoid) * 7
+    + Math.abs(metrics.centerOffset - expectedOffset) * (alternatingOffset ? 100 : 10)
+    + Number(!alternatingOffset && metrics.centerVoid !== target.centerVoid) * 7
     + Number(family.keepTwinTop && stageIndex >= 2 && metrics.spanCount < 2) * 100
     + Number(operations.some(operation => family.forbiddenOperations.includes(operation))) * 100;
 }
@@ -501,6 +504,9 @@ export function buildGeneratedCandidate({ seed, attempt, number, platformType, f
   }
   const initialMinX = Math.min(...shelves.map(shelf => shelf.x - shelf.width / 2));
   const initialMaxX = Math.max(...shelves.map(shelf => shelf.x + shelf.width / 2));
+  const bodyStartCount = entries.length;
+  const growthBudget = macroFamilyKey === 'zigzag-terrace'
+    ? Math.max(MIN_OBJECTS + 7, targetBudget) : targetBudget;
   const macroFrame = {
     centerX: (initialMinX + initialMaxX) / 2,
     width: Math.max(2.2, initialMaxX - initialMinX),
@@ -514,11 +520,22 @@ export function buildGeneratedCandidate({ seed, attempt, number, platformType, f
   let previousLayerTemplate = '';
   let repeatedLayerTemplateCount = 0;
   const isCohesive = () => shelves.some(shelf => shelf.cohesion.size === cohesionIdentityCount);
-  while ((entries.length < targetBudget || !isCohesive()) && layer <= 12) {
+  while ((entries.length < growthBudget || !isCohesive()) && layer <= 12) {
     let choice = null;
-    const progress = entries.length / targetBudget;
-    const stageIndex = macroStageIndex(progress);
+    const progress = macroFamilyKey === 'zigzag-terrace'
+      ? (entries.length - bodyStartCount) / (growthBudget - bodyStartCount)
+      : entries.length / targetBudget;
+    const stageIndex = macroFamilyKey === 'zigzag-terrace'
+      ? (progress < 0.25 ? 0 : progress < 0.4 ? 1 : progress < 0.75 ? 2 : 3)
+      : macroStageIndex(progress);
     const currentMetrics = macroLayoutMetrics(shelves.map(shelf => ({ child: shelf })), macroFrame);
+    const targetMacroOffset = macroFamily.stages[stageIndex].centerOffset * macroDirection
+      * (macroFamilyKey === 'zigzag-terrace' && stageIndex === 3 ? 1.3 : 1);
+    const macroStageTolerance = macroFamilyKey === 'zigzag-terrace' && stageIndex === 3 ? 0.01 : 0.04;
+    const macroStageReady = macroFamilyKey !== 'zigzag-terrace'
+      || Math.sign(targetMacroOffset) * currentMetrics.centerOffset >= Math.abs(targetMacroOffset) - macroStageTolerance;
+    if (macroFamilyKey === 'zigzag-terrace' && stageIndex === 3 && macroStageReady
+      && entries.length >= MIN_OBJECTS && rewriteLog.length >= 12 && isCohesive()) break;
     let plans = nextPlans(shelves, random, layer, familyIndex, rarityWeights, baseProfile);
     if (progress < 0.45) {
       plans = plans.filter(plan => plan.every(child => !['wing', 'truncate'].includes(child.operation)
@@ -526,14 +543,26 @@ export function buildGeneratedCandidate({ seed, attempt, number, platformType, f
     } else if (progress < 0.75) {
       plans = plans.filter(plan => plan.every(child => child.operation !== 'truncate'));
     }
+    if (macroFamilyKey === 'zigzag-terrace') {
+      const targetOffset = targetMacroOffset;
+      const maximumShift = 0.27;
+      const shift = Math.max(-maximumShift, Math.min(maximumShift,
+        (targetOffset - currentMetrics.centerOffset) * macroFrame.width));
+      if (Math.abs(shift) >= 0.04) plans.push(shelves.map(shelf => ({ ...shelf, x: shelf.x + shift, operation: 'step' })));
+    }
     const choices = [];
     for (const plan of plans) {
       const children = plan.map((child, childIndex) => {
         if (child.operation === 'hold') return { child, positions: [] };
+        const nearestParent = shelves.reduce((nearest, shelf) => (
+          Math.abs(shelf.x - child.x) < Math.abs(nearest.x - child.x) ? shelf : nearest
+        ));
         const offsets = ['merge', 'cross'].includes(child.operation) && !isCohesive()
           ? [-0.72, -0.24, 0.24, 0.72]
           : child.width > 1.2 ? [-0.72, 0, 0.72] : child.operation === 'step'
-            ? [-0.175, 0.175]
+            ? (macroFamilyKey === 'zigzag-terrace'
+              ? (child.x >= nearestParent.x ? [-0.32, 0.04] : [-0.04, 0.32])
+              : [-0.175, 0.175])
             : [-0.22, 0.22];
         const positions = supportPositions(child, shelves, offsets) ?? [];
         return { child, positions };
@@ -547,7 +576,8 @@ export function buildGeneratedCandidate({ seed, attempt, number, platformType, f
       const projected = entries.length + children.reduce((sum, value) => sum + (value.child.operation === 'hold' ? 2 : value.child.operation === 'cross'
         ? 5 : value.positions.length + 1), 0);
       if (plan.some(child => child.operation === 'truncate') && projected < Math.max(MIN_OBJECTS, targetBudget)) continue;
-      if (projected > MAX_OBJECTS || (isCohesive() && entries.length >= MIN_OBJECTS && rewriteLog.length >= 12 && projected > targetBudget + 3)) continue;
+      const budgetSlack = macroFamilyKey === 'zigzag-terrace' ? 12 : 3;
+      if (projected > MAX_OBJECTS || (isCohesive() && entries.length >= MIN_OBJECTS && rewriteLog.length >= 12 && projected > targetBudget + budgetSlack)) continue;
       const builtChildren = plan.filter(child => child.operation !== 'hold');
       const overlaps = builtChildren.some((left, index) => builtChildren.slice(index + 1).some(right => Math.abs(left.x - right.x) < (left.width + right.width) / 2 + 0.04));
       if (!overlaps) choices.push({
@@ -627,9 +657,10 @@ export function buildGeneratedCandidate({ seed, attempt, number, platformType, f
     const next = [];
     const nextCohesive = choice.children.some(child => child.cohesion.size === cohesionIdentityCount);
     const projectedRewriteCount = rewriteLog.length + choice.children.filter(value => value.child.operation !== 'hold').length;
-    let structuralChild = nextCohesive && choice.children.length >= 2 && choice.projected >= MIN_OBJECTS && projectedRewriteCount >= 12
+    const macroCanTerminate = macroFamilyKey !== 'zigzag-terrace' || (stageIndex === 3 && macroStageReady);
+    let structuralChild = macroCanTerminate && nextCohesive && choice.children.length >= 2 && choice.projected >= MIN_OBJECTS && projectedRewriteCount >= 12
       ? choice.children.findIndex(value => !['cross', 'hold'].includes(value.child.operation) && value.child.width <= 1.2) : -1;
-    if (wideStructuralFallback && structuralChild < 0 && choice.projected >= MIN_OBJECTS && projectedRewriteCount >= 12) {
+    if (macroCanTerminate && wideStructuralFallback && structuralChild < 0 && choice.projected >= MIN_OBJECTS && projectedRewriteCount >= 12) {
       structuralChild = choice.children.findIndex(value => !['cross', 'hold'].includes(value.child.operation));
     }
     for (const [childIndex, { child, positions, regions, cohesion }] of choice.children.entries()) {
@@ -705,7 +736,7 @@ export function buildGeneratedCandidate({ seed, attempt, number, platformType, f
     }
     shelves = next;
     layer += 1;
-    if (isCohesive() && entries.length >= MIN_OBJECTS && rewriteLog.length >= 12
+    if (macroCanTerminate && isCohesive() && entries.length >= MIN_OBJECTS && rewriteLog.length >= 12
       && choice.children.some(value => value.child.operation === 'cross')) break;
     if (structuralChild >= 0) break;
   }
@@ -1128,8 +1159,9 @@ export async function generateLevelBatch({ seed, targetCount = 10, config, asset
     if (uncovered.length) {
       const fewestAttempts = Math.min(...uncovered.map(platform => platformAttempts.get(platform)));
       eligible = uncovered.filter(platform => platformAttempts.get(platform) === fewestAttempts);
-      if (eligible.length === 1 && fewestAttempts >= 8 && deferUncoveredPlatform
-        && (targetCount === 20 || candidates.length + uncovered.length + 1 < candidateLimit)) {
+      if ((targetCount === 20 || eligible.length === 1) && fewestAttempts >= 8 && deferUncoveredPlatform
+        && (targetCount === 20 || candidates.length + uncovered.length + 1 < candidateLimit
+          || (targetCount === 5 && candidates.length + uncovered.length + 1 === candidateLimit))) {
         const alternatives = platformOrder.filter(platform => !uncovered.includes(platform)
           && platformCounts.get(platform) + 1 <= platformAllowance)
           .sort((left, right) => platformAttempts.get(left) - platformAttempts.get(right));
@@ -1138,7 +1170,7 @@ export async function generateLevelBatch({ seed, targetCount = 10, config, asset
           eligible = [alternative];
           deferUncoveredPlatform = false;
         }
-      } else if (eligible.length === 1 && fewestAttempts >= 8) {
+      } else if ((targetCount === 20 || eligible.length === 1) && fewestAttempts >= 8) {
         deferUncoveredPlatform = true;
       }
     } else {

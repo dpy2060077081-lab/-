@@ -476,12 +476,14 @@ export function compareStructureDescriptors(left, right) {
 
 export function isNearDuplicate(left, right) {
   const comparison = compareStructureDescriptors(left, right);
+  const macroScaleComparable = Math.min(left.objectCount, right.objectCount) >= 70;
   return {
     duplicate: comparison.contourJaccard > 0.8
       || (comparison.supportSignatureEqual && comparison.whitespaceJaccard > 0.7)
       || (comparison.layerSimilarity > 0.9 && comparison.contourJaccard > 0.7)
-      || comparison.macroFingerprintEqual
-      || (comparison.macroSimilarity > 0.90 && comparison.contourJaccard > 0.55),
+      || (macroScaleComparable && comparison.macroFingerprintEqual)
+      || (macroScaleComparable && comparison.macroSimilarity > 0.90 && comparison.contourJaccard > 0.55),
+    macroScaleComparable,
     ...comparison,
   };
 }

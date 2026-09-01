@@ -51,6 +51,12 @@ test('macro fingerprint rejects the same massing even when local topology detail
   const comparison = isNearDuplicate(left, right);
   assert.equal(comparison.macroFingerprintEqual, true);
   assert.equal(comparison.duplicate, true);
+
+  const legacyScale = structuredClone(right);
+  legacyScale.objectCount = 16;
+  const legacyComparison = isNearDuplicate(left, legacyScale);
+  assert.equal(legacyComparison.macroScaleComparable, false);
+  assert.equal(legacyComparison.duplicate, false);
 });
 
 test('macro family contracts accept their intended profiles and reject broken massing', () => {
@@ -202,13 +208,23 @@ test('20-request batch retries a platform after a transient physics failure', { 
   assert.ok(batch.candidates.length >= 15, JSON.stringify(batch.diagnostics));
 });
 
-test('20-request batch does not exhaust macro families before the caller attempt limit', { timeout: 40_000 }, async () => {
+test('20-request batch does not exhaust macro families or starve productive platforms', { timeout: 40_000 }, async () => {
   const batch = await generateLevelBatch({
     seed: '1a9tkhu-1npq19t', targetCount: 20, config, assets, existingLevels: historicalLevels,
     validateStability: async () => ({ ok: true }), yieldControl: async () => {}, maxAttempts: 400,
   });
-  assert.equal(batch.diagnostics.attempted, 400, JSON.stringify(batch.diagnostics));
-  assert.ok(batch.candidates.length > 1, JSON.stringify(batch.diagnostics));
+  assert.ok(batch.diagnostics.attempted === 400 || batch.candidates.length === 20, JSON.stringify(batch.diagnostics));
+  assert.ok(batch.candidates.length >= 8, JSON.stringify(batch.diagnostics));
+});
+
+test('20-request batch produces a diverse macro-family pool without unbounded searching', { timeout: 40_000 }, async () => {
+  const batch = await generateLevelBatch({
+    seed: '1fk9ja5-134r6d0', targetCount: 20, config, assets, existingLevels: historicalLevels,
+    validateStability: async () => ({ ok: true }), yieldControl: async () => {}, maxAttempts: 400,
+  });
+  assert.ok(batch.candidates.length >= 12, JSON.stringify(batch.diagnostics));
+  assert.equal(new Set(batch.candidates.map(candidate => candidate.platformType)).size, 4);
+  assert.ok(new Set(batch.candidates.map(candidate => candidate.macroFamilyKey)).size >= 5);
 });
 
 test('a second 20-request batch escapes normalized foundations in recent generated history', { timeout: 40_000 }, async () => {
