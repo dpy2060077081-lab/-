@@ -1,0 +1,305 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-35",
+  "level": {
+    "number": 35,
+    "name": "错落石堡",
+    "difficulty": "super-hard",
+    "description": "点燃三角底部火药桶，让爆炸向上层与侧翼两条分支传播。",
+    "normalAmmo": 9,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-35-pillar-1",
+        "name": "pillar-1",
+        "x": 2.95,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-pillar-2",
+        "name": "pillar-2",
+        "x": 4.5,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-35-pillar-3",
+        "name": "pillar-3",
+        "x": 6.05,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-beam-1",
+        "name": "beam-1",
+        "x": 3.4,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-35-beam-2",
+        "name": "beam-2",
+        "x": 5.6,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-35-r1-c1",
+        "name": "r1-c1",
+        "x": 3,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-r1-c2",
+        "name": "r1-c2",
+        "x": 3.5,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-r1-c3",
+        "name": "r1-c3",
+        "x": 4,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-r1-c4",
+        "name": "r1-c4",
+        "x": 4.5,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-r1-c5",
+        "name": "r1-c5",
+        "x": 5,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-r1-c6",
+        "name": "r1-c6",
+        "x": 5.5,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-r1-c7",
+        "name": "r1-c7",
+        "x": 6,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-t-r1-c1",
+        "name": "t-r1-c1",
+        "x": 3,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-t-r1-c2",
+        "name": "t-r1-c2",
+        "x": 3.5,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-t-r1-c3",
+        "name": "t-r1-c3",
+        "x": 4,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-t-r2-c1",
+        "name": "t-r2-c1",
+        "x": 3,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-t-r2-c2",
+        "name": "t-r2-c2",
+        "x": 3.5,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-t-r2-c3",
+        "name": "t-r2-c3",
+        "x": 4,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-t-r3-c1",
+        "name": "t-r3-c1",
+        "x": 3,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-35-t-r3-c2",
+        "name": "t-r3-c2",
+        "x": 3.5,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-35-t-r3-c3",
+        "name": "t-r3-c3",
+        "x": 4,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-35-t-r4-c1",
+        "name": "t-r4-c1",
+        "x": 3,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-t-r4-c2",
+        "name": "t-r4-c2",
+        "x": 3.5,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-t-r4-c3",
+        "name": "t-r4-c3",
+        "x": 4,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-w-r1-c1",
+        "name": "w-r1-c1",
+        "x": 5,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-w-r1-c2",
+        "name": "w-r1-c2",
+        "x": 5.5,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-w-r1-c3",
+        "name": "w-r1-c3",
+        "x": 6,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-w-r2-c1",
+        "name": "w-r2-c1",
+        "x": 5.25,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-w-r2-c2",
+        "name": "w-r2-c2",
+        "x": 5.75,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-35-t-cap",
+        "name": "t-cap",
+        "x": 3.5,
+        "y": 8.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-35-barrel-t",
+        "name": "barrel-t",
+        "x": 3.5,
+        "y": 8.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-35-w-cap",
+        "name": "w-cap",
+        "x": 5.5,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

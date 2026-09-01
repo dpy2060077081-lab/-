@@ -1,0 +1,270 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-34",
+  "level": {
+    "frozenBodies": [],
+    "number": 34,
+    "name": "双塔桥",
+    "difficulty": "hard",
+    "description": "从桥头火药桶起爆，冲击穿过两道玻璃隔舱并按顺序传到桥尾。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-34-pillar-1",
+        "name": "pillar-1",
+        "x": 3.6,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-pillar-2",
+        "name": "pillar-2",
+        "x": 5.4,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-beam-1",
+        "name": "beam-1",
+        "x": 4.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-34-r1-c1",
+        "name": "r1-c1",
+        "x": 3.5,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-r1-c2",
+        "name": "r1-c2",
+        "x": 4,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-r1-c4",
+        "name": "r1-c4",
+        "x": 5,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-r1-c5",
+        "name": "r1-c5",
+        "x": 5.5,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-l-r1-c1",
+        "name": "l-r1-c1",
+        "x": 3.65,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-l-r1-c2",
+        "name": "l-r1-c2",
+        "x": 4.15,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-l-r2-c1",
+        "name": "l-r2-c1",
+        "x": 3.65,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-l-r2-c2",
+        "name": "l-r2-c2",
+        "x": 4.15,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-r-r1-c1",
+        "name": "r-r1-c1",
+        "x": 4.85,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-r-r1-c2",
+        "name": "r-r1-c2",
+        "x": 5.35,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-r-r2-c1",
+        "name": "r-r2-c1",
+        "x": 4.85,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-r-r2-c2",
+        "name": "r-r2-c2",
+        "x": 5.35,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-34-bridge",
+        "name": "bridge",
+        "x": 4.5,
+        "y": 10.01,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-34-on-bridge",
+        "name": "on-bridge",
+        "x": 4.5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "glass-1",
+        "name": "玻璃",
+        "x": 3.75,
+        "y": 9.655671213310459,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "glass-1-copy",
+        "name": "玻璃",
+        "x": 5.307059651150356,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "long-thin-rectangle-1",
+        "name": "细长矩形",
+        "x": 4.492940348849645,
+        "y": 9.278535320531542,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "rectangle-1",
+        "name": "矩形",
+        "x": 4.032940348849644,
+        "y": 8.984261682242991,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "rectangle-1-copy",
+        "name": "矩形",
+        "x": 4.922872767838532,
+        "y": 8.984261682242991,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "rectangle-1-copy-2",
+        "name": "矩形",
+        "x": 4.014966209494445,
+        "y": 8.622864107221087,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "rectangle-1-copy-copy",
+        "name": "矩形",
+        "x": 4.904898628483333,
+        "y": 8.622864107221087,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "rectangle-1-copy-2-copy",
+        "name": "矩形",
+        "x": 4.018821046548934,
+        "y": 8.238613454658294,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "rectangle-1-copy-copy-copy",
+        "name": "矩形",
+        "x": 4.9087534655378215,
+        "y": 8.238613454658294,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "isosceles-triangle-1",
+        "name": "等腰三角形",
+        "x": 4.416596334669128,
+        "y": 7.777226909316586,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "explosive-barrel-1",
+        "name": "爆炸桶",
+        "x": 4.489540575317101,
+        "y": 11.345704347826086,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      }
+    ]
+  }
+}

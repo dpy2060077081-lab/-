@@ -1,0 +1,210 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-56",
+  "level": {
+    "frozenBodies": [],
+    "number": 56,
+    "name": "悬珠宝塔",
+    "difficulty": "normal",
+    "description": "旋转立柱群 + 螺栓横梁悬空，梁上石塔。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-56-bolted-pearl",
+        "name": "固定玻璃塔梁",
+        "x": 4.499999999999999,
+        "y": 11.100000000000001,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-56-lower-room-1",
+        "name": "lower-room-1",
+        "x": 4.449999999999999,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-56-lower-room-2",
+        "name": "lower-room-2",
+        "x": 3.8,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-56-lower-room-3",
+        "name": "lower-room-3",
+        "x": 5.099999999999999,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-56-upper-room-1",
+        "name": "upper-room-1",
+        "x": 4.05,
+        "y": 10.19,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-56-upper-room-2",
+        "name": "upper-room-2",
+        "x": 4.799999999999999,
+        "y": 10.19,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-56-pagoda-roof-beam",
+        "name": "pagoda-roof-beam",
+        "x": 4.499999999999999,
+        "y": 9.83,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-56-pagoda-roof",
+        "name": "pagoda-roof",
+        "x": 4.499999999999999,
+        "y": 9.389999999999999,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-56-ground-marker-1",
+        "name": "ground-marker-1",
+        "x": 4,
+        "y": 11.86,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-56-ground-marker-2",
+        "name": "ground-marker-2",
+        "x": 4,
+        "y": 12.18,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-56-ground-marker-3",
+        "name": "ground-marker-3",
+        "x": 5,
+        "y": 12.18,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-56-ground-marker-4",
+        "name": "ground-marker-4",
+        "x": 5,
+        "y": 11.86,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "细长矩形",
+        "x": 4.499999999999999,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "细长矩形副本",
+        "x": 2.8500000000000005,
+        "y": 9.899999999999991,
+        "angle": 5.235987755982989,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "细长矩形副本副本",
+        "x": 4.499999999999999,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "细长矩形副本副本",
+        "x": 6.117418800690238,
+        "y": 9.949999999999992,
+        "angle": 1.0471975511965976,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "爆炸桶",
+        "x": 4.5,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "small-square-1",
+        "name": "小正方形",
+        "x": 3.6095763459841126,
+        "y": 12.2,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "small-square-1-copy",
+        "name": "小正方形",
+        "x": 3.609576345984113,
+        "y": 11.849999999999993,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "small-square-1-copy-2",
+        "name": "小正方形",
+        "x": 5.359576345984107,
+        "y": 12.2,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "small-square-1-copy-copy",
+        "name": "小正方形",
+        "x": 5.359576345984108,
+        "y": 11.849999999999993,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

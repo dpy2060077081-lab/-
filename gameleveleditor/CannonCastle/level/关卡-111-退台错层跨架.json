@@ -1,0 +1,649 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-111",
+  "level": {
+    "frozenBodies": [],
+    "number": 111,
+    "name": "退台错层跨架",
+    "difficulty": "normal",
+    "description": "自定义生成关卡",
+    "normalAmmo": 15,
+    "explosiveAmmo": 1,
+    "splitAmmo": 0,
+    "blackHoleAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "generated-121-001",
+        "name": "正方形",
+        "x": 2.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-002",
+        "name": "正方形",
+        "x": 2.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-003",
+        "name": "正方形",
+        "x": 3.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-004",
+        "name": "正方形",
+        "x": 3.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-005",
+        "name": "正方形",
+        "x": 4.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-006",
+        "name": "细长矩形",
+        "x": 3.25,
+        "y": 11.72,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-007",
+        "name": "正方形",
+        "x": 2.75,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-008",
+        "name": "正方形",
+        "x": 3.75,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-009",
+        "name": "细长矩形",
+        "x": 3.25,
+        "y": 10.98,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-010",
+        "name": "正方形",
+        "x": 4.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-011",
+        "name": "正方形",
+        "x": 5.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-012",
+        "name": "正方形",
+        "x": 5.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-013",
+        "name": "正方形",
+        "x": 6.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-014",
+        "name": "正方形",
+        "x": 6.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-015",
+        "name": "细长矩形",
+        "x": 5.75,
+        "y": 11.72,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-016",
+        "name": "正方形",
+        "x": 5.25,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-017",
+        "name": "正方形",
+        "x": 6.25,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-018",
+        "name": "细长矩形",
+        "x": 5.75,
+        "y": 10.98,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-019",
+        "name": "矩形",
+        "x": 2.53,
+        "y": 10.45,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-021",
+        "name": "矩形",
+        "x": 3.97,
+        "y": 10.45,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-022",
+        "name": "细长矩形",
+        "x": 3.25,
+        "y": 9.92,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-023",
+        "name": "矩形",
+        "x": 5.03,
+        "y": 10.45,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-024",
+        "name": "矩形",
+        "x": 5.75,
+        "y": 10.45,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-025",
+        "name": "矩形",
+        "x": 6.47,
+        "y": 10.45,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "generated-121-026",
+        "name": "细长矩形",
+        "x": 5.75,
+        "y": 9.92,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-027",
+        "name": "矩形",
+        "x": 2.53,
+        "y": 9.39,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-028",
+        "name": "矩形",
+        "x": 3.25,
+        "y": 9.39,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-029",
+        "name": "矩形",
+        "x": 3.97,
+        "y": 9.39,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-030",
+        "name": "细长矩形",
+        "x": 3.25,
+        "y": 8.86,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-031",
+        "name": "矩形",
+        "x": 5.12,
+        "y": 9.39,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-032",
+        "name": "矩形",
+        "x": 5.84,
+        "y": 9.39,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-033",
+        "name": "矩形",
+        "x": 6.56,
+        "y": 9.39,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-034",
+        "name": "细长矩形",
+        "x": 5.84,
+        "y": 8.86,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-035",
+        "name": "矩形",
+        "x": 2.71,
+        "y": 8.33,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-036",
+        "name": "矩形",
+        "x": 3.43,
+        "y": 8.33,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-037",
+        "name": "矩形",
+        "x": 4.15,
+        "y": 8.33,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-038",
+        "name": "细长矩形",
+        "x": 3.43,
+        "y": 7.8,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-039",
+        "name": "矩形",
+        "x": 5.03,
+        "y": 8.33,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-040",
+        "name": "矩形",
+        "x": 5.75,
+        "y": 8.33,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-041",
+        "name": "矩形",
+        "x": 6.47,
+        "y": 8.33,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-042",
+        "name": "细长矩形",
+        "x": 5.75,
+        "y": 7.8,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-043",
+        "name": "矩形",
+        "x": 5.31,
+        "y": 7.48,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-044",
+        "name": "细矩形",
+        "x": 3.87,
+        "y": 7.58,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "generated-121-045",
+        "name": "细矩形",
+        "x": 3.87,
+        "y": 7.37,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-046",
+        "name": "细长矩形",
+        "x": 4.59,
+        "y": 7.16,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-047",
+        "name": "圆形",
+        "x": 4.59,
+        "y": 6.76,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-048",
+        "name": "小正方形",
+        "x": 3.67,
+        "y": 6.865,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-049",
+        "name": "小正方形",
+        "x": 4.11,
+        "y": 6.865,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-050",
+        "name": "细矩形",
+        "x": 3.89,
+        "y": 6.58,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-051",
+        "name": "小正方形",
+        "x": 5.07,
+        "y": 6.865,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-052",
+        "name": "小正方形",
+        "x": 5.51,
+        "y": 6.865,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-053",
+        "name": "细矩形",
+        "x": 5.29,
+        "y": 6.58,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-054",
+        "name": "小正方形",
+        "x": 3.67,
+        "y": 6.295,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-055",
+        "name": "小正方形",
+        "x": 4.11,
+        "y": 6.295,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-056",
+        "name": "细矩形",
+        "x": 3.89,
+        "y": 6.01,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-057",
+        "name": "小正方形",
+        "x": 5.07,
+        "y": 6.295,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-058",
+        "name": "小正方形",
+        "x": 5.51,
+        "y": 6.295,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-059",
+        "name": "细矩形",
+        "x": 5.29,
+        "y": 6.01,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-060",
+        "name": "小正方形",
+        "x": 3.67,
+        "y": 5.725,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-061",
+        "name": "小正方形",
+        "x": 4.11,
+        "y": 5.725,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-062",
+        "name": "细矩形",
+        "x": 3.89,
+        "y": 5.44,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "generated-121-063",
+        "name": "小正方形",
+        "x": 5.16,
+        "y": 5.725,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-064",
+        "name": "小正方形",
+        "x": 5.6,
+        "y": 5.725,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "generated-121-065",
+        "name": "细矩形",
+        "x": 5.38,
+        "y": 5.44,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "generated-121-066",
+        "name": "小正方形",
+        "x": 3.67,
+        "y": 5.155,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "generated-121-067",
+        "name": "小正方形",
+        "x": 4.11,
+        "y": 5.155,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "generated-121-068",
+        "name": "细矩形",
+        "x": 3.89,
+        "y": 4.87,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "generated-121-069",
+        "name": "小正方形",
+        "x": 5.16,
+        "y": 5.155,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "generated-121-070",
+        "name": "小正方形",
+        "x": 5.6,
+        "y": 5.155,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "generated-121-071",
+        "name": "细矩形",
+        "x": 5.38,
+        "y": 4.87,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "glass"
+      }
+    ]
+  }
+}

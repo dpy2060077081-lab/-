@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-01",
+  "level": {
+    "number": 1,
+    "name": "直射引导",
+    "difficulty": "normal",
+    "description": "点击建筑发射第一枚炮弹，认识清空平台的目标。",
+    "normalAmmo": 10,
+    "explosiveAmmo": 1,
+    "platformType": "single-3",
+    "castle": [
+      { "id": "level-01-piece-1", "name": "圆形", "x": 3.5, "y": 12.06, "angle": 0, "shapePresetId": "circle", "materialId": "wood" },
+      { "id": "level-01-piece-2", "name": "圆形", "x": 4.2, "y": 12.06, "angle": 0, "shapePresetId": "circle", "materialId": "wood" },
+      { "id": "level-01-piece-3", "name": "圆形", "x": 5.05, "y": 12.06, "angle": 0, "shapePresetId": "circle", "materialId": "wood" },
+      { "id": "editor-piece-4", "name": "等腰三角形", "x": 3.85, "y": 11.45, "angle": 0, "shapePresetId": "isosceles-triangle", "materialId": "wood" },
+      { "id": "editor-piece-5", "name": "等腰三角形副本", "x": 5.4, "y": 11.45, "angle": 0, "shapePresetId": "isosceles-triangle", "materialId": "wood" },
+      { "id": "editor-piece-6", "name": "圆形", "x": 5.72, "y": 12.06, "angle": 0, "shapePresetId": "circle", "materialId": "wood" }
+    ]
+  }
+}

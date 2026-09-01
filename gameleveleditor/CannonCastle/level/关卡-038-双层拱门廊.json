@@ -1,0 +1,232 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-38",
+  "level": {
+    "number": 38,
+    "name": "双层拱门廊",
+    "difficulty": "normal",
+    "description": "依次击碎两根外侧玻璃支柱，让左右悬臂向中央摆落并碰撞。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-38-g1a1",
+        "name": "g1a1",
+        "x": 3.4,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-38-g1b1",
+        "name": "g1b1",
+        "x": 4.2,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-38-g1a2",
+        "name": "g1a2",
+        "x": 3.4,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-38-g1b2",
+        "name": "g1b2",
+        "x": 4.2,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-38-l1",
+        "name": "l1",
+        "x": 3.8,
+        "y": 11.24,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-38-key1",
+        "name": "key1",
+        "x": 3.8,
+        "y": 10.98,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-38-t1",
+        "name": "t1",
+        "x": 3.8,
+        "y": 10.57,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-38-g2a1",
+        "name": "g2a1",
+        "x": 4.8,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-38-g2b1",
+        "name": "g2b1",
+        "x": 5.6,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-38-g2a2",
+        "name": "g2a2",
+        "x": 4.8,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-38-g2b2",
+        "name": "g2b2",
+        "x": 5.6,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-38-l2",
+        "name": "l2",
+        "x": 5.2,
+        "y": 11.24,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-38-key2",
+        "name": "key2",
+        "x": 5.2,
+        "y": 10.98,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-38-t2",
+        "name": "t2",
+        "x": 5.2,
+        "y": 10.57,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "细长矩形",
+        "x": 4.5,
+        "y": 10.21,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "矩形",
+        "x": 4.05,
+        "y": 9.9,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "矩形",
+        "x": 4.9,
+        "y": 9.9,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "矩形副本",
+        "x": 4.05,
+        "y": 9.5,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "矩形副本",
+        "x": 4.9,
+        "y": 9.5,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "矩形",
+        "x": 4.05,
+        "y": 8.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "矩形副本",
+        "x": 4.47,
+        "y": 8.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "矩形副本副本",
+        "x": 4.9,
+        "y": 8.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "直角三角形",
+        "x": 4.9,
+        "y": 8.1,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-24",
+        "name": "直角三角形副本",
+        "x": 4.2,
+        "y": 8.15,
+        "angle": 4.71238898038469,
+        "shapePresetId": "right-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

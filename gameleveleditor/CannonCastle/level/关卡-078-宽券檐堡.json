@@ -1,0 +1,333 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-78",
+  "level": {
+    "frozenBodies": [],
+    "number": 78,
+    "name": "宽券檐堡",
+    "difficulty": "normal",
+    "description": "板梁板锁链连双塔，链中桶一击串连锁。",
+    "normalAmmo": 11,
+    "explosiveAmmo": 0,
+    "platformType": "double-3",
+    "castle": [
+      {
+        "id": "level-78-footing-1",
+        "name": "footing-1",
+        "x": 1.85,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-78-footing-2",
+        "name": "footing-2",
+        "x": 2.35,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-78-footing-3",
+        "name": "footing-3",
+        "x": 2.85,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-78-footing-4",
+        "name": "footing-4",
+        "x": 3.35,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-footing-5",
+        "name": "footing-5",
+        "x": 5.65,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-footing-6",
+        "name": "footing-6",
+        "x": 6.15,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-78-footing-7",
+        "name": "footing-7",
+        "x": 6.65,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-78-footing-8",
+        "name": "footing-8",
+        "x": 7.15,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-78-left-base-beam",
+        "name": "left-base-beam",
+        "x": 2.75,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-right-base-beam",
+        "name": "right-base-beam",
+        "x": 6.25,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-lower-gate-pier-1",
+        "name": "lower-gate-pier-1",
+        "x": 3.3499999999999996,
+        "y": 11.410000000000004,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-gate-lintel",
+        "name": "gate-lintel",
+        "x": 4.5,
+        "y": 10.890000000000002,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-glass-window-1",
+        "name": "glass-window-1",
+        "x": 4,
+        "y": 10.620000000000003,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-78-glass-window-2",
+        "name": "glass-window-2",
+        "x": 5,
+        "y": 10.620000000000003,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-78-window-pier-1",
+        "name": "window-pier-1",
+        "x": 3.55,
+        "y": 10.370000000000003,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-window-pier-2",
+        "name": "window-pier-2",
+        "x": 4.5,
+        "y": 10.370000000000003,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-window-pier-3",
+        "name": "window-pier-3",
+        "x": 5.45,
+        "y": 10.370000000000003,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-window-belt",
+        "name": "window-belt",
+        "x": 4.5,
+        "y": 9.850000000000003,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-upper-wall-pier-1",
+        "name": "upper-wall-pier-1",
+        "x": 3.55,
+        "y": 9.330000000000004,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-upper-wall-pier-2",
+        "name": "upper-wall-pier-2",
+        "x": 4.5,
+        "y": 9.330000000000004,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-upper-wall-pier-3",
+        "name": "upper-wall-pier-3",
+        "x": 5.45,
+        "y": 9.330000000000004,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-roof-support-beam",
+        "name": "roof-support-beam",
+        "x": 4.5,
+        "y": 8.810000000000002,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-roof-spire",
+        "name": "roof-spire",
+        "x": 4.5,
+        "y": 8.420000000000003,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-78-lower-gate-pier-1-copy",
+        "name": "lower-gate-pier-1",
+        "x": 5.615000000000001,
+        "y": 11.434999999999999,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "long-thin-rectangle-1",
+        "name": "细长矩形",
+        "x": 4.5,
+        "y": 11.118080689538044,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "square-1",
+        "name": "正方形",
+        "x": 2.082300972760392,
+        "y": 11.366622953464674,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "square-1-copy",
+        "name": "正方形",
+        "x": 2.5346019455207847,
+        "y": 11.35854226392663,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "explosive-barrel-1",
+        "name": "爆炸桶",
+        "x": 5.000000000000001,
+        "y": 9.460000000000008,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "rectangle-1",
+        "name": "矩形",
+        "x": 2.3082542173205964,
+        "y": 10.896942263926631,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "right-triangle-1",
+        "name": "直角三角形",
+        "x": 2.3034459005645056,
+        "y": 10.362831649116846,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "square-1-copy-2",
+        "name": "正方形",
+        "x": 6.480224383933264,
+        "y": 11.34783164911684,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "square-1-copy-copy",
+        "name": "正方形",
+        "x": 6.932525356693657,
+        "y": 11.339750959578796,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "rectangle-1-copy",
+        "name": "矩形",
+        "x": 6.701369311737378,
+        "y": 10.889750959578796,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "right-triangle-1-copy",
+        "name": "直角三角形",
+        "x": 6.701369311737378,
+        "y": 9.994040344769006,
+        "angle": 4.71238898038469,
+        "shapePresetId": "right-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "rectangle-1-copy-copy",
+        "name": "矩形",
+        "x": 6.70367028449777,
+        "y": 10.517168350883152,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      }
+    ]
+  }
+}

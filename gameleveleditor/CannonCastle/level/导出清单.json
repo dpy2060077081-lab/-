@@ -1,0 +1,786 @@
+{
+  "version": 1,
+  "type": "manifest",
+  "levels": [
+    {
+      "id": "level-01",
+      "number": 1,
+      "name": "直射引导",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-02",
+      "number": 2,
+      "name": "直射破坏1",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-03",
+      "number": 3,
+      "name": "直射破坏2",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-04",
+      "number": 4,
+      "name": "反弹引导",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-05",
+      "number": 5,
+      "name": "反弹破坏1",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-06",
+      "number": 6,
+      "name": "反弹破坏2",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-07",
+      "number": 7,
+      "name": "爆炸炮弹引导",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-08",
+      "number": 8,
+      "name": "普通关卡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-09",
+      "number": 9,
+      "name": "普通关卡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-10",
+      "number": 10,
+      "name": "新手毕业",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-11",
+      "number": 11,
+      "name": "倒三角连锁",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-12",
+      "number": 12,
+      "name": "山峰阶梯",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-13",
+      "number": 13,
+      "name": "宽门城堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-14",
+      "number": 14,
+      "name": "高低双尖塔",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-15",
+      "number": 15,
+      "name": "三峰连锁堡垒",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-16",
+      "number": 16,
+      "name": "单翼悬臂塔",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-17",
+      "number": 17,
+      "name": "倾斜危塔",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-18",
+      "number": 18,
+      "name": "锯齿阶梯城",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-19",
+      "number": 19,
+      "name": "双峰拱廊",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-20",
+      "number": 20,
+      "name": "非对称王城",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-21",
+      "number": 21,
+      "name": "火药小屋",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-22",
+      "number": 22,
+      "name": "连锁长廊",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-23",
+      "number": 23,
+      "name": "倒三角粮仓",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-24",
+      "number": 24,
+      "name": "山门火药库",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-25",
+      "number": 25,
+      "name": "石拱桥",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-26",
+      "number": 26,
+      "name": "阶梯炮塔",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-27",
+      "number": 27,
+      "name": "双翼城堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-28",
+      "number": 28,
+      "name": "山峰营寨",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-29",
+      "number": 29,
+      "name": "空中火药架",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-30",
+      "number": 30,
+      "name": "环形堡垒",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-31",
+      "number": 31,
+      "name": "玻璃针塔",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-32",
+      "number": 32,
+      "name": "玻璃宫",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-33",
+      "number": 33,
+      "name": "错落宽城堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-34",
+      "number": 34,
+      "name": "双塔桥",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-35",
+      "number": 35,
+      "name": "错落石堡",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-36",
+      "number": 36,
+      "name": "悬臂台",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-37",
+      "number": 37,
+      "name": "错落阶梯城",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-38",
+      "number": 38,
+      "name": "双层拱门廊",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-39",
+      "number": 39,
+      "name": "错落石火堡",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-40",
+      "number": 40,
+      "name": "双针塔",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-41",
+      "number": 41,
+      "name": "悬栓城门",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-42",
+      "number": 42,
+      "name": "错落全木楼",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-43",
+      "number": 43,
+      "name": "双塔桥·宽",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-44",
+      "number": 44,
+      "name": "四塔群",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-45",
+      "number": 45,
+      "name": "错落宽城堡·大",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-46",
+      "number": 46,
+      "name": "高悬臂台",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-47",
+      "number": 47,
+      "name": "三层拱门廊·长",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-48",
+      "number": 48,
+      "name": "错落全木楼·高",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-49",
+      "number": 49,
+      "name": "双石碉堡",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-50",
+      "number": 50,
+      "name": "错落阶梯王城",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-51",
+      "number": 51,
+      "name": "玻璃宫·石心",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-52",
+      "number": 52,
+      "name": "悬钟危塔",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-53",
+      "number": 53,
+      "name": "钥柱王冠",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-54",
+      "number": 54,
+      "name": "崖边粮仓",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-55",
+      "number": 55,
+      "name": "月门拱廊",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-56",
+      "number": 56,
+      "name": "悬珠宝塔",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-57",
+      "number": 57,
+      "name": "双鹤望楼",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-58",
+      "number": 58,
+      "name": "悬空水渠",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-59",
+      "number": 59,
+      "name": "侧撑礼拜堂",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-60",
+      "number": 60,
+      "name": "天穹王宫",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-61",
+      "number": 61,
+      "name": "双翼穹顶站",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-62",
+      "number": 62,
+      "name": "日蚀双关城",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-63",
+      "number": 63,
+      "name": "双翼铆钉门",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-64",
+      "number": 64,
+      "name": "日环外城",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-65",
+      "number": 65,
+      "name": "悬空天宫",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-66",
+      "number": 66,
+      "name": "暮穹外堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-67",
+      "number": 67,
+      "name": "双钟祈祷堂",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-68",
+      "number": 68,
+      "name": "云端三垛堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-69",
+      "number": 69,
+      "name": "三峰门楼",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-70",
+      "number": 70,
+      "name": "桥台双关城",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-71",
+      "number": 71,
+      "name": "冠顶城门",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-72",
+      "number": 72,
+      "name": "双拱阶台",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-73",
+      "number": 73,
+      "name": "顶冠城垛",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-74",
+      "number": 74,
+      "name": "双券尖塔",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-75",
+      "number": 75,
+      "name": "右卫矮堡",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-76",
+      "number": 76,
+      "name": "王旗双塔",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-77",
+      "number": 77,
+      "name": "霜顶榫槌",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-78",
+      "number": 78,
+      "name": "宽券檐堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-79",
+      "number": 79,
+      "name": "宽脊行台",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-80",
+      "number": 80,
+      "name": "金属框架",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-81",
+      "number": 81,
+      "name": "阶台尖哨",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-82",
+      "number": 82,
+      "name": "六腰闸楼",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-83",
+      "number": 83,
+      "name": "右冠城门",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-84",
+      "number": 84,
+      "name": "双峰垛堡",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-85",
+      "number": 85,
+      "name": "高旗门楼",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-86",
+      "number": 86,
+      "name": "双仓车关",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-87",
+      "number": 87,
+      "name": "木脊三关",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-88",
+      "number": 88,
+      "name": "错阶木门",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-89",
+      "number": 89,
+      "name": "阶檐木阁",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-90",
+      "number": 90,
+      "name": "钟脊长堂",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-91",
+      "number": 91,
+      "name": "宽门木台",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-92",
+      "number": 92,
+      "name": "斜阶木廊",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-93",
+      "number": 93,
+      "name": "玻冠关台",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-94",
+      "number": 94,
+      "name": "退台错层跨架",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-95",
+      "number": 95,
+      "name": "断链外门",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-96",
+      "number": 96,
+      "name": "气球吊桥",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-97",
+      "number": 97,
+      "name": "折脊门楼",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-98",
+      "number": 98,
+      "name": "爆桶偏转廊",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-99",
+      "number": 99,
+      "name": "三锁门楼",
+      "difficulty": "hard"
+    },
+    {
+      "id": "custom-level-100-mszk53g4",
+      "number": 100,
+      "name": "中轴折翼堡",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-101",
+      "number": 101,
+      "name": "非对称终止错层跨架",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-102",
+      "number": 102,
+      "name": "退台密集跨台桥堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-103",
+      "number": 103,
+      "name": "均衡密集回廊",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-104",
+      "number": 104,
+      "name": "退台密集跨台桥堡",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-105",
+      "number": 105,
+      "name": "退台错层跨架",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-106",
+      "number": 106,
+      "name": "均衡密集跨台桥堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-107",
+      "number": 107,
+      "name": "宽退台密集跨台桥堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-108",
+      "number": 108,
+      "name": "宽退台错层跨架",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-109",
+      "number": 109,
+      "name": "宽退台汇流门架",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-110",
+      "number": 110,
+      "name": "非对称终止密集跨台桥堡",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-111",
+      "number": 111,
+      "name": "退台错层跨架",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-112",
+      "number": 112,
+      "name": "宽退台密集跨台桥堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-113",
+      "number": 113,
+      "name": "宽退台密集跨台桥堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-114",
+      "number": 114,
+      "name": "均衡密集跨台桥堡",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-115",
+      "number": 115,
+      "name": "宽退台汇流门架",
+      "difficulty": "super-hard"
+    },
+    {
+      "id": "level-116",
+      "number": 116,
+      "name": "非对称终止错层跨架",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-117",
+      "number": 117,
+      "name": "退台密集跨台桥堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-118",
+      "number": 118,
+      "name": "非对称终止密集跨台桥堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-119",
+      "number": 119,
+      "name": "宽退台密集跨台桥堡",
+      "difficulty": "hard"
+    },
+    {
+      "id": "level-120",
+      "number": 120,
+      "name": "退台错层跨架",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-121",
+      "number": 121,
+      "name": "宽退台汇流门架",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-122",
+      "number": 122,
+      "name": "退台密集跨台桥堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-123",
+      "number": 123,
+      "name": "退台密集跨台桥堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-124",
+      "number": 124,
+      "name": "非对称终止密集跨台桥堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-125",
+      "number": 125,
+      "name": "均衡汇流门架",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-126",
+      "number": 126,
+      "name": "非对称终止密集跨台桥堡",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-127",
+      "number": 127,
+      "name": "退台错层跨架",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-128",
+      "number": 128,
+      "name": "均衡汇流门架",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-129",
+      "number": 129,
+      "name": "均衡错层跨架",
+      "difficulty": "normal"
+    },
+    {
+      "id": "level-130",
+      "number": 130,
+      "name": "宽退台密集跨台桥堡",
+      "difficulty": "normal"
+    }
+  ]
+}

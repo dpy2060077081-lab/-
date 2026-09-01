@@ -1,0 +1,214 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-32",
+  "level": {
+    "number": 32,
+    "name": "玻璃宫",
+    "difficulty": "normal",
+    "description": "击碎漏斗底部玻璃承台，释放上层火药桶并依次点燃底桶。",
+    "normalAmmo": 6,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-32-pillar-1",
+        "name": "pillar-1",
+        "x": 3.6,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-pillar-2",
+        "name": "pillar-2",
+        "x": 5.4,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-beam-1",
+        "name": "beam-1",
+        "x": 4.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-r1-c1",
+        "name": "r1-c1",
+        "x": 3.75,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-32-r1-c2",
+        "name": "r1-c2",
+        "x": 4.25,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-32-r1-c3",
+        "name": "r1-c3",
+        "x": 4.75,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-32-r1-c4",
+        "name": "r1-c4",
+        "x": 5.25,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-32-r2-c1",
+        "name": "r2-c1",
+        "x": 3.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-32-r2-c2",
+        "name": "r2-c2",
+        "x": 4.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-r2-c3",
+        "name": "r2-c3",
+        "x": 4.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-r2-c4",
+        "name": "r2-c4",
+        "x": 5.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-32-r3-c1",
+        "name": "r3-c1",
+        "x": 4,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-r3-c2",
+        "name": "r3-c2",
+        "x": 4.5,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-r3-c3",
+        "name": "r3-c3",
+        "x": 5,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-r4-c1",
+        "name": "r4-c1",
+        "x": 4,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-r4-c2",
+        "name": "r4-c2",
+        "x": 4.5,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-r4-c3",
+        "name": "r4-c3",
+        "x": 5,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-r5-c1",
+        "name": "r5-c1",
+        "x": 4.25,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-r5-c2",
+        "name": "r5-c2",
+        "x": 4.75,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-32-roof-1",
+        "name": "roof-1",
+        "x": 4.5,
+        "y": 8.92,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "rectangle-1",
+        "name": "矩形",
+        "x": 4.5,
+        "y": 8.350000000000005,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "isosceles-triangle-1",
+        "name": "等腰三角形",
+        "x": 4.51,
+        "y": 7.677565217391309,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "glass"
+      }
+    ]
+  }
+}

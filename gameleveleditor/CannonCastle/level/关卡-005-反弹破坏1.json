@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-05",
+  "level": {
+    "number": 5,
+    "name": "反弹破坏1",
+    "difficulty": "normal",
+    "description": "选择左墙或右墙，把炮弹送到建筑背面。",
+    "normalAmmo": 6,
+    "explosiveAmmo": 1,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-05-piece-1",
+        "name": "矩形",
+        "x": 4.5,
+        "y": 11.1,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-2",
+        "name": "矩形副本",
+        "x": 4.5,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-3",
+        "name": "细长矩形 · 高塔 · 高塔-木质 · 高塔",
+        "x": 5.1,
+        "y": 11.3,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-4",
+        "name": "细长矩形副本 · 高塔 · 高塔-木质 · 高塔",
+        "x": 5.6,
+        "y": 11.3,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-5",
+        "name": "细矩形 · 高塔 · 高塔-木质 · 高塔",
+        "x": 5.35,
+        "y": 10.11,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-6",
+        "name": "正方形 · 高塔 · 高塔-木质 · 高塔",
+        "x": 5.35,
+        "y": 9.76,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-7",
+        "name": "正方形副本 · 高塔 · 高塔-木质 · 高塔",
+        "x": 5.35,
+        "y": 9.26,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-8",
+        "name": "正方形副本副本 · 高塔 · 高塔-木质 · 高塔",
+        "x": 5.35,
+        "y": 8.66,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-9",
+        "name": "等腰三角形 · 高塔 · 高塔-木质 · 高塔",
+        "x": 5.35,
+        "y": 8.15,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-10",
+        "name": "细长矩形 · 高塔 · 高塔-木质 · 高塔",
+        "x": 3.4,
+        "y": 11.3,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-11",
+        "name": "细长矩形副本 · 高塔 · 高塔-木质 · 高塔",
+        "x": 3.9,
+        "y": 11.3,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "细矩形 · 高塔 · 高塔-木质 · 高塔",
+        "x": 3.65,
+        "y": 10.11,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "正方形 · 高塔 · 高塔-木质 · 高塔",
+        "x": 3.65,
+        "y": 9.76,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "正方形副本 · 高塔 · 高塔-木质 · 高塔",
+        "x": 3.65,
+        "y": 9.26,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "正方形副本副本 · 高塔 · 高塔-木质 · 高塔",
+        "x": 3.65,
+        "y": 8.66,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "等腰三角形 · 高塔 · 高塔-木质 · 高塔",
+        "x": 3.65,
+        "y": 8.15,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

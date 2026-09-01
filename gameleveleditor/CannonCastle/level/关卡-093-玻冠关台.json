@@ -1,0 +1,380 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-93",
+  "level": {
+    "frozenBodies": [
+      {
+        "id": "frozen-1",
+        "memberIds": [
+          "level-93-left-lower-post-1",
+          "level-93-left-lower-post-2",
+          "level-93-left-base-header",
+          "level-93-left-window",
+          "level-93-left-upper-1-post-1",
+          "level-93-left-upper-1-post-2",
+          "level-93-left-upper-1-header",
+          "level-93-left-upper-2-post-1",
+          "level-93-left-upper-2-post-2",
+          "level-93-left-upper-2-header",
+          "level-93-left-glass-crown",
+          "level-93-left-glass-mast",
+          "level-93-right-lower-post-1",
+          "level-93-right-lower-post-2",
+          "level-93-right-base-header",
+          "level-93-right-upper-1-post-1",
+          "level-93-right-upper-1-post-2",
+          "level-93-right-upper-1-header",
+          "level-93-right-upper-2-post-1",
+          "level-93-right-upper-2-post-2",
+          "level-93-right-upper-2-header",
+          "level-93-right-glass-crown",
+          "level-93-right-glass-mast",
+          "long-thin-rectangle-1"
+        ]
+      }
+    ],
+    "number": 93,
+    "name": "玻冠关台",
+    "difficulty": "normal",
+    "description": "严格按示例图搭建：左右开放木门塔以石质或木质落脚块承接，中央低桥连接内脚，顶端玻璃冠台与玻璃竖柱均由木质过梁实际支撑。",
+    "normalAmmo": 12,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-93-left-footing-1",
+        "name": "left-footing-1",
+        "x": 2.7,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-93-left-lower-post-1",
+        "name": "left-lower-post-1",
+        "x": 2.7,
+        "y": 11.43,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-93-left-footing-2",
+        "name": "left-footing-2",
+        "x": 3.5,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-93-left-lower-post-2",
+        "name": "left-lower-post-2",
+        "x": 3.5,
+        "y": 11.43,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-93-left-base-header",
+        "name": "left-base-header",
+        "x": 3.1,
+        "y": 10.82,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-93-left-window",
+        "name": "left-window",
+        "x": 3.1,
+        "y": 10.46,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-93-left-upper-1-post-1",
+        "name": "left-upper-1-post-1",
+        "x": 2.7,
+        "y": 10.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-93-left-upper-1-post-2",
+        "name": "left-upper-1-post-2",
+        "x": 3.5,
+        "y": 10.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-93-left-upper-1-header",
+        "name": "left-upper-1-header",
+        "x": 3.1,
+        "y": 9.6,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-93-left-upper-2-post-1",
+        "name": "left-upper-2-post-1",
+        "x": 2.7,
+        "y": 8.99,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-93-left-upper-2-post-2",
+        "name": "left-upper-2-post-2",
+        "x": 3.5,
+        "y": 8.99,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-93-left-upper-2-header",
+        "name": "left-upper-2-header",
+        "x": 3.1,
+        "y": 8.379999999999999,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-93-left-glass-crown",
+        "name": "left-glass-crown",
+        "x": 3.1,
+        "y": 7.979999999999999,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-93-left-glass-mast",
+        "name": "left-glass-mast",
+        "x": 3.1,
+        "y": 7.369999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-93-right-footing-1",
+        "name": "right-footing-1",
+        "x": 5.5,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-93-right-lower-post-1",
+        "name": "right-lower-post-1",
+        "x": 5.5,
+        "y": 11.43,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-93-right-footing-2",
+        "name": "right-footing-2",
+        "x": 6.3,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-93-right-lower-post-2",
+        "name": "right-lower-post-2",
+        "x": 6.3,
+        "y": 11.43,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-93-right-base-header",
+        "name": "right-base-header",
+        "x": 5.9,
+        "y": 10.82,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-93-right-upper-1-post-1",
+        "name": "right-upper-1-post-1",
+        "x": 5.5,
+        "y": 10.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-93-right-upper-1-post-2",
+        "name": "right-upper-1-post-2",
+        "x": 6.3,
+        "y": 10.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-93-right-upper-1-header",
+        "name": "right-upper-1-header",
+        "x": 5.9,
+        "y": 9.6,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-93-right-upper-2-post-1",
+        "name": "right-upper-2-post-1",
+        "x": 5.5,
+        "y": 8.99,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-93-right-upper-2-post-2",
+        "name": "right-upper-2-post-2",
+        "x": 6.3,
+        "y": 8.99,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-93-right-upper-2-header",
+        "name": "right-upper-2-header",
+        "x": 5.9,
+        "y": 8.379999999999999,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-93-right-glass-crown",
+        "name": "right-glass-crown",
+        "x": 5.9,
+        "y": 7.979999999999999,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-93-right-glass-mast",
+        "name": "right-glass-mast",
+        "x": 5.9,
+        "y": 7.369999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-93-low-bridge",
+        "name": "low-bridge",
+        "x": 4.5,
+        "y": 12.14,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "long-thin-rectangle-1",
+        "name": "细长矩形",
+        "x": 4.5,
+        "y": 7.759999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "rectangle-1",
+        "name": "矩形",
+        "x": 4.5,
+        "y": 11.77674418604651,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "rectangle-2",
+        "name": "矩形",
+        "x": 4.5,
+        "y": 11.376744186046512,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-3",
+        "name": "矩形",
+        "x": 4.5,
+        "y": 10.996217438453852,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-4",
+        "name": "矩形",
+        "x": 4.490000000000001,
+        "y": 10.616046511627914,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "rectangle-5",
+        "name": "矩形",
+        "x": 4.45,
+        "y": 10.216046511627916,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "rectangle-6",
+        "name": "矩形",
+        "x": 4.45,
+        "y": 9.89621743845382,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "rectangle-7",
+        "name": "矩形",
+        "x": 4.45,
+        "y": 9.519869753815348,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-8",
+        "name": "矩形",
+        "x": 4.45,
+        "y": 9.143037222928859,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      }
+    ]
+  }
+}

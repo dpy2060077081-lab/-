@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-21",
+  "level": {
+    "frozenBodies": [],
+    "number": 21,
+    "name": "火药小屋",
+    "difficulty": "normal",
+    "description": "从敞开的天窗直击火药桶，掀起分开的屋顶并把两面木墙向外推倒。",
+    "normalAmmo": 5,
+    "explosiveAmmo": 1,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-21-direct-trigger-barrel",
+        "name": "direct-trigger-barrel",
+        "x": 4.5,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-21-left-wall-post",
+        "name": "left-wall-post",
+        "x": 3.55,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-21-right-wall-post",
+        "name": "right-wall-post",
+        "x": 5.45,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-21-left-roof-slab",
+        "name": "left-roof-slab",
+        "x": 3.65,
+        "y": 11.42,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-21-right-roof-slab",
+        "name": "right-roof-slab",
+        "x": 5.35,
+        "y": 11.42,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-21-left-roof-load",
+        "name": "left-roof-load",
+        "x": 3.65,
+        "y": 10.98,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-21-right-roof-load",
+        "name": "right-roof-load",
+        "x": 5.35,
+        "y": 11.04,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-21-floor-load",
+        "name": "floor-load",
+        "x": 4,
+        "y": 12.18,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-9",
+        "name": "floor-load副本",
+        "x": 5.05,
+        "y": 12.18,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

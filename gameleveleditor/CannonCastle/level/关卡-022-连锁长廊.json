@@ -1,0 +1,155 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-22",
+  "level": {
+    "frozenBodies": [],
+    "number": 22,
+    "name": "连锁长廊",
+    "difficulty": "normal",
+    "description": "命中长廊外侧的第一只火药桶，让爆炸沿三个房间水平传递。",
+    "normalAmmo": 5,
+    "explosiveAmmo": 1,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-22-entry-trigger-barrel",
+        "name": "entry-trigger-barrel",
+        "x": 2.8999999999999995,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-22-corridor-relay-barrel",
+        "name": "corridor-relay-barrel",
+        "x": 4.3999999999999995,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-22-corridor-terminal-barrel",
+        "name": "corridor-terminal-barrel",
+        "x": 5.999999999999998,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-22-left-corridor-post-base",
+        "name": "left-corridor-post-base",
+        "x": 3.7499999999999996,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-22-left-corridor-post-top",
+        "name": "left-corridor-post-top",
+        "x": 3.7499999999999996,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-22-right-corridor-post-base",
+        "name": "right-corridor-post-base",
+        "x": 5.05,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-22-right-corridor-post-top",
+        "name": "right-corridor-post-top",
+        "x": 5.05,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-22-left-room-roof",
+        "name": "left-room-roof",
+        "x": 3.7499999999999996,
+        "y": 11.24,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-22-right-room-roof",
+        "name": "right-room-roof",
+        "x": 5.05,
+        "y": 11.24,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-22-left-roof-load",
+        "name": "left-roof-load",
+        "x": 3.7499999999999996,
+        "y": 10.98,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-22-right-roof-load",
+        "name": "right-roof-load",
+        "x": 5.05,
+        "y": 10.98,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "细矩形",
+        "x": 4.3999999999999995,
+        "y": 11.04,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "等腰三角形",
+        "x": 4.3999999999999995,
+        "y": 10.68,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-12-copy",
+        "name": "细矩形",
+        "x": 2.8771403353927614,
+        "y": 11.705,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-13-copy",
+        "name": "等腰三角形",
+        "x": 2.8771403353927614,
+        "y": 11.345,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

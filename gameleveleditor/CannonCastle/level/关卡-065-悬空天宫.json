@@ -1,0 +1,502 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-65",
+  "level": {
+    "number": 65,
+    "name": "悬空天宫",
+    "difficulty": "super-hard",
+    "description": "石基座托螺栓木环，玻璃天宫内置石芯，拆壳断环挖心。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-65-b-r1-c1",
+        "name": "b-r1-c1",
+        "x": 3.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-b-r1-c2",
+        "name": "b-r1-c2",
+        "x": 4.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-b-r1-c3",
+        "name": "b-r1-c3",
+        "x": 4.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-b-r1-c4",
+        "name": "b-r1-c4",
+        "x": 5.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-b-r2-c1",
+        "name": "b-r2-c1",
+        "x": 3.75,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-b-r2-c2",
+        "name": "b-r2-c2",
+        "x": 4.25,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-b-r2-c3",
+        "name": "b-r2-c3",
+        "x": 4.75,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-b-r2-c4",
+        "name": "b-r2-c4",
+        "x": 5.25,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-b-r3-c1",
+        "name": "b-r3-c1",
+        "x": 4,
+        "y": 11.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-b-r3-c2",
+        "name": "b-r3-c2",
+        "x": 4.5,
+        "y": 11.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-b-r3-c3",
+        "name": "b-r3-c3",
+        "x": 5,
+        "y": 11.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-rect-l",
+        "name": "rect-l",
+        "x": 2.7000835018652376,
+        "y": 11.92995927386323,
+        "angle": 1.571,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-65-rect-r",
+        "name": "rect-r",
+        "x": 6.3,
+        "y": 11.93,
+        "angle": 1.571,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-65-ring-1",
+        "name": "ring-1",
+        "x": 3.6,
+        "y": 10.5,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-65-ring-2",
+        "name": "ring-2",
+        "x": 4.5,
+        "y": 10.5,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-65-ring-3",
+        "name": "ring-3",
+        "x": 5.4,
+        "y": 10.5,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-65-g-r1-c1",
+        "name": "g-r1-c1",
+        "x": 4,
+        "y": 10.15,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-g-r1-c2",
+        "name": "g-r1-c2",
+        "x": 4.5,
+        "y": 10.15,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-g-r1-c3",
+        "name": "g-r1-c3",
+        "x": 5,
+        "y": 10.15,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-g-r2-c1",
+        "name": "g-r2-c1",
+        "x": 4,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-65-g-r2-c2",
+        "name": "g-r2-c2",
+        "x": 4.5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-g-r2-c3",
+        "name": "g-r2-c3",
+        "x": 5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-65-g-r3-c1",
+        "name": "g-r3-c1",
+        "x": 4.25,
+        "y": 9.15,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-65-g-r3-c2",
+        "name": "g-r3-c2",
+        "x": 4.75,
+        "y": 9.15,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-65-crown",
+        "name": "crown",
+        "x": 4.5,
+        "y": 8.62,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-barrel-sl",
+        "name": "barrel-sl",
+        "x": 3.35,
+        "y": 10.15,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-65-barrel-sr",
+        "name": "barrel-sr",
+        "x": 5.7,
+        "y": 10.15,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-65-barrel-l",
+        "name": "barrel-l",
+        "x": 2.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-65-barrel-r",
+        "name": "barrel-r",
+        "x": 6.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-65-rect-l-copy",
+        "name": "rect-l",
+        "x": 3.1000835018652366,
+        "y": 11.929959273863227,
+        "angle": 1.571,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-65-rect-l-copy-copy",
+        "name": "rect-l",
+        "x": 5.9202511982465245,
+        "y": 11.929973530987489,
+        "angle": 1.571,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-64-bolted-palace-beam-copy",
+        "name": "固定玻璃天梁",
+        "x": 1.4038834951456307,
+        "y": 11.315669565217405,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-64-palace-lower-1-copy",
+        "name": "palace-lower-1",
+        "x": 0.6038834951456309,
+        "y": 10.955669565217404,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-64-palace-lower-2-copy",
+        "name": "palace-lower-2",
+        "x": 1.1538834951456307,
+        "y": 10.955669565217404,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-64-palace-lower-3-copy",
+        "name": "palace-lower-3",
+        "x": 1.653883495145631,
+        "y": 10.955669565217404,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-64-palace-lower-4-copy",
+        "name": "palace-lower-4",
+        "x": 2.2038834951456323,
+        "y": 10.955669565217404,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-64-palace-middle-beam-copy",
+        "name": "palace-middle-beam",
+        "x": 1.4038834951456307,
+        "y": 10.595669565217404,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-64-palace-upper-1-copy",
+        "name": "palace-upper-1",
+        "x": 0.8538834951456309,
+        "y": 10.235669565217405,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-64-palace-upper-2-copy",
+        "name": "palace-upper-2",
+        "x": 1.4038834951456307,
+        "y": 10.235669565217405,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-64-palace-upper-3-copy",
+        "name": "palace-upper-3",
+        "x": 1.953883495145632,
+        "y": 10.235669565217405,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-64-palace-roof-beam-copy",
+        "name": "palace-roof-beam",
+        "x": 1.4038834951456307,
+        "y": 9.875669565217406,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-64-palace-dome-copy",
+        "name": "palace-dome",
+        "x": 1.5038834951456304,
+        "y": 9.485669565217405,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-64-bolted-palace-beam-copy-copy",
+        "name": "固定玻璃天梁",
+        "x": 7.66098852603707,
+        "y": 11.385669565217405,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-64-palace-lower-1-copy-copy",
+        "name": "palace-lower-1",
+        "x": 6.860988526037069,
+        "y": 11.025669565217404,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-64-palace-lower-2-copy-copy",
+        "name": "palace-lower-2",
+        "x": 7.41098852603707,
+        "y": 11.025669565217404,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-64-palace-lower-3-copy-copy",
+        "name": "palace-lower-3",
+        "x": 7.91098852603707,
+        "y": 11.025669565217404,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-64-palace-lower-4-copy-copy",
+        "name": "palace-lower-4",
+        "x": 8.46098852603707,
+        "y": 11.025669565217404,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-64-palace-middle-beam-copy-copy",
+        "name": "palace-middle-beam",
+        "x": 7.66098852603707,
+        "y": 10.665669565217405,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-64-palace-upper-1-copy-copy",
+        "name": "palace-upper-1",
+        "x": 7.110988526037069,
+        "y": 10.305669565217405,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-64-palace-upper-2-copy-copy",
+        "name": "palace-upper-2",
+        "x": 7.66098852603707,
+        "y": 10.305669565217405,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-64-palace-upper-3-copy-copy",
+        "name": "palace-upper-3",
+        "x": 8.21098852603707,
+        "y": 10.305669565217405,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-64-palace-roof-beam-copy-copy",
+        "name": "palace-roof-beam",
+        "x": 7.66098852603707,
+        "y": 9.945669565217406,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-64-palace-dome-copy-copy",
+        "name": "palace-dome",
+        "x": 7.760988526037069,
+        "y": 9.555669565217405,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

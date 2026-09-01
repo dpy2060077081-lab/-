@@ -1,0 +1,290 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-86",
+  "level": {
+    "number": 86,
+    "name": "双仓车关",
+    "difficulty": "normal",
+    "description": "两组 2×2 石质方块轮承托双段木质长车架；车架、双层驾驶舱、宽锅炉、烟囱与玻璃三角导流板随轮径整体加高，形成比例协调且无滚动风险的沙地火车。",
+    "normalAmmo": 15,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-86-rear-wheel-lower-left",
+        "name": "rear-wheel-lower-left",
+        "x": 2.65,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-86-rear-wheel-lower-right",
+        "name": "爆炸桶",
+        "x": 3.15,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-86-rear-wheel-upper-left",
+        "name": "rear-wheel-upper-left",
+        "x": 2.65,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-86-rear-wheel-upper-right",
+        "name": "rear-wheel-upper-right",
+        "x": 3.15,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-86-front-wheel-lower-left",
+        "name": "爆炸桶",
+        "x": 5.9,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-86-front-wheel-lower-right",
+        "name": "front-wheel-lower-right",
+        "x": 6.35,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-86-front-wheel-upper-left",
+        "name": "front-wheel-upper-left",
+        "x": 5.85,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-86-front-wheel-upper-right",
+        "name": "front-wheel-upper-right",
+        "x": 6.35,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-86-chassis",
+        "name": "chassis",
+        "x": 3.35,
+        "y": 11.23,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-86-front-chassis",
+        "name": "front-chassis",
+        "x": 5.55,
+        "y": 11.23,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-86-cabin-rear-post",
+        "name": "cabin-rear-post",
+        "x": 3.15,
+        "y": 10.71,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-cabin-front-post",
+        "name": "cabin-front-post",
+        "x": 3.84,
+        "y": 10.71,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-cabin-lower-lintel",
+        "name": "cabin-lower-lintel",
+        "x": 3.495,
+        "y": 10.19,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-cabin-upper-rear-post",
+        "name": "cabin-upper-rear-post",
+        "x": 3.15,
+        "y": 9.68,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-cabin-upper-front-post",
+        "name": "cabin-upper-front-post",
+        "x": 3.84,
+        "y": 9.68,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-cabin-lintel",
+        "name": "cabin-lintel",
+        "x": 3.495,
+        "y": 9.16,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-cabin-roof",
+        "name": "cabin-roof",
+        "x": 3.495,
+        "y": 8.78,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-86-boiler-rear",
+        "name": "boiler-rear",
+        "x": 4.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-boiler-middle",
+        "name": "boiler-middle",
+        "x": 5.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-boiler-front",
+        "name": "boiler-front",
+        "x": 5.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-front-deflector",
+        "name": "front-deflector",
+        "x": 6.4,
+        "y": 10.78,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-86-boiler-glass-cargo",
+        "name": "boiler-glass-cargo",
+        "x": 4.75,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-chimney-post-1",
+        "name": "chimney-post-1",
+        "x": 5.25,
+        "y": 10.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-chimney-cap",
+        "name": "chimney-cap",
+        "x": 5.25,
+        "y": 9.520000000000001,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-86-boiler-rear-copy",
+        "name": "boiler-rear",
+        "x": 4.035000000000001,
+        "y": 12.086765217391303,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-86-boiler-middle-copy",
+        "name": "boiler-middle",
+        "x": 4.535000000000001,
+        "y": 12.086765217391303,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-86-boiler-front-copy",
+        "name": "boiler-front",
+        "x": 5.035000000000001,
+        "y": 12.086765217391303,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-86-boiler-rear-copy-copy",
+        "name": "boiler-rear",
+        "x": 4.025000000000001,
+        "y": 11.603234782608697,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-boiler-middle-copy-copy",
+        "name": "boiler-middle",
+        "x": 4.525000000000001,
+        "y": 11.603234782608697,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-86-boiler-front-copy-copy",
+        "name": "boiler-front",
+        "x": 5.025000000000001,
+        "y": 11.603234782608697,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

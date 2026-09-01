@@ -1,0 +1,462 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-69",
+  "level": {
+    "frozenBodies": [],
+    "number": 69,
+    "name": "三峰门楼",
+    "difficulty": "hard",
+    "description": "左石城右木玻璃城，高低双桥跨缝，桥桶定胜负。",
+    "normalAmmo": 10,
+    "explosiveAmmo": 0,
+    "platformType": "double-3",
+    "castle": [
+      {
+        "id": "level-69-left-wing-foot-1",
+        "name": "left-wing-foot-1",
+        "x": 1.95,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-left-wing-foot-2",
+        "name": "left-wing-foot-2",
+        "x": 3.05,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-left-wing-foundation-beam",
+        "name": "left-wing-foundation-beam",
+        "x": 2.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-left-wing-post-1-left",
+        "name": "left-wing-post-1-left",
+        "x": 2.05,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-left-wing-post-1-right",
+        "name": "left-wing-post-1-right",
+        "x": 2.95,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-left-wing-floor-1",
+        "name": "left-wing-floor-1",
+        "x": 2.5,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-left-wing-window-1",
+        "name": "left-wing-window-1",
+        "x": 2.5,
+        "y": 10.33,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-69-left-wing-post-2-left",
+        "name": "left-wing-post-2-left",
+        "x": 2.05,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-left-wing-post-2-right",
+        "name": "left-wing-post-2-right",
+        "x": 2.95,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-left-wing-floor-2",
+        "name": "left-wing-floor-2",
+        "x": 2.5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-left-wing-roof",
+        "name": "left-wing-roof",
+        "x": 2.5,
+        "y": 9.26,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-69-gatehouse-foot-1",
+        "name": "gatehouse-foot-1",
+        "x": 3.9000000000000004,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-69-gatehouse-foot-2",
+        "name": "gatehouse-foot-2",
+        "x": 5.05,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-69-gatehouse-foundation-beam",
+        "name": "gatehouse-foundation-beam",
+        "x": 4.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-69-gatehouse-post-1-left",
+        "name": "gatehouse-post-1-left",
+        "x": 4.05,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-gatehouse-post-1-right",
+        "name": "gatehouse-post-1-right",
+        "x": 4.95,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-gatehouse-floor-1",
+        "name": "gatehouse-floor-1",
+        "x": 4.5,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-gatehouse-post-2-left",
+        "name": "gatehouse-post-2-left",
+        "x": 3.95,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-gatehouse-post-2-right",
+        "name": "gatehouse-post-2-right",
+        "x": 5.1,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-gatehouse-floor-2",
+        "name": "gatehouse-floor-2",
+        "x": 4.5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-gatehouse-post-3-left",
+        "name": "gatehouse-post-3-left",
+        "x": 3.95,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-gatehouse-post-3-right",
+        "name": "gatehouse-post-3-right",
+        "x": 5.15,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-gatehouse-floor-3",
+        "name": "gatehouse屋脊承梁",
+        "x": 4.5,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-69-gatehouse-roof",
+        "name": "gatehouse-roof",
+        "x": 1.936319505736981,
+        "y": 5.960921739130433,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-right-wing-foot-1",
+        "name": "right-wing-foot-1",
+        "x": 5.95,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-right-wing-foot-2",
+        "name": "right-wing-foot-2",
+        "x": 7.05,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-right-wing-foundation-beam",
+        "name": "right-wing-foundation-beam",
+        "x": 6.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-right-wing-post-1-left",
+        "name": "right-wing-post-1-left",
+        "x": 6.05,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-right-wing-post-1-right",
+        "name": "right-wing-post-1-right",
+        "x": 6.95,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-right-wing-floor-1",
+        "name": "right-wing-floor-1",
+        "x": 6.5,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-right-wing-window-1",
+        "name": "right-wing-window-1",
+        "x": 6.5,
+        "y": 10.33,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-69-right-wing-post-2-left",
+        "name": "right-wing-post-2-left",
+        "x": 6.05,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-right-wing-post-2-right",
+        "name": "right-wing-post-2-right",
+        "x": 6.95,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-right-wing-floor-2",
+        "name": "right-wing-floor-2",
+        "x": 6.5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-69-right-wing-roof",
+        "name": "right-wing-roof",
+        "x": 6.5,
+        "y": 9.26,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-38",
+        "name": "爆炸桶",
+        "x": 4.5,
+        "y": 10.33,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "long-thin-rectangle-1",
+        "name": "细长矩形",
+        "x": 1.977140335392762,
+        "y": 7.152695652173914,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "rectangle-1",
+        "name": "矩形",
+        "x": 1.5061782877316858,
+        "y": 6.852417391304347,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "rectangle-1-copy",
+        "name": "矩形",
+        "x": 2.4463195057369806,
+        "y": 6.862139130434781,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-2",
+        "name": "矩形",
+        "x": 1.9451015004413064,
+        "y": 6.432017391304349,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-69-gatehouse-roof-copy",
+        "name": "gatehouse-roof",
+        "x": 6.720564872021182,
+        "y": 5.972156521739128,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "long-thin-rectangle-1-copy",
+        "name": "细长矩形",
+        "x": 6.761385701676963,
+        "y": 7.163930434782609,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "rectangle-1-copy-2",
+        "name": "矩形",
+        "x": 6.290423654015886,
+        "y": 6.863652173913042,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "rectangle-1-copy-copy",
+        "name": "矩形",
+        "x": 7.230564872021182,
+        "y": 6.873373913043476,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-2-copy",
+        "name": "矩形",
+        "x": 6.729346866725508,
+        "y": 6.443252173913044,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "rectangle-1-copy-copy-copy",
+        "name": "矩形",
+        "x": 4.4660635481023805,
+        "y": 8.255669565217396,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-1-copy-2-copy",
+        "name": "矩形",
+        "x": 4.456063548102379,
+        "y": 7.8733739130434754,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "rectangle-2-copy-copy",
+        "name": "矩形",
+        "x": 4.446063548102383,
+        "y": 7.498365217391299,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-69-gatehouse-roof-copy-copy",
+        "name": "gatehouse-roof",
+        "x": 4.4620653133274475,
+        "y": 7.000417391304335,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

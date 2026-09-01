@@ -1,0 +1,283 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-57",
+  "level": {
+    "frozenBodies": [],
+    "number": 57,
+    "name": "双鹤望楼",
+    "difficulty": "normal",
+    "description": "四角螺栓支撑悬空城台，台上双塔，中央火药桶。",
+    "normalAmmo": 9,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-57-bolted-right-pier",
+        "name": "固定玻璃桥墩",
+        "x": 6.05,
+        "y": 9.9,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-57-counterweight-beam",
+        "name": "counterweight-beam",
+        "x": 5.15,
+        "y": 10.42,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-57-right-tower-1",
+        "name": "right-tower-1",
+        "x": 4.949999999999998,
+        "y": 10.06,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-57-right-tower-2",
+        "name": "right-tower-2",
+        "x": 5.45,
+        "y": 10.06,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-57-right-upper-1",
+        "name": "right-upper-1",
+        "x": 4.949999999999998,
+        "y": 9.56,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-57-right-upper-2",
+        "name": "right-upper-2",
+        "x": 5.5,
+        "y": 9.56,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-57-left-base-1",
+        "name": "left-base-1",
+        "x": 2.45,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-57-left-base-2",
+        "name": "left-base-2",
+        "x": 3,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-57-left-base-3",
+        "name": "left-base-3",
+        "x": 3.55,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-57-left-beam",
+        "name": "left-beam",
+        "x": 3,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-57-left-crane",
+        "name": "left-crane",
+        "x": 3.0999999999999996,
+        "y": 11.45,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-57-bolted-right-pier-copy",
+        "name": "固定玻璃桥墩",
+        "x": 4.349999999999997,
+        "y": 9.890000000000002,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "isosceles-triangle-1",
+        "name": "等腰三角形",
+        "x": 5.199999999999994,
+        "y": 8.471756521739138,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "explosive-barrel-1",
+        "name": "爆炸桶",
+        "x": 5.199602824360107,
+        "y": 9.039999999999996,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-57-left-crane-copy",
+        "name": "left-crane",
+        "x": 3.4749999999999996,
+        "y": 11.444999999999999,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-57-left-crane-copy-2",
+        "name": "left-crane",
+        "x": 2.4000000000000026,
+        "y": 11.449999999999998,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-57-left-crane-copy-copy",
+        "name": "left-crane",
+        "x": 2.7750000000000026,
+        "y": 11.444999999999997,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-57-left-crane-copy-3",
+        "name": "left-crane",
+        "x": 3.1,
+        "y": 11.049999999999992,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-57-left-crane-copy-copy-2",
+        "name": "left-crane",
+        "x": 3.475,
+        "y": 11.044999999999991,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-57-left-crane-copy-2-copy",
+        "name": "left-crane",
+        "x": 2.400000000000003,
+        "y": 11.04999999999999,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-57-left-crane-copy-copy-copy",
+        "name": "left-crane",
+        "x": 2.775000000000003,
+        "y": 11.04499999999999,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-57-left-crane-copy-3-copy",
+        "name": "left-crane",
+        "x": 3.1000000000000005,
+        "y": 10.699999999999985,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-57-left-crane-copy-copy-2-copy",
+        "name": "left-crane",
+        "x": 3.4750000000000005,
+        "y": 10.694999999999984,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-57-left-crane-copy-2-copy-copy",
+        "name": "left-crane",
+        "x": 2.4000000000000035,
+        "y": 10.699999999999983,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-57-left-crane-copy-copy-copy-copy",
+        "name": "left-crane",
+        "x": 2.7750000000000035,
+        "y": 10.694999999999983,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "explosive-barrel-2",
+        "name": "爆炸桶",
+        "x": 5.2908208296557815,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "long-thin-rectangle-1",
+        "name": "细长矩形",
+        "x": 2.86582082965577,
+        "y": 10.399999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "right-triangle-1",
+        "name": "直角三角形",
+        "x": 2.2275375110326565,
+        "y": 9.954999999999982,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "right-triangle-1-copy",
+        "name": "直角三角形",
+        "x": 3.495820829655769,
+        "y": 9.905000000000006,
+        "angle": 4.71238898038469,
+        "shapePresetId": "right-triangle",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

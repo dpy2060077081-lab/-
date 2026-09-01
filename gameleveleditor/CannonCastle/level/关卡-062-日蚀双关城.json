@@ -1,0 +1,280 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-62",
+  "level": {
+    "frozenBodies": [],
+    "number": 62,
+    "name": "日蚀双关城",
+    "difficulty": "normal",
+    "description": "中央石塔两翼螺栓悬臂，左臂桶右臂塔，偏置不对称。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 0,
+    "platformType": "double-2",
+    "castle": [
+      {
+        "id": "level-62-left-foundation-post-1",
+        "name": "left-foundation-post-1",
+        "x": 2.77,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-left-foundation-post-2",
+        "name": "left-foundation-post-2",
+        "x": 3.28,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-left-glass-chamber",
+        "name": "left-glass-chamber",
+        "x": 3.5799999999999987,
+        "y": 11.05,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-62-left-orb",
+        "name": "left-orb",
+        "x": 2.8699999999999997,
+        "y": 11.020000000000001,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-62-bridge-bolt",
+        "name": "固定木栓桥",
+        "x": 4.05,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-62-left-upper-block-1",
+        "name": "left-upper-block-1",
+        "x": 3.2,
+        "y": 10.33,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-left-upper-block-2",
+        "name": "left-upper-block-2",
+        "x": 3.75,
+        "y": 10.33,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-62-left-upper-block-3",
+        "name": "left-upper-block-3",
+        "x": 4.35,
+        "y": 10.347321739130436,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-left-roof-sill",
+        "name": "left-roof-sill",
+        "x": 3.75,
+        "y": 9.97,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-left-roof",
+        "name": "left-roof",
+        "x": 3.75,
+        "y": 9.58,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-foundation-portcullis-bar-1",
+        "name": "main-foundation-portcullis-bar-1",
+        "x": 5.3,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-foundation-portcullis-bar-2",
+        "name": "main-foundation-portcullis-bar-2",
+        "x": 5.75,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-foundation-portcullis-bar-3",
+        "name": "main-foundation-portcullis-bar-3",
+        "x": 6.25,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-foundation-portcullis-bar-4",
+        "name": "main-foundation-portcullis-bar-4",
+        "x": 6.7,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-62-main-gate-sill",
+        "name": "main-gate-sill",
+        "x": 6.1000000000000005,
+        "y": 11.41,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-upper-block-1",
+        "name": "main-upper-block-1",
+        "x": 5.48,
+        "y": 11.05,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-upper-block-2",
+        "name": "main-upper-block-2",
+        "x": 6.03,
+        "y": 11.05,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-62-main-upper-block-3",
+        "name": "main-upper-block-3",
+        "x": 6.58,
+        "y": 11.05,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-62-main-upper-sill-left",
+        "name": "main-upper-sill-left",
+        "x": 5.61,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-upper-sill-right",
+        "name": "main-upper-sill-right",
+        "x": 6.53,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-crown-block-1",
+        "name": "main-crown-block-1",
+        "x": 5.48,
+        "y": 10.33,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-crown-block-2",
+        "name": "main-crown-block-2",
+        "x": 6.03,
+        "y": 10.33,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-62-main-crown-block-3",
+        "name": "main-crown-block-3",
+        "x": 6.58,
+        "y": 10.33,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-roof-sill",
+        "name": "main-roof-sill",
+        "x": 6.03,
+        "y": 9.97,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-center-roof",
+        "name": "main-center-roof",
+        "x": 6.03,
+        "y": 9.58,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-main-gate-sill-copy",
+        "name": "main-gate-sill",
+        "x": 3.0432038834951456,
+        "y": 11.419999999999998,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "right-triangle-1",
+        "name": "直角三角形",
+        "x": 2.334024713150926,
+        "y": 10.937321739130436,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-62-left-upper-block-3-copy",
+        "name": "left-upper-block-3",
+        "x": 3.729999999999999,
+        "y": 12.011634782608695,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-62-left-upper-block-3-copy-copy",
+        "name": "left-upper-block-3",
+        "x": 2.3353839364518962,
+        "y": 12.03326956521739,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

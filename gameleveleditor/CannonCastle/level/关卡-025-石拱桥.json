@@ -1,0 +1,214 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-25",
+  "level": {
+    "number": 25,
+    "name": "石拱桥",
+    "difficulty": "super-hard",
+    "description": "拆掉外露的木质拱脚，石桥面与桥上载荷会绕另一侧桥墩翻落。",
+    "normalAmmo": 7,
+    "explosiveAmmo": 1,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-25-arch-foot-support",
+        "name": "arch-foot-support",
+        "x": 4.5,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-25-left-arch-rise",
+        "name": "left-arch-rise",
+        "x": 4.5,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-25-right-arch-foot",
+        "name": "right-arch-foot",
+        "x": 5.6,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-25-right-arch-rise",
+        "name": "right-arch-rise",
+        "x": 5.6,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-25-bridge-deck",
+        "name": "bridge-deck",
+        "x": 4.5,
+        "y": 11.23,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-25-bridge-load-west",
+        "name": "bridge-load-west",
+        "x": 3.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-25-bridge-load-center",
+        "name": "bridge-load-center",
+        "x": 4.5,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-25-bridge-load-east",
+        "name": "bridge-load-east",
+        "x": 5.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-10",
+        "name": "arch-foot-support副本",
+        "x": 3.4,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-11",
+        "name": "left-arch-rise副本",
+        "x": 3.4,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "arch-foot-support副本副本",
+        "x": 2.55,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "left-arch-rise副本副本",
+        "x": 2.55,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "arch-foot-support副本副本副本",
+        "x": 6.45,
+        "y": 12.05,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "left-arch-rise副本副本副本",
+        "x": 6.45,
+        "y": 11.55,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "细矩形",
+        "x": 6.15,
+        "y": 11.2,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "细矩形副本",
+        "x": 2.8999999999999995,
+        "y": 11.24,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "正方形 · 屋顶",
+        "x": 4.02,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "正方形副本 · 屋顶",
+        "x": 4.97,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "细长矩形副本 · 屋顶",
+        "x": 4.5,
+        "y": 10.01,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "细长矩形副本副本 · 屋顶",
+        "x": 4.5,
+        "y": 9.79,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "等腰三角形 · 屋顶",
+        "x": 3.95,
+        "y": 9.4,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "等腰三角形 · 屋顶",
+        "x": 5.05,
+        "y": 9.4,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-88",
+  "level": {
+    "number": 88,
+    "name": "错阶木门",
+    "difficulty": "normal",
+    "description": "严格按示例照片的五座独立木框塔搭建：低框、左侧三级框、中央最高框、右侧高框及低框全部以各自双脚直接落地；中央仅以竖柱和横帽收顶。",
+    "normalAmmo": 12,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-88-far-left-1-left-leg",
+        "name": "far-left-1-left-leg",
+        "x": 2.1,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-far-left-1-right-leg",
+        "name": "far-left-1-right-leg",
+        "x": 2.7,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-far-left-1-lintel",
+        "name": "far-left-1-lintel",
+        "x": 2.4000000000000004,
+        "y": 11.32,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-88-far-left-2-left-leg",
+        "name": "far-left-2-left-leg",
+        "x": 2.1,
+        "y": 10.709999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-far-left-2-right-leg",
+        "name": "far-left-2-right-leg",
+        "x": 2.7,
+        "y": 10.709999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-far-left-2-lintel",
+        "name": "far-left-2-lintel",
+        "x": 2.4000000000000004,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-88-left-stair-1-left-leg",
+        "name": "left-stair-1-left-leg",
+        "x": 3.15,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-left-stair-1-right-leg",
+        "name": "left-stair-1-right-leg",
+        "x": 3.75,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-left-stair-1-lintel",
+        "name": "left-stair-1-lintel",
+        "x": 3.45,
+        "y": 11.32,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-88-left-stair-2-left-leg",
+        "name": "left-stair-2-left-leg",
+        "x": 3.24,
+        "y": 10.71,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-left-stair-2-right-leg",
+        "name": "left-stair-2-right-leg",
+        "x": 3.75,
+        "y": 10.709999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-left-stair-2-lintel",
+        "name": "left-stair-2-lintel",
+        "x": 3.45,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-88-left-stair-3-left-leg",
+        "name": "left-stair-3-left-leg",
+        "x": 3.15,
+        "y": 9.49,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-left-stair-3-right-leg",
+        "name": "left-stair-3-right-leg",
+        "x": 3.75,
+        "y": 9.49,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-left-stair-3-lintel",
+        "name": "left-stair-3-lintel",
+        "x": 3.45,
+        "y": 8.88,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-88-central-spire-1-left-leg",
+        "name": "central-spire-1-left-leg",
+        "x": 4.2,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-central-spire-1-right-leg",
+        "name": "central-spire-1-right-leg",
+        "x": 4.8,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-central-spire-1-lintel",
+        "name": "central-spire-1-lintel",
+        "x": 4.5,
+        "y": 11.32,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-88-central-spire-2-left-leg",
+        "name": "central-spire-2-left-leg",
+        "x": 4.2,
+        "y": 10.709999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-88-central-spire-2-right-leg",
+        "name": "central-spire-2-right-leg",
+        "x": 4.8,
+        "y": 10.709999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-88-central-spire-2-lintel",
+        "name": "central-spire-2-lintel",
+        "x": 4.5,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-88-central-spire-3-left-leg",
+        "name": "central-spire-3-left-leg",
+        "x": 4.2,
+        "y": 9.49,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-88-central-spire-3-right-leg",
+        "name": "central-spire-3-right-leg",
+        "x": 4.8,
+        "y": 9.49,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-88-central-spire-3-lintel",
+        "name": "central-spire-3-lintel",
+        "x": 4.5,
+        "y": 8.88,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-88-central-spire-4-left-leg",
+        "name": "central-spire-4-left-leg",
+        "x": 4.2,
+        "y": 8.27,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-central-spire-4-right-leg",
+        "name": "central-spire-4-right-leg",
+        "x": 4.8,
+        "y": 8.27,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-central-spire-4-lintel",
+        "name": "central-spire-4-lintel",
+        "x": 4.5,
+        "y": 7.659999999999999,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-88-central-spire-5-left-leg",
+        "name": "central-spire-5-left-leg",
+        "x": 4.2,
+        "y": 7.05,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-central-spire-5-right-leg",
+        "name": "central-spire-5-right-leg",
+        "x": 4.8,
+        "y": 7.05,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-central-spire-5-lintel",
+        "name": "central-spire-5-lintel",
+        "x": 4.5,
+        "y": 6.44,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-88-right-stair-1-left-leg",
+        "name": "right-stair-1-left-leg",
+        "x": 5.25,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-right-stair-1-right-leg",
+        "name": "right-stair-1-right-leg",
+        "x": 5.85,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-right-stair-1-lintel",
+        "name": "right-stair-1-lintel",
+        "x": 5.55,
+        "y": 11.32,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-88-right-stair-2-left-leg",
+        "name": "right-stair-2-left-leg",
+        "x": 5.25,
+        "y": 10.709999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-right-stair-2-right-leg",
+        "name": "right-stair-2-right-leg",
+        "x": 5.85,
+        "y": 10.709999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-right-stair-2-lintel",
+        "name": "right-stair-2-lintel",
+        "x": 5.55,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-88-right-stair-3-left-leg",
+        "name": "right-stair-3-left-leg",
+        "x": 5.25,
+        "y": 9.49,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-right-stair-3-right-leg",
+        "name": "right-stair-3-right-leg",
+        "x": 5.85,
+        "y": 9.49,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-right-stair-3-lintel",
+        "name": "right-stair-3-lintel",
+        "x": 5.55,
+        "y": 8.88,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-88-far-right-1-left-leg",
+        "name": "far-right-1-left-leg",
+        "x": 6.3,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-far-right-1-right-leg",
+        "name": "far-right-1-right-leg",
+        "x": 6.9,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-far-right-1-lintel",
+        "name": "far-right-1-lintel",
+        "x": 6.6,
+        "y": 11.32,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-88-central-spire-top-post",
+        "name": "central-spire-top-post",
+        "x": 4.5,
+        "y": 5.83,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-88-central-spire-top-cap",
+        "name": "central-spire-top-cap",
+        "x": 4.5,
+        "y": 5.220000000000001,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-45",
+        "name": "right-stair-2-right-leg副本",
+        "x": 6.39,
+        "y": 10.71,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "editor-piece-46",
+        "name": "right-stair-2-right-leg副本副本",
+        "x": 6.81,
+        "y": 10.71,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "editor-piece-47",
+        "name": "right-stair-2-lintel副本",
+        "x": 6.55,
+        "y": 10.05,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

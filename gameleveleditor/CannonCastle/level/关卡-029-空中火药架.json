@@ -1,0 +1,315 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-29",
+  "level": {
+    "number": 29,
+    "name": "空中火药架",
+    "difficulty": "hard",
+    "description": "利用侧墙反弹进入高架，点燃两只空中火药桶并让石载荷自上而下坠落。",
+    "normalAmmo": 9,
+    "explosiveAmmo": 1,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-29-left-aerial-column-base",
+        "name": "left-aerial-column-base",
+        "x": 5.45,
+        "y": 10.85,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-2",
+        "name": "weakpoint-two-stage-1 · 内置 · 两阶段木质掩体",
+        "x": 2.65,
+        "y": 12.07,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-3",
+        "name": "foundation-r-1-c2 · 内置 · 两阶段木质掩体",
+        "x": 4.2,
+        "y": 12.07,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-4",
+        "name": "weakpoint-two-stage-3 · 内置 · 两阶段木质掩体",
+        "x": 5.75,
+        "y": 12.07,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-5",
+        "name": "cross-tower-link · 内置 · 两阶段木质掩体",
+        "x": 3.1,
+        "y": 11.71,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-6",
+        "name": "cross-tower-link · 内置 · 两阶段木质掩体",
+        "x": 5.3,
+        "y": 11.71,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-7",
+        "name": "body-r1-c1 · 内置 · 两阶段木质掩体",
+        "x": 2.45,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-8",
+        "name": "body-r1-c2 · 内置 · 两阶段木质掩体",
+        "x": 2.95,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-9",
+        "name": "body-r1-c3 · 内置 · 两阶段木质掩体",
+        "x": 3.45,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-10",
+        "name": "body-r1-c4 · 内置 · 两阶段木质掩体",
+        "x": 3.95,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-11",
+        "name": "body-r1-c5 · 内置 · 两阶段木质掩体",
+        "x": 4.45,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "body-r1-c6 · 内置 · 两阶段木质掩体",
+        "x": 4.95,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "body-r1-c7 · 内置 · 两阶段木质掩体",
+        "x": 5.45,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "body-r1-c8 · 内置 · 两阶段木质掩体",
+        "x": 5.95,
+        "y": 11.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "body-r2-c1 · 内置 · 两阶段木质掩体",
+        "x": 2.45,
+        "y": 10.85,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "body-r2-c2 · 内置 · 两阶段木质掩体",
+        "x": 2.95,
+        "y": 10.85,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "body-r2-c3 · 内置 · 两阶段木质掩体",
+        "x": 3.45,
+        "y": 10.85,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "body-r2-c4 · 内置 · 两阶段木质掩体",
+        "x": 3.95,
+        "y": 10.85,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "body-r2-c5 · 内置 · 两阶段木质掩体",
+        "x": 4.45,
+        "y": 10.85,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "corridor-relay-barrel · 炸弹小屋",
+        "x": 3.75,
+        "y": 10.28,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "left-corridor-post-base · 炸弹小屋",
+        "x": 3.15,
+        "y": 10.31,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "left-corridor-post-top · 炸弹小屋",
+        "x": 3.15,
+        "y": 9.81,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "right-corridor-post-base · 炸弹小屋",
+        "x": 4.45,
+        "y": 10.31,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-24",
+        "name": "right-corridor-post-top · 炸弹小屋",
+        "x": 4.45,
+        "y": 9.81,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-25",
+        "name": "left-room-roof · 炸弹小屋",
+        "x": 3.15,
+        "y": 9.46,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-26",
+        "name": "right-room-roof · 炸弹小屋",
+        "x": 4.45,
+        "y": 9.46,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-27",
+        "name": "left-roof-load · 炸弹小屋",
+        "x": 3.15,
+        "y": 9.2,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-28",
+        "name": "right-roof-load · 炸弹小屋",
+        "x": 4.45,
+        "y": 9.2,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-29",
+        "name": "等腰三角形 · 炸弹小屋",
+        "x": 3.8,
+        "y": 8.56,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-30",
+        "name": "left-aerial-column-base副本",
+        "x": 5.95,
+        "y": 10.85,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-31",
+        "name": "left-aerial-column-base副本副本",
+        "x": 5.7,
+        "y": 10.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-32",
+        "name": "爆炸桶",
+        "x": 5.7,
+        "y": 9.85,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "editor-piece-33",
+        "name": "细长矩形",
+        "x": 3.8,
+        "y": 8.93,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

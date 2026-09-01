@@ -1,0 +1,441 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-71",
+  "level": {
+    "frozenBodies": [],
+    "number": 71,
+    "name": "冠顶城门",
+    "difficulty": "normal",
+    "description": "旋转立柱群托双层螺栓浮廊，玻璃拱心点缀。",
+    "normalAmmo": 10,
+    "explosiveAmmo": 0,
+    "platformType": "double-3",
+    "castle": [
+      {
+        "id": "level-71-wall-base-1",
+        "name": "wall-base-1",
+        "x": 1.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-71-wall-base-2",
+        "name": "wall-base-2",
+        "x": 2.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-71-wall-base-3",
+        "name": "wall-base-3",
+        "x": 2.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-71-wall-base-4",
+        "name": "wall-base-4",
+        "x": 3.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-71-wall-base-5",
+        "name": "wall-base-5",
+        "x": 3.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-71-wall-base-8",
+        "name": "wall-base-8",
+        "x": 5.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-71-wall-base-9",
+        "name": "wall-base-9",
+        "x": 5.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-71-wall-base-10",
+        "name": "wall-base-10",
+        "x": 6.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-71-wall-base-11",
+        "name": "wall-base-11",
+        "x": 6.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-71-wall-base-12",
+        "name": "wall-base-12",
+        "x": 7.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-71-wall-row-1-west",
+        "name": "wall-row-1-west",
+        "x": 2.95,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-wall-row-1-east",
+        "name": "wall-row-1-east",
+        "x": 6.05,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-lower-portal-post-1",
+        "name": "lower-portal-post-1",
+        "x": 2.35,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-lower-portal-post-2",
+        "name": "lower-portal-post-2",
+        "x": 3.45,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-lower-portal-post-3",
+        "name": "lower-portal-post-3",
+        "x": 4.2,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-lower-portal-post-4",
+        "name": "lower-portal-post-4",
+        "x": 4.8,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-lower-portal-post-5",
+        "name": "lower-portal-post-5",
+        "x": 5.55,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-lower-portal-post-6",
+        "name": "lower-portal-post-6",
+        "x": 6.65,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-wall-row-2-west",
+        "name": "wall-row-2-west",
+        "x": 2.95,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-wall-row-2-middle",
+        "name": "wall-row-2-middle",
+        "x": 4.5,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-wall-row-2-east",
+        "name": "wall-row-2-east",
+        "x": 6.05,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-upper-portal-post-1",
+        "name": "upper-portal-post-1",
+        "x": 2.6,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-upper-portal-post-2",
+        "name": "upper-portal-post-2",
+        "x": 3.3,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-upper-portal-post-3",
+        "name": "upper-portal-post-3",
+        "x": 4.2,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-upper-portal-post-4",
+        "name": "upper-portal-post-4",
+        "x": 4.8,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-upper-portal-post-5",
+        "name": "upper-portal-post-5",
+        "x": 5.7,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-upper-portal-post-6",
+        "name": "upper-portal-post-6",
+        "x": 6.4,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-wall-row-3-west",
+        "name": "wall-row-3-west",
+        "x": 2.95,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-wall-row-3-middle",
+        "name": "wall-row-3-middle",
+        "x": 4.5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-wall-row-3-east",
+        "name": "wall-row-3-east",
+        "x": 6.05,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-setback-post-1",
+        "name": "setback-post-1",
+        "x": 2.95,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-setback-post-2",
+        "name": "setback-post-2",
+        "x": 4.2,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-71-setback-post-3",
+        "name": "setback-post-3",
+        "x": 4.8,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-71-setback-post-4",
+        "name": "setback-post-4",
+        "x": 6.05,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-wall-row-4-west",
+        "name": "wall-row-4-west",
+        "x": 2.95,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-wall-row-4-middle",
+        "name": "wall-row-4-middle",
+        "x": 4.5,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-wall-row-4-east",
+        "name": "wall-row-4-east",
+        "x": 6.05,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-west-gable",
+        "name": "west-gable",
+        "x": 2.95,
+        "y": 8.22,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-east-gable",
+        "name": "east-gable",
+        "x": 6.05,
+        "y": 8.22,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-71-keep-post-1-1",
+        "name": "keep-post-1-1",
+        "x": 4.2,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-keep-post-1-2",
+        "name": "keep-post-1-2",
+        "x": 4.8,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-keep-roof-beam-1",
+        "name": "keep-roof-beam-1",
+        "x": 4.5,
+        "y": 7.57,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-keep-post-2-1",
+        "name": "keep-post-2-1",
+        "x": 4.2,
+        "y": 7.05,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-keep-post-2-2",
+        "name": "keep-post-2-2",
+        "x": 4.8,
+        "y": 7.05,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-keep-roof-beam-2",
+        "name": "keep-roof-beam-2",
+        "x": 4.5,
+        "y": 6.53,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-keep-roof",
+        "name": "keep-roof",
+        "x": 4.5,
+        "y": 6.14,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-71-wall-row-2-middle-copy",
+        "name": "wall-row-2-middle",
+        "x": 4.499999999999999,
+        "y": 11.750278260869564,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      }
+    ]
+  }
+}

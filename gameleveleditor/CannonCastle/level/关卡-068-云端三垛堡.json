@@ -1,0 +1,595 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-68",
+  "level": {
+    "frozenBodies": [],
+    "number": 68,
+    "name": "云端三垛堡",
+    "difficulty": "normal",
+    "description": "双石塔夹双层螺栓板，板间桶与玻璃，引爆穿层。",
+    "normalAmmo": 10,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-68-west-rampart-foot-left",
+        "name": "west-rampart-foot-left",
+        "x": 1.98,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-foot-right",
+        "name": "west-rampart-foot-right",
+        "x": 2.7199999999999998,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-68-west-rampart-base-sill",
+        "name": "west-rampart-base-sill",
+        "x": 2.3,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-column-left-1",
+        "name": "west-rampart-column-left-1",
+        "x": 1.88,
+        "y": 11.22,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-column-right-1",
+        "name": "west-rampart-column-right-1",
+        "x": 2.7199999999999998,
+        "y": 11.22,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-sill-1",
+        "name": "west-rampart-sill-1",
+        "x": 2.3,
+        "y": 10.7,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-window-1",
+        "name": "west-rampart-window-1",
+        "x": 2.3,
+        "y": 10.43,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-west-rampart-column-left-2",
+        "name": "west-rampart-column-left-2",
+        "x": 1.88,
+        "y": 10.190000000000001,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-column-right-2",
+        "name": "west-rampart-column-right-2",
+        "x": 2.7199999999999998,
+        "y": 10.190000000000001,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-sill-2",
+        "name": "west-rampart-sill-2",
+        "x": 2.3,
+        "y": 9.67,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-column-left-3",
+        "name": "west-rampart-column-left-3",
+        "x": 1.88,
+        "y": 9.16,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-column-right-3",
+        "name": "west-rampart-column-right-3",
+        "x": 2.7199999999999998,
+        "y": 9.16,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-sill-3",
+        "name": "west-rampart-sill-3",
+        "x": 2.3,
+        "y": 8.639999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-window-3",
+        "name": "west-rampart-window-3",
+        "x": 2.3,
+        "y": 8.37,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-west-rampart-column-left-4",
+        "name": "west-rampart-column-left-4",
+        "x": 1.88,
+        "y": 8.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-column-right-4",
+        "name": "west-rampart-column-right-4",
+        "x": 2.7199999999999998,
+        "y": 8.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-sill-4",
+        "name": "west-rampart-sill-4",
+        "x": 2.3,
+        "y": 7.609999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-west-rampart-roof",
+        "name": "west-rampart-roof",
+        "x": 2.3,
+        "y": 7.22,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-68-central-keep-foot-left",
+        "name": "central-keep-foot-left",
+        "x": 3.7800000000000002,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-central-keep-foot-right",
+        "name": "central-keep-foot-right",
+        "x": 5.22,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-central-keep-base-sill",
+        "name": "central-keep-base-sill",
+        "x": 4.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-central-keep-column-left-1",
+        "name": "central-keep-column-left-1",
+        "x": 3.7800000000000002,
+        "y": 11.22,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-68-central-keep-column-right-1",
+        "name": "central-keep-column-right-1",
+        "x": 5.22,
+        "y": 11.22,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-68-central-keep-sill-1",
+        "name": "central-keep-sill-1",
+        "x": 4.5,
+        "y": 10.7,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-central-keep-window-1",
+        "name": "central-keep-window-1",
+        "x": 4.5,
+        "y": 10.43,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-column-left-2",
+        "name": "central-keep-column-left-2",
+        "x": 3.7800000000000002,
+        "y": 10.190000000000001,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-column-right-2",
+        "name": "central-keep-column-right-2",
+        "x": 5.22,
+        "y": 10.190000000000001,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-sill-2",
+        "name": "central-keep-sill-2",
+        "x": 4.5,
+        "y": 9.67,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-central-keep-column-left-3",
+        "name": "central-keep-column-left-3",
+        "x": 3.7800000000000002,
+        "y": 9.16,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-column-right-3",
+        "name": "central-keep-column-right-3",
+        "x": 5.22,
+        "y": 9.16,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-sill-3",
+        "name": "central-keep-sill-3",
+        "x": 4.5,
+        "y": 8.639999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-central-keep-window-3",
+        "name": "central-keep-window-3",
+        "x": 4.5,
+        "y": 8.37,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-column-left-4",
+        "name": "central-keep-column-left-4",
+        "x": 3.7800000000000002,
+        "y": 8.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-column-right-4",
+        "name": "central-keep-column-right-4",
+        "x": 5.22,
+        "y": 8.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-sill-4",
+        "name": "central-keep-sill-4",
+        "x": 4.5,
+        "y": 7.609999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-central-keep-column-left-5",
+        "name": "central-keep-column-left-5",
+        "x": 3.7800000000000002,
+        "y": 7.1000000000000005,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-column-right-5",
+        "name": "central-keep-column-right-5",
+        "x": 5.22,
+        "y": 7.1000000000000005,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-sill-5",
+        "name": "central-keep-sill-5",
+        "x": 4.5,
+        "y": 6.579999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-central-keep-window-5",
+        "name": "爆炸桶",
+        "x": 4.5,
+        "y": 6.309999999999999,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-68-central-keep-column-left-6",
+        "name": "central-keep-column-left-6",
+        "x": 3.7800000000000002,
+        "y": 6.07,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-column-right-6",
+        "name": "central-keep-column-right-6",
+        "x": 5.22,
+        "y": 6.07,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-sill-6",
+        "name": "central-keep-sill-6",
+        "x": 4.5,
+        "y": 5.549999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-68-central-keep-column-left-7",
+        "name": "central-keep-column-left-7",
+        "x": 3.7800000000000002,
+        "y": 5.040000000000001,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-column-right-7",
+        "name": "central-keep-column-right-7",
+        "x": 5.22,
+        "y": 5.040000000000001,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-central-keep-sill-7",
+        "name": "central-keep-sill-7",
+        "x": 4.5,
+        "y": 4.52,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-central-keep-roof",
+        "name": "central-keep-roof",
+        "x": 4.5,
+        "y": 4.13,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-68-east-rampart-foot-left",
+        "name": "east-rampart-foot-left",
+        "x": 6.28,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-68-east-rampart-foot-right",
+        "name": "east-rampart-foot-right",
+        "x": 7.0200000000000005,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-east-rampart-base-sill",
+        "name": "east-rampart-base-sill",
+        "x": 6.7,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-east-rampart-column-left-1",
+        "name": "east-rampart-column-left-1",
+        "x": 6.28,
+        "y": 11.22,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-east-rampart-column-right-1",
+        "name": "east-rampart-column-right-1",
+        "x": 7.12,
+        "y": 11.22,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-east-rampart-sill-1",
+        "name": "east-rampart-sill-1",
+        "x": 6.7,
+        "y": 10.7,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-east-rampart-window-1",
+        "name": "east-rampart-window-1",
+        "x": 6.7,
+        "y": 10.43,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-east-rampart-column-left-2",
+        "name": "east-rampart-column-left-2",
+        "x": 6.28,
+        "y": 10.190000000000001,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-east-rampart-column-right-2",
+        "name": "east-rampart-column-right-2",
+        "x": 7.12,
+        "y": 10.190000000000001,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-east-rampart-sill-2",
+        "name": "east-rampart-sill-2",
+        "x": 6.7,
+        "y": 9.67,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-east-rampart-column-left-3",
+        "name": "east-rampart-column-left-3",
+        "x": 6.28,
+        "y": 9.16,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-east-rampart-column-right-3",
+        "name": "east-rampart-column-right-3",
+        "x": 7.12,
+        "y": 9.16,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-east-rampart-sill-3",
+        "name": "east-rampart-sill-3",
+        "x": 6.7,
+        "y": 8.639999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-east-rampart-window-3",
+        "name": "east-rampart-window-3",
+        "x": 6.7,
+        "y": 8.37,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-east-rampart-column-left-4",
+        "name": "east-rampart-column-left-4",
+        "x": 6.28,
+        "y": 8.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-east-rampart-column-right-4",
+        "name": "east-rampart-column-right-4",
+        "x": 7.12,
+        "y": 8.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-68-east-rampart-sill-4",
+        "name": "east-rampart-sill-4",
+        "x": 6.7,
+        "y": 7.609999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-68-east-rampart-roof",
+        "name": "east-rampart-roof",
+        "x": 6.7,
+        "y": 7.22,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

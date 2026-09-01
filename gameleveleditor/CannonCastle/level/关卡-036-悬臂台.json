@@ -1,0 +1,269 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-36",
+  "level": {
+    "number": 36,
+    "name": "悬臂台",
+    "difficulty": "normal",
+    "description": "打掉山芯两侧玻璃挡块，让石载荷沿左右斜坡分别下滑。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-36-pillar-1",
+        "name": "pillar-1",
+        "x": 3.6,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-pillar-2",
+        "name": "pillar-2",
+        "x": 5.4,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-beam-1",
+        "name": "beam-1",
+        "x": 4.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-36-r1-c1",
+        "name": "r1-c1",
+        "x": 3.75,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-r1-c2",
+        "name": "r1-c2",
+        "x": 4.25,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-r1-c3",
+        "name": "r1-c3",
+        "x": 4.75,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-r1-c4",
+        "name": "r1-c4",
+        "x": 5.25,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-r2-c1",
+        "name": "r2-c1",
+        "x": 3.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-r2-c2",
+        "name": "r2-c2",
+        "x": 4.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-r2-c3",
+        "name": "r2-c3",
+        "x": 4.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-r2-c4",
+        "name": "r2-c4",
+        "x": 5.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-r3-c1",
+        "name": "r3-c1",
+        "x": 4,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-r3-c2",
+        "name": "r3-c2",
+        "x": 4.5,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-r3-c3",
+        "name": "r3-c3",
+        "x": 5,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-deck",
+        "name": "deck",
+        "x": 4.5,
+        "y": 10.01,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-36-spire-l",
+        "name": "spire-l",
+        "x": 3.6,
+        "y": 9.74,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-spire-r",
+        "name": "spire-r",
+        "x": 5.4,
+        "y": 9.74,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-36-barrel-tip",
+        "name": "barrel-tip",
+        "x": 4.5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "等腰三角形",
+        "x": 3.95,
+        "y": 9.14,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "等腰三角形副本",
+        "x": 5,
+        "y": 9.14,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "细长矩形",
+        "x": 4.5,
+        "y": 8.75,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "矩形",
+        "x": 4.1,
+        "y": 8.44,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "矩形副本",
+        "x": 4.9,
+        "y": 8.44,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-24",
+        "name": "矩形副本",
+        "x": 4.1,
+        "y": 8.04,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-25",
+        "name": "矩形副本副本",
+        "x": 4.9,
+        "y": 8.04,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "small-square-1",
+        "name": "小正方形",
+        "x": 3.934999999999999,
+        "y": 7.635738317757008,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "small-square-1-copy",
+        "name": "小正方形",
+        "x": 4.55,
+        "y": 7.664999999999999,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "small-square-1-copy-copy",
+        "name": "小正方形",
+        "x": 5.135000000000001,
+        "y": 7.656476635514017,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-24",
+  "level": {
+    "number": 24,
+    "name": "山门火药库",
+    "difficulty": "hard",
+    "description": "直射会被山门挡住；借左墙反弹击中侧仓火药桶，再沿中央路线引爆第二只。",
+    "normalAmmo": 5,
+    "explosiveAmmo": 1,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-24-side-magazine-entry-barrel",
+        "name": "side-magazine-entry-barrel",
+        "x": 2.35,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-24-center-route-barrel",
+        "name": "center-route-barrel",
+        "x": 4.45,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-24-outer-left-wall-base",
+        "name": "outer-left-wall-base",
+        "x": 3.4,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-24-inner-left-wall-base",
+        "name": "inner-left-wall-base",
+        "x": 3.9,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-24-inner-left-wall-top",
+        "name": "inner-left-wall-top",
+        "x": 3.9,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-24-inner-right-wall-base",
+        "name": "inner-right-wall-base",
+        "x": 5.1,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-24-inner-right-wall-top",
+        "name": "inner-right-wall-top",
+        "x": 5.1,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-24-outer-right-wall-base",
+        "name": "outer-right-wall-base",
+        "x": 6.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-24-outer-right-wall-top",
+        "name": "outer-right-wall-top",
+        "x": 6.75,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-24-left-magazine-slab",
+        "name": "left-magazine-slab",
+        "x": 2.9,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-24-right-magazine-slab",
+        "name": "细长矩形",
+        "x": 5.95,
+        "y": 11.23,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-24-left-gate-load",
+        "name": "left-gate-load",
+        "x": 2.9,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "矩形",
+        "x": 4.45,
+        "y": 11.4,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "直角三角形",
+        "x": 2.9,
+        "y": 11.02,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "corridor-relay-barrel · 炸弹小屋",
+        "x": 5.95,
+        "y": 10.88,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "left-corridor-post-base · 炸弹小屋",
+        "x": 5.35,
+        "y": 10.91,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "left-corridor-post-top · 炸弹小屋",
+        "x": 5.35,
+        "y": 10.41,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "right-corridor-post-base · 炸弹小屋",
+        "x": 6.65,
+        "y": 10.91,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "right-corridor-post-top · 炸弹小屋",
+        "x": 6.65,
+        "y": 10.41,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "left-room-roof · 炸弹小屋",
+        "x": 5.35,
+        "y": 10.06,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "right-room-roof · 炸弹小屋",
+        "x": 6.65,
+        "y": 10.06,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "left-roof-load · 炸弹小屋",
+        "x": 5.35,
+        "y": 9.8,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "right-roof-load · 炸弹小屋",
+        "x": 6.65,
+        "y": 9.8,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-24",
+        "name": "等腰三角形 · 炸弹小屋",
+        "x": 6,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-25",
+        "name": "矩形副本",
+        "x": 3.55,
+        "y": 11.14,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-26",
+        "name": "等腰三角形",
+        "x": 4.45,
+        "y": 10.66,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

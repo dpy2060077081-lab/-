@@ -1,0 +1,14 @@
+{
+  "name": "meteor-castle-level-editor",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "test": "node scripts/test.mjs",
+    "verify": "node scripts/verify.mjs",
+    "verify:static": "node scripts/verify.mjs --skip-browser",
+    "smoke:browser": "node tests/browser-smoke-runner.mjs"
+  }
+}

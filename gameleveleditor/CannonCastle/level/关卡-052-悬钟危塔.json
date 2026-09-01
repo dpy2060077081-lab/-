@@ -1,0 +1,246 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-52",
+  "level": {
+    "number": 52,
+    "name": "悬钟危塔",
+    "difficulty": "normal",
+    "description": "左右两个螺栓浮台分列，各托一座小塔。拆台塔坠。",
+    "normalAmmo": 6,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-52-bolted-cantilever",
+        "name": "固定玻璃挑梁",
+        "x": 2.5100000000000047,
+        "y": 10.85,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-52-bell-floor-1",
+        "name": "bell-floor-1",
+        "x": 2.0000000000000036,
+        "y": 10.49,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-52-bell-floor-2",
+        "name": "bell-floor-2",
+        "x": 2.5000000000000036,
+        "y": 10.49,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-52-bell-floor-3",
+        "name": "bell-floor-3",
+        "x": 3.0500000000000034,
+        "y": 10.49,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-52-bell-upper-1",
+        "name": "bell-upper-1",
+        "x": 2.0000000000000036,
+        "y": 9.99,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-52-bell-upper-2",
+        "name": "bell-upper-2",
+        "x": 2.5000000000000036,
+        "y": 9.99,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-52-bell-upper-3",
+        "name": "bell-upper-3",
+        "x": 3.0500000000000034,
+        "y": 9.99,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-52-bell-roof-beam",
+        "name": "bell-roof-beam",
+        "x": 2.5000000000000036,
+        "y": 9.63,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-52-bell-roof",
+        "name": "bell-roof",
+        "x": 2.100000000000003,
+        "y": 9.18,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-52-platform-post-left",
+        "name": "platform-post-left",
+        "x": 4.0313503971756495,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-52-platform-post-right",
+        "name": "platform-post-right",
+        "x": 4.731350397175649,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-52-platform-cap",
+        "name": "platform-cap",
+        "x": 4.381350397175649,
+        "y": 11.42,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "直角三角形",
+        "x": 2.9500000000000033,
+        "y": 9.2,
+        "angle": 4.71238898038469,
+        "shapePresetId": "right-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "爆炸桶",
+        "x": 4.381350397175648,
+        "y": 11.040000000000013,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-52-bolted-cantilever-copy",
+        "name": "固定玻璃挑梁",
+        "x": 6.1404501323918845,
+        "y": 10.899999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-52-bell-floor-1-copy",
+        "name": "bell-floor-1",
+        "x": 5.630450132391884,
+        "y": 10.54,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-52-bell-floor-2-copy",
+        "name": "bell-floor-2",
+        "x": 6.130450132391884,
+        "y": 10.54,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-52-bell-floor-3-copy",
+        "name": "bell-floor-3",
+        "x": 6.680450132391883,
+        "y": 10.54,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-52-bell-upper-1-copy",
+        "name": "bell-upper-1",
+        "x": 5.630450132391884,
+        "y": 10.04,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-52-bell-upper-2-copy",
+        "name": "bell-upper-2",
+        "x": 6.130450132391884,
+        "y": 10.04,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-52-bell-upper-3-copy",
+        "name": "bell-upper-3",
+        "x": 6.680450132391883,
+        "y": 10.04,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-52-bell-roof-beam-copy",
+        "name": "bell-roof-beam",
+        "x": 6.130450132391884,
+        "y": 9.68,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-52-bell-roof-copy",
+        "name": "bell-roof",
+        "x": 5.7304501323918835,
+        "y": 9.229999999999999,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-13-copy",
+        "name": "直角三角形",
+        "x": 6.580450132391883,
+        "y": 9.249999999999998,
+        "angle": 4.71238898038469,
+        "shapePresetId": "right-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "isosceles-triangle-1",
+        "name": "等腰三角形",
+        "x": 4.37909973521624,
+        "y": 10.428939130434783,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

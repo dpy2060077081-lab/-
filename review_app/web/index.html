@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>图片审核</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+  <header>
+    <strong>图片差异审核</strong><span id="project"></span><span id="counter"></span>
+    <button id="reviewTab" class="active">主审核页</button><button id="redoTab">待重做页</button>
+    <button id="export">导出已通过图片</button><button id="editReasons">编辑原因</button><button id="choose">切换项目</button>
+  </header>
+  <main>
+    <section id="viewer">
+      <div class="pane"><label>原图</label><img id="original" draggable="false"></div>
+      <div class="pane"><label>修改图</label><img id="modified" draggable="false"></div>
+      <div id="empty">请选择项目，或等待符合规则的修改图。</div>
+    </section>
+    <footer><span id="id"></span><button data-action="accept">A 通过</button><button data-action="redo">R 待重做</button><button data-action="reject">X 剔除</button><button id="undo">Z 撤销</button><span id="message"></span></footer>
+  </main>
+  <dialog id="projectDialog"><form method="dialog"><h3>项目数据目录</h3><p>请输入本机绝对路径。首次使用时会创建三个业务目录和 .review。</p><input id="projectPath" autocomplete="off" placeholder="D:\项目数据 或 /Users/me/项目数据"><menu><button value="cancel">取消</button><button id="projectSave" value="default">打开</button></menu></form></dialog>
+  <dialog id="reasonDialog"><form method="dialog"><h3>选择待重做原因</h3><div id="reasons"></div><menu><button id="skipReason" value="skip">跳过原因</button><button value="cancel">取消</button></menu></form></dialog>
+  <script src="app.js"></script>
+</body></html>

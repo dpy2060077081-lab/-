@@ -1,0 +1,241 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-09",
+  "level": {
+    "number": 9,
+    "name": "普通关卡",
+    "difficulty": "normal",
+    "description": "根据残局在普通炮弹和爆炸炮弹之间做选择。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 1,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "editor-piece-2",
+        "name": "left tower 1 1 · 木头 · 高塔2-木质",
+        "x": 4.8,
+        "y": 12.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-3",
+        "name": "left tower 1 2 · 石材 · 高塔2-木质",
+        "x": 4.8,
+        "y": 11.53,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-4",
+        "name": "left tower 1 3 · 玻璃 · 高塔2-木质",
+        "x": 4.8,
+        "y": 11.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-5",
+        "name": "left tower 2 1 · 金属 · 高塔2-木质",
+        "x": 5.3,
+        "y": 12.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-6",
+        "name": "left tower 2 2 · 木头 · 高塔2-木质",
+        "x": 5.3,
+        "y": 11.53,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-7",
+        "name": "left tower 2 3 · 石材 · 高塔2-木质",
+        "x": 5.3,
+        "y": 11.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-8",
+        "name": "left tower 3 1 · 玻璃 · 高塔2-木质",
+        "x": 5.8,
+        "y": 12.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-9",
+        "name": "left tower 3 2 · 金属 · 高塔2-木质",
+        "x": 5.8,
+        "y": 11.53,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-10",
+        "name": "left tower 3 3 · 木头 · 高塔2-木质",
+        "x": 5.8,
+        "y": 11.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-11",
+        "name": "left tower crown 1 · 金属 · 高塔2-木质",
+        "x": 5.3,
+        "y": 10.52,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "left tower crown 2 · 木头 · 高塔2-木质",
+        "x": 5.3,
+        "y": 10.02,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "left tower roof · 金属 · 高塔2-木质",
+        "x": 5.3,
+        "y": 9.5,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "left tower 1 1 · 木头 · 高塔2-木质",
+        "x": 3.25,
+        "y": 12.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "left tower 1 2 · 石材 · 高塔2-木质",
+        "x": 3.25,
+        "y": 11.53,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "left tower 1 3 · 玻璃 · 高塔2-木质",
+        "x": 3.25,
+        "y": 11.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "left tower 2 1 · 金属 · 高塔2-木质",
+        "x": 3.75,
+        "y": 12.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "left tower 2 2 · 木头 · 高塔2-木质",
+        "x": 3.75,
+        "y": 11.53,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "left tower 2 3 · 石材 · 高塔2-木质",
+        "x": 3.75,
+        "y": 11.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "left tower 3 1 · 玻璃 · 高塔2-木质",
+        "x": 4.25,
+        "y": 12.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "left tower 3 2 · 金属 · 高塔2-木质",
+        "x": 4.25,
+        "y": 11.53,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "left tower 3 3 · 木头 · 高塔2-木质",
+        "x": 4.25,
+        "y": 11.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "left tower crown 1 · 金属 · 高塔2-木质",
+        "x": 3.75,
+        "y": 10.52,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-24",
+        "name": "left tower crown 2 · 木头 · 高塔2-木质",
+        "x": 3.75,
+        "y": 10.02,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-25",
+        "name": "left tower roof · 金属 · 高塔2-木质",
+        "x": 3.75,
+        "y": 9.5,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-26",
+        "name": "等腰三角形",
+        "x": 4.53,
+        "y": 10.5,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

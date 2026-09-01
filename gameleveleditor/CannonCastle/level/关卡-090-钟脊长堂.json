@@ -1,0 +1,407 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-90",
+  "level": {
+    "frozenBodies": [],
+    "number": 90,
+    "name": "钟脊长堂",
+    "difficulty": "super-hard",
+    "description": "严格按示例图的整体木构搭建：左侧阶顶钟塔、中央双坡木屋脊、下方双层开放柱廊和右侧方形附塔彼此相接。",
+    "normalAmmo": 16,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-90-left-bell-tower-1-left-leg",
+        "name": "left-bell-tower-1-left-leg",
+        "x": 2.15,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-bell-tower-1-right-leg",
+        "name": "left-bell-tower-1-right-leg",
+        "x": 2.75,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-bell-tower-1-lintel",
+        "name": "left-bell-tower-1-lintel",
+        "x": 2.45,
+        "y": 11.32,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-bell-tower-2-left-leg",
+        "name": "left-bell-tower-2-left-leg",
+        "x": 2.15,
+        "y": 10.709999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-bell-tower-2-right-leg",
+        "name": "left-bell-tower-2-right-leg",
+        "x": 2.75,
+        "y": 10.709999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-bell-tower-2-lintel",
+        "name": "left-bell-tower-2-lintel",
+        "x": 2.45,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-bell-tower-3-left-leg",
+        "name": "left-bell-tower-3-left-leg",
+        "x": 2.24,
+        "y": 9.49,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-bell-tower-3-right-leg",
+        "name": "left-bell-tower-3-right-leg",
+        "x": 2.75,
+        "y": 9.49,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-bell-tower-3-lintel",
+        "name": "left-bell-tower-3-lintel",
+        "x": 2.45,
+        "y": 8.88,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-crown-plinth",
+        "name": "left-crown-plinth",
+        "x": 2.45,
+        "y": 8.48,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-crown-step-1",
+        "name": "left-crown-step-1",
+        "x": 2.45,
+        "y": 8.030000000000001,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-crown-step-2",
+        "name": "left-crown-step-2",
+        "x": 2.45,
+        "y": 7.530000000000001,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-left-crown-step-3",
+        "name": "left-crown-step-3",
+        "x": 2.45,
+        "y": 7.120000000000001,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-nave-ground-post-1",
+        "name": "nave-ground-post-1",
+        "x": 3.25,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-90-nave-ground-rail-1",
+        "name": "nave-ground-rail-1",
+        "x": 3.5,
+        "y": 11.42,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-90-nave-gallery-post-1",
+        "name": "nave-gallery-post-1",
+        "x": 3.5,
+        "y": 10.91,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-90-nave-wide-eave-1",
+        "name": "nave-wide-eave-1",
+        "x": 3.5,
+        "y": 10.4,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-90-nave-ground-post-2",
+        "name": "nave-ground-post-2",
+        "x": 4.4,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-90-nave-ground-rail-2",
+        "name": "nave-ground-rail-2",
+        "x": 4.6,
+        "y": 11.42,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-90-nave-gallery-post-2",
+        "name": "nave-gallery-post-2",
+        "x": 4.6,
+        "y": 10.91,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-90-nave-wide-eave-2",
+        "name": "nave-wide-eave-2",
+        "x": 4.6,
+        "y": 10.4,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-90-nave-ground-post-3",
+        "name": "nave-ground-post-3",
+        "x": 5.889999999999999,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-90-nave-ground-rail-3",
+        "name": "nave-ground-rail-3",
+        "x": 5.7,
+        "y": 11.42,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-90-nave-gallery-post-3",
+        "name": "nave-gallery-post-3",
+        "x": 5.7,
+        "y": 10.91,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-90-nave-wide-eave-3",
+        "name": "nave-wide-eave-3",
+        "x": 5.7,
+        "y": 10.4,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-90-right-annex-1-left-leg",
+        "name": "right-annex-1-left-leg",
+        "x": 6.45,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-right-annex-1-right-leg",
+        "name": "right-annex-1-right-leg",
+        "x": 7,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-right-annex-1-lintel",
+        "name": "right-annex-1-lintel",
+        "x": 6.72,
+        "y": 11.32,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-right-annex-2-left-leg",
+        "name": "right-annex-2-left-leg",
+        "x": 6.45,
+        "y": 10.709999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-right-annex-2-right-leg",
+        "name": "right-annex-2-right-leg",
+        "x": 7,
+        "y": 10.709999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-right-annex-2-lintel",
+        "name": "right-annex-2-lintel",
+        "x": 6.72,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-right-annex-roof-rail",
+        "name": "right-annex-roof-rail",
+        "x": 6.72,
+        "y": 9.7,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-90-right-annex-cap",
+        "name": "right-annex-cap",
+        "x": 6.72,
+        "y": 9.25,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "rectangle-1",
+        "name": "矩形",
+        "x": 3.75,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "rectangle-2",
+        "name": "矩形",
+        "x": 4.8500000000000005,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "rectangle-3",
+        "name": "矩形",
+        "x": 5.460000000000001,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "long-thin-rectangle-1",
+        "name": "细长矩形",
+        "x": 4.630000000000003,
+        "y": 10.16,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1",
+        "name": "正方形",
+        "x": 4.2,
+        "y": 9.830000000000004,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-2",
+        "name": "正方形",
+        "x": 4.729999999999998,
+        "y": 9.840000000000016,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-3",
+        "name": "正方形",
+        "x": 5.230000000000003,
+        "y": 9.839999999999986,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "metal-1",
+        "name": "金属",
+        "x": 4.430000000000003,
+        "y": 9.349999999999984,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "metal-2",
+        "name": "金属",
+        "x": 4.949999999999995,
+        "y": 9.29999999999999,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "metal-3",
+        "name": "金属",
+        "x": 4.71,
+        "y": 8.829999999999997,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      }
+    ]
+  }
+}

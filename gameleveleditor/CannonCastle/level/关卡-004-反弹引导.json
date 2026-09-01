@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-04",
+  "level": {
+    "number": 4,
+    "name": "反弹引导",
+    "difficulty": "normal",
+    "description": "第一次利用侧墙反弹，攻击正面不容易命中的位置。",
+    "normalAmmo": 6,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "editor-piece-3",
+        "name": "细长矩形 · 高塔 · 高塔-木质",
+        "x": 4.25,
+        "y": 11.24,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-4",
+        "name": "细长矩形副本 · 高塔 · 高塔-木质",
+        "x": 4.75,
+        "y": 11.24,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-5",
+        "name": "细矩形 · 高塔 · 高塔-木质",
+        "x": 4.5,
+        "y": 10.05,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-6",
+        "name": "正方形 · 高塔 · 高塔-木质",
+        "x": 4.5,
+        "y": 9.7,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-7",
+        "name": "正方形副本 · 高塔 · 高塔-木质",
+        "x": 4.5,
+        "y": 9.2,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-8",
+        "name": "正方形副本副本 · 高塔 · 高塔-木质",
+        "x": 4.5,
+        "y": 8.6,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-9",
+        "name": "等腰三角形 · 高塔 · 高塔-木质",
+        "x": 4.5,
+        "y": 8.1,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

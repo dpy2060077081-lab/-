@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-08-24",
+  "source": {
+    "skill": "building-game-level-editors",
+    "skillPath": "SKILL.md",
+    "skillSha256": "3e7749003d70ff2eed9534db253629ecb15a5d7ef2cb4e2d65c4e0a1942abe6b",
+    "templatePath": "assets/template",
+    "templateTreeSha256": "fdf65cab4e1525f9446c9d8f90bb076c6d3e4f08b663dae07a566d1c97bf1c79"
+  },
+  "files": [
+    {
+      "path": "asset.json",
+      "projectPath": "全局配置.json",
+      "mode": "adapted",
+      "templateSha256": "13bebb5fc15f258cf401dbf84feb855288fb890cf3faf8aa485dc4b82bc8460e",
+      "projectSha256": "735800d8517813f587b46addcc967bf89059554aba1bcc44dedef36112cd9b33",
+      "adaptation": "模板资产配置已合并到唯一的全局配置.json；爆炸桶沿用 globalObjectProfiles.explosiveBarrel 层级，冰冻体物理参数沿用 globalObjectProfiles.frozenBody 层级，现有兼容形状全部在资源库显示，并移除未被正式关卡引用的 build-* 建筑形状。"
+    },
+    {
+      "path": "config.json",
+      "projectPath": "全局配置.json",
+      "mode": "adapted",
+      "templateSha256": "4602f1ace13335e4e0313b32c818c4d5bee96460ef22b644abd169d4a1486aa3",
+      "projectSha256": "735800d8517813f587b46addcc967bf89059554aba1bcc44dedef36112cd9b33",
+      "adaptation": "模板项目配置已合并到唯一的全局配置.json；包含 Canvas、自由世界尺寸、原版 runtime 与冰冻体物理配置。"
+    },
+    {
+      "path": "gamelogic.js",
+      "mode": "adapted",
+      "templateSha256": "d2d1ad271950a7028bf695ddf1ab0e64cadf5468a7e7309500ebe1221d54a4a8",
+      "projectSha256": "77b89d2182e84279119f1d043f2c46efcfadc1173618bbd080fd64c7c3c32543",
+      "adaptation": "自由坐标城堡绘制、原 demo 正式破损素材、双固定螺栓（小号十字槽）、炮台、弹道边界、炮弹与 HUD 表现（不显示物品血条），严格 authored v2 与 legacy/runtime 分界、难度与结束动作适配；爆炸桶等特殊物品保持实心渲染，普通形状按资源 hollow 字段决定空心效果；资源拖入预览支持半透明绘制；编辑拖拽磁吸时绘制缩放自适应的对齐参考线；冰冻体按真实成员轮廓绘制完整与裂纹状态。"
+    },
+    {
+      "path": "index.html",
+      "mode": "adapted",
+      "templateSha256": "18eb90b61a3c4ae81d1c0a5fc76ef7caa6cd8e9f4b45a3805969a103b0eefc4a",
+      "projectSha256": "b0984e213a8743fa886ecab76d242094c6060ca680684ded058ed26963c48308",
+      "adaptation": "保留 LevelCraft 三栏与三 Tab 骨架，按文件归属拆分全局/关卡字段，提供全部已知关卡配置控件、runtime 物理面板、物品面板、冰冻体操作与四种炮弹的可访问 HUD；资源库不提供新增资源入口。"
+    },
+    {
+      "path": "levellist.js",
+      "mode": "adapted",
+      "templateSha256": "b8d034e0c61b4ab99cf73818076c8afa43bc26d2256393d0c9f6f602fd35667f",
+      "projectSha256": "4631bc58b626c2adbb575b6c6de13a8f7469fd3fbf5456bbbcaa59121a60df1b",
+      "adaptation": "从导出清单与 WebView 目录动态发现并稳定排序正式关卡及桌面编辑器新增的 level-*.json，保留已有本地关卡并避免重复分配编号。"
+    },
+    {
+      "path": "start.exe",
+      "mode": "exact",
+      "templateSha256": "16c0d8f04a14e34adcb76336bbd7b2607970724e5b5b5269e3d958b395297c79",
+      "projectSha256": "16c0d8f04a14e34adcb76336bbd7b2607970724e5b5b5269e3d958b395297c79"
+    },
+    {
+      "path": "level/level-1.json",
+      "projectPath": "level/关卡-001-直射引导.json",
+      "mode": "adapted",
+      "templateSha256": "00ce3f7c4f37e8798a6b227ac53f4b72b2972d082ac3f3882c7a5c5c5a9c2abb",
+      "projectSha256": "473d68b82eed3bbaa2ab4e5ffccf474effcf9d09961ae8ae47693325635b7755",
+      "adaptation": "模板示例由导出清单中的首个正式 v2 自由坐标关卡替代。"
+    },
+    {
+      "path": "static/css/editor.css",
+      "mode": "adapted",
+      "templateSha256": "e281bb2a1c63d280079388ff13f315d73f6ef525fad5de00b3cc9dfb7f969752",
+      "projectSha256": "db5002325382a932f97c6f92f79884137fb082abe3b83c5bd24320d6789ad9e1",
+      "adaptation": "保留最新模板 CSS，仅授权关卡列固定 220px、检查器两/三列紧凑响应式字段网格、冰冻体操作行、炮弹信息卡与五类材质缩略图程序化视觉。"
+    },
+    {
+      "path": "static/img/.gitkeep",
+      "mode": "exact",
+      "templateSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "projectSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "static/js/editor-store.js",
+      "mode": "adapted",
+      "templateSha256": "219e959c2b068e18e9ff3e31a816a3fd29a2692771946bf7ab1f26ed5d7ec9e2",
+      "projectSha256": "2544c1671b8fa711160965bd869ab8163e609390b21149afae168eb7fbe602ec",
+      "adaptation": "自由坐标关卡、稳定工作区身份、修改前校验、可替换的关卡扩展字段、资源引用与统一工作区事务状态；仅在全局配置或资源实际变脏时写入全局配置.json。复制物品时自动寻找不重叠的空位，并支持会话剪贴板粘贴单选或多选对象；冰冻体成员选择会扩展为完整分组，移动、旋转、复制、删除及撤销重做保持分组一致。切换关卡选择不保存时，将关卡回退到上次保存的内容并同步顶部保存状态。"
+    },
+    {
+      "path": "static/js/editor.js",
+      "mode": "adapted",
+      "templateSha256": "f41cfbe8c779b8065df189935a15ac201573aecb40a13e1885b6e4b0e733b061",
+      "projectSha256": "6c9b72891c40499fb091d82899866bc2a371a984a36ba36daa31ff3d74b196a9",
+      "adaptation": "陨石城堡编辑协调、安全 DOM、按归属绑定的全局/关卡配置、动态材质卡底色、资源/物品面板、原版试玩与浏览器只读边界；桌面试玩开放全部右侧配置并在合法修改后即时重建运行时，保留原版普通/爆炸炮弹并接入分裂/黑洞炮弹的 HUD 、配置与试玩运行时。"
+    },
+    {
+      "path": "static/js/local-files.js",
+      "mode": "adapted",
+      "templateSha256": "a5298020e34b0ba6cf46c6e3f886e40bfe1b8609a7906ee2045ee34a9783e87c",
+      "projectSha256": "c7261f795cccb9952fc562ddb847a6f99e82096f41662f839bf31a0fed7033b5",
+      "adaptation": "WebView 文件 API 成功/错误 envelope 与工作区相对路径保护。"
+    }
+  ]
+}

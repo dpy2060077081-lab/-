@@ -1,0 +1,323 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-81",
+  "level": {
+    "number": 81,
+    "name": "阶台尖哨",
+    "difficulty": "normal",
+    "description": "双基塔托双栓浮梁，天空城凌驾云端，四桶环绕终局。",
+    "normalAmmo": 5,
+    "explosiveAmmo": 0,
+    "platformType": "double-3",
+    "castle": [
+      {
+        "id": "level-80-footing-1",
+        "name": "footing-1",
+        "x": 2.85,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-footing-2",
+        "name": "footing-2",
+        "x": 3.35,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-footing-3",
+        "name": "footing-3",
+        "x": 3.85,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-footing-4",
+        "name": "爆炸桶",
+        "x": 4.15,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-80-footing-5",
+        "name": "footing-5",
+        "x": 4.8999999999999995,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-footing-6",
+        "name": "footing-6",
+        "x": 5.35,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-footing-7",
+        "name": "footing-7",
+        "x": 5.85,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-footing-8",
+        "name": "footing-8",
+        "x": 6.35,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-footing-9",
+        "name": "footing-9",
+        "x": 6.85,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-footing-10",
+        "name": "footing-10",
+        "x": 7.35,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-wing-foundation",
+        "name": "wing-foundation",
+        "x": 3.95,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-foundation",
+        "name": "tower-foundation",
+        "x": 6.15,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-wing-post-1-left",
+        "name": "wing-post-1-left",
+        "x": 3.4,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-wing-post-1-right",
+        "name": "wing-post-1-right",
+        "x": 4.9,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-wing-belt-1",
+        "name": "wing-belt-1",
+        "x": 4.15,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-wing-post-2-left",
+        "name": "wing-post-2-left",
+        "x": 3.4,
+        "y": 10.170000000000002,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-wing-post-2-right",
+        "name": "wing-post-2-right",
+        "x": 4.9,
+        "y": 10.170000000000002,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-wing-belt-2",
+        "name": "wing-belt-2",
+        "x": 4.15,
+        "y": 9.649999999999999,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-wing-roof",
+        "name": "wing-roof",
+        "x": 4.15,
+        "y": 9.275000000000002,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-post-1-left",
+        "name": "tower-post-1-left",
+        "x": 5.35,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-post-1-right",
+        "name": "tower-post-1-right",
+        "x": 6.15,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-belt-1",
+        "name": "tower-belt-1",
+        "x": 5.75,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-post-2-left",
+        "name": "tower-post-2-left",
+        "x": 5.35,
+        "y": 10.170000000000002,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-post-2-right",
+        "name": "tower-post-2-right",
+        "x": 6.15,
+        "y": 10.170000000000002,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-belt-2",
+        "name": "tower-belt-2",
+        "x": 5.75,
+        "y": 9.649999999999999,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-window-1",
+        "name": "tower-window-1",
+        "x": 5.75,
+        "y": 10.420000000000002,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-post-3-left",
+        "name": "tower-post-3-left",
+        "x": 5.35,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-post-3-right",
+        "name": "tower-post-3-right",
+        "x": 6.15,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-belt-3",
+        "name": "tower-belt-3",
+        "x": 5.75,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-window-2",
+        "name": "tower-window-2",
+        "x": 5.75,
+        "y": 9.38,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-post-4-left",
+        "name": "tower-post-4-left",
+        "x": 5.35,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-post-4-right",
+        "name": "tower-post-4-right",
+        "x": 6.15,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-belt-4",
+        "name": "tower-belt-4",
+        "x": 5.75,
+        "y": 7.569999999999999,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-80-tower-roof",
+        "name": "tower-roof",
+        "x": 5.699999999999999,
+        "y": 7.1899999999999995,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "rubber"
+      }
+    ]
+  }
+}

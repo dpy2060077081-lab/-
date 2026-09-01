@@ -1,0 +1,304 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-17",
+  "level": {
+    "number": 17,
+    "name": "倾斜危塔",
+    "difficulty": "normal",
+    "description": "Imported user-authored level.",
+    "normalAmmo": 8,
+    "explosiveAmmo": 1,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-17-rear-weakpoint-1",
+        "name": "rear-weakpoint",
+        "x": 3.6,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-foundation-r-1-c2-2",
+        "name": "foundation-r-1-c2",
+        "x": 5.4,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-load-beam-r0-c1-3",
+        "name": "load-beam-r0-c1",
+        "x": 4.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r1-c1-4",
+        "name": "body-r1-c1",
+        "x": 3.75,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-body-r1-c2-5",
+        "name": "body-r1-c2",
+        "x": 4.25,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r1-c3-6",
+        "name": "body-r1-c3",
+        "x": 4.75,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-body-r1-c4-7",
+        "name": "body-r1-c4",
+        "x": 5.25,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r2-c1-8",
+        "name": "body-r2-c1",
+        "x": 3.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-body-r2-c2-9",
+        "name": "body-r2-c2",
+        "x": 4.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r2-c3-10",
+        "name": "body-r2-c3",
+        "x": 4.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r2-c4-11",
+        "name": "body-r2-c4",
+        "x": 5.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r3-c1-12",
+        "name": "body-r3-c1",
+        "x": 3.75,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r3-c2-13",
+        "name": "body-r3-c2",
+        "x": 4.25,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-body-r3-c3-14",
+        "name": "body-r3-c3",
+        "x": 4.75,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r3-c4-15",
+        "name": "body-r3-c4",
+        "x": 5.25,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-body-r4-c1-16",
+        "name": "body-r4-c1",
+        "x": 3.75,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r4-c2-17",
+        "name": "body-r4-c2",
+        "x": 4.25,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-body-r4-c3-18",
+        "name": "body-r4-c3",
+        "x": 4.75,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r4-c4-19",
+        "name": "body-r4-c4",
+        "x": 5.25,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-body-r5-c1-20",
+        "name": "body-r5-c1",
+        "x": 4,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r5-c2-21",
+        "name": "body-r5-c2",
+        "x": 4.5,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-body-r5-c3-22",
+        "name": "body-r5-c3",
+        "x": 5,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r6-c1-23",
+        "name": "body-r6-c1",
+        "x": 4,
+        "y": 8.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-body-r6-c2-24",
+        "name": "body-r6-c2",
+        "x": 4.5,
+        "y": 8.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r6-c3-25",
+        "name": "body-r6-c3",
+        "x": 5,
+        "y": 8.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-body-r7-c1-26",
+        "name": "body-r7-c1",
+        "x": 4,
+        "y": 8.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r7-c2-27",
+        "name": "body-r7-c2",
+        "x": 4.5,
+        "y": 8.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r7-c3-28",
+        "name": "body-r7-c3",
+        "x": 5,
+        "y": 8.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-body-r8-c1-29",
+        "name": "body-r8-c1",
+        "x": 4.25,
+        "y": 7.869999999999999,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-body-r8-c2-30",
+        "name": "body-r8-c2",
+        "x": 4.75,
+        "y": 7.869999999999999,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-17-crown-r9-c1-31",
+        "name": "crown-r9-c1",
+        "x": 4.25,
+        "y": 7.369999999999999,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-17-crown-r11-c1-32",
+        "name": "crown-r11-c1",
+        "x": 4.25,
+        "y": 6.839999999999999,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

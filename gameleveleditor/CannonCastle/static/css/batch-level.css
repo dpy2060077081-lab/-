@@ -1,0 +1,29 @@
+.level-head-actions{display:flex;flex-direction:row!important;align-items:center;gap:5px}
+.level-head-actions #batch-level-button{width:auto;padding:0 7px;font-size:9px}
+.batch-dialog{width:min(1060px,94vw);max-height:90vh;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--text);box-shadow:var(--shadow)}
+.batch-dialog::backdrop{background:rgba(3,6,12,.76);backdrop-filter:blur(4px)}
+.batch-controls{display:grid;grid-template-columns:110px minmax(180px,1fr) auto auto;align-items:end;gap:8px}
+.batch-controls label{display:grid;gap:5px;color:var(--muted);font-size:10px}
+.batch-version-note{margin-top:7px;color:var(--muted);font-size:10px}
+.batch-dialog button{min-height:32px;padding:0 11px;border:1px solid var(--line);border-radius:7px;background:var(--panel-2);color:var(--text)}
+.batch-dialog button.primary{border-color:var(--accent);background:var(--accent);color:#fff}
+.batch-summary{display:grid;gap:4px;margin:12px 0;padding:10px;border:1px solid var(--line-soft);border-radius:8px;background:var(--panel-2)}
+.batch-summary small{color:var(--muted)}
+.batch-selection{display:grid;grid-template-columns:auto auto auto 1fr auto;gap:7px}
+.batch-view-controls{display:flex;gap:8px;margin-bottom:8px}
+.batch-view-controls label{display:flex;align-items:center;gap:5px;color:var(--muted);font-size:10px}
+.batch-view-controls .control{min-height:30px}
+.batch-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin-top:12px;max-height:56vh;overflow:auto}
+.batch-card{position:relative;padding:9px;border:1px solid var(--line);border-radius:9px;background:var(--panel-2)}
+.batch-card.is-comparison{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.batch-card-temporary{border-style:dashed}
+.batch-card-previews{display:grid;gap:6px;margin:7px 0}
+.batch-card-preview{display:grid;gap:3px;color:var(--muted);font-size:9px;text-align:center}
+.batch-card canvas{display:block;width:100%;height:auto;border-radius:6px;background:#141a24}
+.batch-card strong,.batch-card small{display:block}
+.batch-card small{margin-top:3px;color:var(--muted)}
+.batch-card-select{font-size:10px}
+.batch-card-actions{display:flex;gap:6px;margin-top:8px}
+.batch-card-actions button{flex:1;min-height:28px}
+@media(max-width:700px){.batch-controls{grid-template-columns:1fr 1fr}.batch-view-controls{display:grid;grid-template-columns:1fr 1fr}.batch-selection{grid-template-columns:repeat(3,1fr)}.batch-selection span{display:none}.batch-selection .primary{grid-column:1/-1}}
+

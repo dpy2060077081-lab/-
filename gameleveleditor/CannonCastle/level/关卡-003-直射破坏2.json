@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-03",
+  "level": {
+    "number": 3,
+    "name": "直射破坏2",
+    "difficulty": "normal",
+    "description": "观察倒塌和滚落，清除平台上的全部物件。",
+    "normalAmmo": 7,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-03-piece-1",
+        "name": "矩形",
+        "x": 3.9,
+        "y": 12.14,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-2",
+        "name": "矩形副本",
+        "x": 5.1,
+        "y": 12.14,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-3",
+        "name": "矩形副本",
+        "x": 4.1,
+        "y": 11.74,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-4",
+        "name": "矩形副本副本",
+        "x": 4.9,
+        "y": 11.74,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-5",
+        "name": "矩形副本副本",
+        "x": 4.1,
+        "y": 11.34,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-6",
+        "name": "矩形副本副本副本",
+        "x": 4.9,
+        "y": 11.34,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-7",
+        "name": "细长矩形",
+        "x": 4.5,
+        "y": 11.03,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-8",
+        "name": "正方形",
+        "x": 3.65,
+        "y": 10.67,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-9",
+        "name": "正方形副本",
+        "x": 5.3,
+        "y": 10.67,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-10",
+        "name": "直角三角形",
+        "x": 3.7,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-11",
+        "name": "直角三角形副本",
+        "x": 5.27,
+        "y": 10.1,
+        "angle": 4.71238898038469,
+        "shapePresetId": "right-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "圆形",
+        "x": 4.25,
+        "y": 10.64,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "圆形副本",
+        "x": 4.75,
+        "y": 10.64,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "圆形副本副本",
+        "x": 4.25,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "圆形副本副本副本",
+        "x": 4.8,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "圆形副本副本副本副本",
+        "x": 4.6,
+        "y": 9.6,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

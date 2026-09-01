@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-07",
+  "level": {
+    "number": 7,
+    "name": "爆炸炮弹引导",
+    "difficulty": "normal",
+    "description": "首次获得爆炸炮弹，学习切换并引爆密集物件。",
+    "normalAmmo": 5,
+    "explosiveAmmo": 2,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-07-piece-10",
+        "name": "矩形",
+        "x": 3.2,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-2",
+        "name": "矩形副本",
+        "x": 3.2,
+        "y": 11.1,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-3",
+        "name": "矩形副本副本",
+        "x": 3.2,
+        "y": 10.25,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-4",
+        "name": "矩形副本",
+        "x": 5.8,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-5",
+        "name": "矩形副本副本",
+        "x": 5.8,
+        "y": 11.1,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-6",
+        "name": "矩形副本副本副本",
+        "x": 5.8,
+        "y": 10.25,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-7",
+        "name": "正方形",
+        "x": 4.5,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-8",
+        "name": "圆形",
+        "x": 4.47,
+        "y": 11.56,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-9",
+        "name": "等腰三角形",
+        "x": 5.8,
+        "y": 9.5,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-10",
+        "name": "等腰三角形副本",
+        "x": 3.2,
+        "y": 9.5,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

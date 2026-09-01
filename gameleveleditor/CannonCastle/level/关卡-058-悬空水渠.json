@@ -1,0 +1,262 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-58",
+  "level": {
+    "frozenBodies": [],
+    "number": 58,
+    "name": "悬空水渠",
+    "difficulty": "normal",
+    "description": "上下螺栓梁夹火药桶，桶爆双梁齐断。",
+    "normalAmmo": 7,
+    "explosiveAmmo": 0,
+    "platformType": "double-2",
+    "castle": [
+      {
+        "id": "level-58-bolted-channel-start",
+        "name": "固定玻璃渠托",
+        "x": 3.21,
+        "y": 10.12999999999999,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-58-channel-main-beam",
+        "name": "channel-main-beam",
+        "x": 4.499999999999999,
+        "y": 9.819999999999991,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-58-channel-1",
+        "name": "channel-1",
+        "x": 5.129488084730802,
+        "y": 8.714999999999993,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-58-channel-2",
+        "name": "channel-2",
+        "x": 5.1,
+        "y": 9.59999999999999,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-58-water-load-2",
+        "name": "water-load-2",
+        "x": 4.859999999999999,
+        "y": 9.339999999999991,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-58-water-load-3",
+        "name": "water-load-3",
+        "x": 5.39,
+        "y": 9.339999999999991,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-58-right-pier-base",
+        "name": "right-pier-base",
+        "x": 5.35,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-58-right-bank-marker",
+        "name": "right-bank-marker",
+        "x": 6.5,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-58-bolted-channel-start-copy",
+        "name": "固定玻璃渠托",
+        "x": 5.719488084730803,
+        "y": 10.129999999999988,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-58-right-bank-marker-copy",
+        "name": "right-bank-marker",
+        "x": 5.93,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-58-right-pier-base-copy",
+        "name": "right-pier-base",
+        "x": 5.3244880847308025,
+        "y": 11.57513043478261,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-58-right-bank-marker-copy-2",
+        "name": "right-bank-marker",
+        "x": 6.474488084730803,
+        "y": 11.57513043478261,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-58-right-bank-marker-copy-copy",
+        "name": "right-bank-marker",
+        "x": 5.9044880847308026,
+        "y": 11.57513043478261,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-58-right-pier-base-copy-2",
+        "name": "right-pier-base",
+        "x": 2.5973962930273595,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-58-right-bank-marker-copy-3",
+        "name": "right-bank-marker",
+        "x": 3.74739629302736,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-58-right-bank-marker-copy-copy-2",
+        "name": "right-bank-marker",
+        "x": 3.1773962930273596,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-58-right-pier-base-copy-copy",
+        "name": "right-pier-base",
+        "x": 2.5718843777581624,
+        "y": 11.57513043478261,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-58-right-bank-marker-copy-2-copy",
+        "name": "right-bank-marker",
+        "x": 3.7218843777581627,
+        "y": 11.57513043478261,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-58-right-bank-marker-copy-copy-copy",
+        "name": "right-bank-marker",
+        "x": 3.1518843777581624,
+        "y": 11.57513043478261,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-58-channel-main-beam-copy",
+        "name": "channel-main-beam",
+        "x": 4.504999999999997,
+        "y": 11.176086956521731,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "isosceles-triangle-1",
+        "name": "等腰三角形",
+        "x": 4.524488084730803,
+        "y": 10.770156521739134,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-58-channel-2-copy",
+        "name": "channel-2",
+        "x": 3.9500000000000037,
+        "y": 9.599999999999989,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-58-water-load-2-copy",
+        "name": "water-load-2",
+        "x": 3.6600000000000037,
+        "y": 9.33999999999999,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-58-water-load-3-copy",
+        "name": "water-load-3",
+        "x": 4.190000000000004,
+        "y": 9.33999999999999,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-58-channel-1-copy",
+        "name": "channel-1",
+        "x": 3.9131156222418424,
+        "y": 8.723069565217372,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "short-thin-rectangle-1",
+        "name": "细矩形",
+        "x": 3.9131156222418415,
+        "y": 9.071356521739135,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "short-thin-rectangle-1-copy",
+        "name": "细矩形",
+        "x": 5.123976169461603,
+        "y": 9.06499999999999,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

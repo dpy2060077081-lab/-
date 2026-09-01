@@ -1,0 +1,394 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-20",
+  "level": {
+    "number": 20,
+    "name": "非对称王城",
+    "difficulty": "super-hard",
+    "description": "Imported user-authored level.",
+    "normalAmmo": 10,
+    "explosiveAmmo": 1,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-20-weakpoint-two-stage-1-1",
+        "name": "weakpoint-two-stage-1",
+        "x": 2.95,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-20-foundation-r-1-c2-2",
+        "name": "foundation-r-1-c2",
+        "x": 4.5,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-20-weakpoint-two-stage-3-3",
+        "name": "weakpoint-two-stage-3",
+        "x": 6.05,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-20-cross-tower-link-4",
+        "name": "cross-tower-link",
+        "x": 3.4,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-20-cross-tower-link-5",
+        "name": "cross-tower-link",
+        "x": 5.6,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-6",
+        "name": "圆形",
+        "x": 2.28,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-7",
+        "name": "圆形",
+        "x": 6.72,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-8",
+        "name": "foundation-r-1-c2副本",
+        "x": 2.55,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-9",
+        "name": "foundation-r-1-c2副本副本",
+        "x": 3.1,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-10",
+        "name": "foundation-r-1-c2副本副本",
+        "x": 3.65,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-11",
+        "name": "foundation-r-1-c2副本副本副本",
+        "x": 4.25,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "foundation-r-1-c2副本副本副本",
+        "x": 4.8,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "foundation-r-1-c2副本副本副本副本",
+        "x": 5.35,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "foundation-r-1-c2副本副本副本副本",
+        "x": 5.9,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "foundation-r-1-c2副本副本副本副本副本",
+        "x": 6.45,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "细长矩形",
+        "x": 3.4,
+        "y": 11.01,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "细长矩形副本",
+        "x": 5.65,
+        "y": 11.01,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "正方形 · 小城墙",
+        "x": 2.8,
+        "y": 10.64,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "正方形副本 · 小城墙",
+        "x": 3.4,
+        "y": 10.64,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "正方形副本 · 小城墙",
+        "x": 2.8,
+        "y": 10.14,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "正方形副本副本 · 小城墙",
+        "x": 3.4,
+        "y": 10.14,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "正方形副本副本 · 小城墙",
+        "x": 4,
+        "y": 10.61,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "正方形副本副本副本 · 小城墙",
+        "x": 4,
+        "y": 10.11,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-24",
+        "name": "细长矩形 · 小城墙",
+        "x": 3.4,
+        "y": 9.75,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-25",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本副本副本副本 · 小城墙",
+        "x": 2.55,
+        "y": 9.39,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-26",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本副本副本副本副本 · 小城墙",
+        "x": 4.25,
+        "y": 9.39,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-27",
+        "name": "等腰三角形 · 小城墙",
+        "x": 3.4,
+        "y": 9.36,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-28",
+        "name": "left tower 1 1 · 木头 · 高塔2-木质",
+        "x": 5.2,
+        "y": 10.68,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-29",
+        "name": "left tower 1 2 · 石材 · 高塔2-木质",
+        "x": 5.2,
+        "y": 10.18,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-30",
+        "name": "left tower 1 3 · 玻璃 · 高塔2-木质",
+        "x": 5.2,
+        "y": 9.68,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-31",
+        "name": "left tower 2 1 · 金属 · 高塔2-木质",
+        "x": 5.7,
+        "y": 10.68,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-32",
+        "name": "left tower 2 2 · 木头 · 高塔2-木质",
+        "x": 5.7,
+        "y": 10.18,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-33",
+        "name": "left tower 2 3 · 石材 · 高塔2-木质",
+        "x": 5.7,
+        "y": 9.68,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-34",
+        "name": "left tower 3 1 · 玻璃 · 高塔2-木质",
+        "x": 6.2,
+        "y": 10.68,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-35",
+        "name": "left tower 3 2 · 金属 · 高塔2-木质",
+        "x": 6.2,
+        "y": 10.18,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-36",
+        "name": "left tower 3 3 · 木头 · 高塔2-木质",
+        "x": 6.2,
+        "y": 9.68,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-37",
+        "name": "left tower crown 1 · 金属 · 高塔2-木质",
+        "x": 5.45,
+        "y": 9.18,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-38",
+        "name": "left tower crown 1 · 金属 · 高塔2-木质副本",
+        "x": 5.95,
+        "y": 9.18,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-39",
+        "name": "细长矩形",
+        "x": 5.7,
+        "y": 8.82,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-40",
+        "name": "left tower 3 1 · 玻璃 · 高塔2-木质副本",
+        "x": 5.7,
+        "y": 8.46,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-41",
+        "name": "left tower 3 1 · 玻璃 · 高塔2-木质副本副本",
+        "x": 6.55,
+        "y": 8.46,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-42",
+        "name": "left tower 3 1 · 玻璃 · 高塔2-木质副本副本副本",
+        "x": 4.85,
+        "y": 8.46,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

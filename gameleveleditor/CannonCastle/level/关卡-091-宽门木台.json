@@ -1,0 +1,333 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-91",
+  "level": {
+    "frozenBodies": [
+      {
+        "id": "frozen-1",
+        "memberIds": [
+          "circle-1",
+          "circle-2",
+          "circle-3",
+          "circle-4",
+          "circle-5",
+          "circle-6",
+          "circle-7",
+          "circle-8",
+          "circle-9",
+          "circle-10",
+          "circle-11",
+          "circle-12",
+          "circle-13",
+          "circle-14",
+          "circle-15",
+          "circle-16",
+          "circle-17",
+          "circle-18",
+          "circle-19",
+          "circle-20",
+          "circle-21",
+          "circle-22",
+          "circle-23",
+          "circle-24",
+          "circle-25",
+          "circle-26",
+          "circle-27",
+          "circle-28",
+          "circle-29",
+          "circle-30",
+          "circle-31"
+        ]
+      }
+    ],
+    "number": 91,
+    "name": "宽门木台",
+    "difficulty": "normal",
+    "description": "严格按示例图搭建：宽底退台木梁围出中央三角门洞，层层后退后由中央承台支撑高竖木桅。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "circle-1",
+        "name": "圆形",
+        "x": 4.559999999999998,
+        "y": 5.741976744186047,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-2",
+        "name": "圆形",
+        "x": 4.539999999999999,
+        "y": 6.31412326262718,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-3",
+        "name": "圆形",
+        "x": 4.539999999999999,
+        "y": 6.31412326262718,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-4",
+        "name": "圆形",
+        "x": 4.539999999999999,
+        "y": 6.886790697674418,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-5",
+        "name": "圆形",
+        "x": 4.55,
+        "y": 7.450000000000002,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-6",
+        "name": "圆形",
+        "x": 4.55,
+        "y": 8,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-7",
+        "name": "圆形",
+        "x": 4.209999999999993,
+        "y": 8.453209302325583,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-8",
+        "name": "圆形",
+        "x": 4.949999999999992,
+        "y": 8.416790697674422,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-9",
+        "name": "圆形",
+        "x": 3.9460562463872777,
+        "y": 8.931597667605377,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-10",
+        "name": "圆形",
+        "x": 4.539999999999999,
+        "y": 8.931597667605377,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-11",
+        "name": "圆形",
+        "x": 5.090000000000003,
+        "y": 8.932310461709664,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-12",
+        "name": "圆形",
+        "x": 3.568370152611793,
+        "y": 9.409984880314317,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-13",
+        "name": "圆形",
+        "x": 5.406452157606068,
+        "y": 9.359627906976744,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-14",
+        "name": "圆形",
+        "x": 3.2410371331735424,
+        "y": 9.83801627225654,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-15",
+        "name": "圆形",
+        "x": 5.758960561599413,
+        "y": 9.787659298918967,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-16",
+        "name": "圆形",
+        "x": 3.039604088781209,
+        "y": 10.366760458303052,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-17",
+        "name": "圆形",
+        "x": 6.035931285792252,
+        "y": 10.291224422011265,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-18",
+        "name": "圆形",
+        "x": 2.7122733745700027,
+        "y": 10.870325581395349,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-19",
+        "name": "圆形",
+        "x": 6.312904315212136,
+        "y": 10.794790697674419,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-20",
+        "name": "圆形",
+        "x": 2.5611980149689915,
+        "y": 11.39906976744186,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-21",
+        "name": "圆形",
+        "x": 6.3884419950126405,
+        "y": 11.32353488372093,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-22",
+        "name": "圆形",
+        "x": 2.278171044388875,
+        "y": 11.883534883720928,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-23",
+        "name": "圆形",
+        "x": 2.787095684787864,
+        "y": 12.05906976744186,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-24",
+        "name": "圆形",
+        "x": 6.539517354613651,
+        "y": 11.827101159384085,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-25",
+        "name": "圆形",
+        "x": 6.061471270819802,
+        "y": 12.053705810546875,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-26",
+        "name": "圆形",
+        "x": 3.321956221433199,
+        "y": 12.02852674759266,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-27",
+        "name": "圆形",
+        "x": 3.889407285785348,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-28",
+        "name": "圆形",
+        "x": 4.432362413964627,
+        "y": 12.053704657976017,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-29",
+        "name": "圆形",
+        "x": 4.962902009985091,
+        "y": 12.028527900163517,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-30",
+        "name": "圆形",
+        "x": 5.523425187025942,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "circle-31",
+        "name": "圆形",
+        "x": 4.559870428950853,
+        "y": 5.147705810546875,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

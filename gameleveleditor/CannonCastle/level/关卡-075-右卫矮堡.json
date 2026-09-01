@@ -1,0 +1,459 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-75",
+  "level": {
+    "number": 75,
+    "name": "右卫矮堡",
+    "difficulty": "super-hard",
+    "description": "石芯神殿玻璃外壳，螺栓穹顶配双桶，先拆壳再断顶。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 0,
+    "platformType": "double-3",
+    "castle": [
+      {
+        "id": "level-75-glass-footing-1",
+        "name": "glass-footing-1",
+        "x": 1.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-glass-footing-2",
+        "name": "glass-footing-2",
+        "x": 2.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-glass-footing-3",
+        "name": "glass-footing-3",
+        "x": 2.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-glass-footing-4",
+        "name": "glass-footing-4",
+        "x": 3.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-glass-footing-5",
+        "name": "爆炸桶",
+        "x": 3.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-75-glass-footing-6",
+        "name": "glass-footing-6",
+        "x": 4.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-glass-footing-7",
+        "name": "glass-footing-7",
+        "x": 4.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-glass-footing-8",
+        "name": "爆炸桶",
+        "x": 5.15,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-75-glass-footing-9",
+        "name": "glass-footing-9",
+        "x": 5.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-glass-footing-10",
+        "name": "glass-footing-10",
+        "x": 6.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-glass-footing-11",
+        "name": "glass-footing-11",
+        "x": 6.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-glass-footing-12",
+        "name": "glass-footing-12",
+        "x": 7.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-lower-lintel-west",
+        "name": "lower-lintel-west",
+        "x": 2.95,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-lower-lintel-middle",
+        "name": "lower-lintel-middle",
+        "x": 4.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-lower-lintel-east",
+        "name": "lower-lintel-east",
+        "x": 6.05,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-gate-pier-1",
+        "name": "gate-pier-1",
+        "x": 2.15,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-gate-pier-2",
+        "name": "gate-pier-2",
+        "x": 2.95,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-gate-pier-3",
+        "name": "gate-pier-3",
+        "x": 3.55,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-gate-pier-4",
+        "name": "gate-pier-4",
+        "x": 4.2,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-gate-pier-5",
+        "name": "gate-pier-5",
+        "x": 4.8,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-gate-pier-6",
+        "name": "gate-pier-6",
+        "x": 5.45,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-gate-pier-7",
+        "name": "gate-pier-7",
+        "x": 6.05,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-gate-pier-8",
+        "name": "gate-pier-8",
+        "x": 6.85,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-gate-belt-west",
+        "name": "gate-belt-west",
+        "x": 2.95,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-gate-belt-middle",
+        "name": "gate-belt-middle",
+        "x": 4.5,
+        "y": 10.75,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-gate-belt-east",
+        "name": "gate-belt-east",
+        "x": 6.05,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-upper-gate-pier-1",
+        "name": "upper-gate-pier-1",
+        "x": 2.35,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-75-upper-gate-pier-2",
+        "name": "upper-gate-pier-2",
+        "x": 3.2,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-upper-gate-pier-3",
+        "name": "upper-gate-pier-3",
+        "x": 4.2,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-75-upper-gate-pier-4",
+        "name": "upper-gate-pier-4",
+        "x": 4.85,
+        "y": 10.18,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-75-upper-gate-pier-5",
+        "name": "upper-gate-pier-5",
+        "x": 5.8,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-upper-gate-pier-6",
+        "name": "upper-gate-pier-6",
+        "x": 6.65,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-parapet-lintel-west",
+        "name": "parapet-lintel-west",
+        "x": 2.95,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-parapet-lintel-middle",
+        "name": "parapet-lintel-middle",
+        "x": 4.5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-75-parapet-lintel-east",
+        "name": "parapet-lintel-east",
+        "x": 6.05,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-left-tower-post-9.13-1",
+        "name": "left-tower-post-9.13-1",
+        "x": 2.35,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-left-tower-post-9.13-2",
+        "name": "left-tower-post-9.13-2",
+        "x": 3.25,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-right-tower-post-9.13-1",
+        "name": "right-tower-post-9.13-1",
+        "x": 5.75,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-right-tower-post-9.13-2",
+        "name": "right-tower-post-9.13-2",
+        "x": 6.65,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-left-tower-cap-beam",
+        "name": "left-tower-cap-beam",
+        "x": 2.8,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-right-tower-cap-beam",
+        "name": "right-tower-cap-beam",
+        "x": 6.2,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-center-wall-merlon-1",
+        "name": "center-wall-merlon-1",
+        "x": 4.25,
+        "y": 9.29,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-75-center-wall-merlon-2",
+        "name": "center-wall-merlon-2",
+        "x": 4.7,
+        "y": 9.3,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-75-left-low-merlon-1",
+        "name": "left-low-merlon-1",
+        "x": 2.8,
+        "y": 8.25,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-right-tall-tower-post-8.09-1",
+        "name": "right-tall-tower-post-8.09-1",
+        "x": 5.949999999999999,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-right-tall-tower-post-8.09-2",
+        "name": "right-tall-tower-post-8.09-2",
+        "x": 6.400000000000001,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-75-right-tall-cap-beam",
+        "name": "right-tall-cap-beam",
+        "x": 6.2,
+        "y": 7.57,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-right-tall-merlon-1",
+        "name": "right-tall-merlon-1",
+        "x": 5.95,
+        "y": 7.21,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-75-right-tall-merlon-2",
+        "name": "right-tall-merlon-2",
+        "x": 6.45,
+        "y": 7.21,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

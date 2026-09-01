@@ -1,0 +1,300 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-59",
+  "level": {
+    "frozenBodies": [],
+    "number": 59,
+    "name": "侧撑礼拜堂",
+    "difficulty": "hard",
+    "description": "双塔夹螺栓桥，桥上塔 + 三桶链。",
+    "normalAmmo": 3,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-59-chapel-lower-1",
+        "name": "chapel-lower-1",
+        "x": 1.8748455428067083,
+        "y": 9.688104347826087,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-59-chapel-lower-2",
+        "name": "chapel-lower-2",
+        "x": 2.4248455428067093,
+        "y": 9.688104347826087,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-59-chapel-lower-3",
+        "name": "chapel-lower-3",
+        "x": 2.974845542806709,
+        "y": 9.688104347826087,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-59-chapel-upper-1",
+        "name": "爆炸桶",
+        "x": 2.124845542806709,
+        "y": 9.188104347826087,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-59-chapel-upper-2",
+        "name": "chapel-upper-2",
+        "x": 2.724845542806709,
+        "y": 9.188104347826087,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-59-chapel-roof-beam",
+        "name": "chapel-roof-beam",
+        "x": 2.4248455428067093,
+        "y": 8.828104347826086,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-59-chapel-roof",
+        "name": "chapel-roof",
+        "x": 2.3748455428067086,
+        "y": 8.368104347826087,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "细长矩形",
+        "x": 2.3748455428067086,
+        "y": 10.098104347826087,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-59-chapel-lower-1-copy",
+        "name": "chapel-lower-1",
+        "x": 6.241924095322154,
+        "y": 9.648104347826084,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-59-chapel-lower-2-copy",
+        "name": "chapel-lower-2",
+        "x": 6.741924095322154,
+        "y": 9.648104347826084,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-59-chapel-lower-3-copy",
+        "name": "chapel-lower-3",
+        "x": 7.281924095322153,
+        "y": 9.648104347826084,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-59-chapel-upper-1-copy",
+        "name": "爆炸桶",
+        "x": 6.441924095322154,
+        "y": 9.148104347826084,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-59-chapel-upper-2-copy",
+        "name": "chapel-upper-2",
+        "x": 7.0419240953221545,
+        "y": 9.148104347826084,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-59-chapel-roof-beam-copy",
+        "name": "chapel-roof-beam",
+        "x": 6.741924095322154,
+        "y": 8.788104347826083,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-59-chapel-roof-copy",
+        "name": "chapel-roof",
+        "x": 6.691924095322153,
+        "y": 8.328104347826084,
+        "angle": 4.71238898038469,
+        "shapePresetId": "right-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-12-copy",
+        "name": "细长矩形",
+        "x": 6.691924095322153,
+        "y": 10.058104347826085,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "rectangle-1",
+        "name": "矩形",
+        "x": 4.069576345984116,
+        "y": 11.85638260869565,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "rectangle-1-copy",
+        "name": "矩形",
+        "x": 4.519576345984116,
+        "y": 11.856382608695649,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-1-copy-copy",
+        "name": "矩形",
+        "x": 4.930255957634602,
+        "y": 11.856382608695649,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "long-thin-rectangle-1",
+        "name": "细长矩形",
+        "x": 4.510573698146518,
+        "y": 11.298000000000002,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "square-1",
+        "name": "正方形",
+        "x": 4.5477846425419095,
+        "y": 10.952591304347827,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy",
+        "name": "正方形",
+        "x": 4.018005295675195,
+        "y": 10.952591304347825,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy-2",
+        "name": "正方形",
+        "x": 5.069576345984116,
+        "y": 10.952591304347827,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy-3",
+        "name": "正方形",
+        "x": 4.556195939982344,
+        "y": 10.43259130434783,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy-copy",
+        "name": "正方形",
+        "x": 4.02641659311563,
+        "y": 10.432591304347829,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy-2-copy",
+        "name": "正方形",
+        "x": 5.07798764342455,
+        "y": 10.43259130434783,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "short-thin-rectangle-1",
+        "name": "细矩形",
+        "x": 4.555216240070586,
+        "y": 10.050973913043475,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "rectangle-2",
+        "name": "矩形",
+        "x": 4.539020300088242,
+        "y": 9.751252173913034,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-2-copy",
+        "name": "矩形",
+        "x": 4.519576345984116,
+        "y": 9.376626086956524,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "rectangle-2-copy-copy",
+        "name": "矩形",
+        "x": 4.535931156222422,
+        "y": 8.976626086956525,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "isosceles-triangle-1",
+        "name": "等腰三角形",
+        "x": 4.504192409532216,
+        "y": 8.473652173913045,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "glass"
+      }
+    ]
+  }
+}

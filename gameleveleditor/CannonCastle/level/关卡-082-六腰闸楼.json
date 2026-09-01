@@ -1,0 +1,270 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-82",
+  "level": {
+    "frozenBodies": [],
+    "number": 82,
+    "name": "六腰闸楼",
+    "difficulty": "normal",
+    "description": "贯通门洞由双侧木柱、连续腰梁和受支撑三角闩构成；底部扶壁属于主塔基础而非外挂残局。",
+    "normalAmmo": 12,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-82-left-buttress-base",
+        "name": "left-buttress-base",
+        "x": 2.8,
+        "y": 12.14,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-82-left-buttress-slope",
+        "name": "left-buttress-slope",
+        "x": 2.8,
+        "y": 11.66,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-82-right-buttress-base",
+        "name": "right-buttress-base",
+        "x": 6.2,
+        "y": 12.14,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-82-right-buttress-slope",
+        "name": "right-buttress-slope",
+        "x": 6.2,
+        "y": 11.66,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-82-portal-belt-1",
+        "name": "portal-belt-1",
+        "x": 4.510000000000002,
+        "y": 11.41,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-82-portal-keystone-1",
+        "name": "portal-keystone-1",
+        "x": 4.5,
+        "y": 11.02,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-82-portal-post-2-left",
+        "name": "portal-post-2-left",
+        "x": 3.75,
+        "y": 10.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-82-portal-post-2-right",
+        "name": "portal-post-2-right",
+        "x": 5.25,
+        "y": 10.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-82-portal-belt-2",
+        "name": "portal-belt-2",
+        "x": 4.5,
+        "y": 10.370000000000001,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-82-portal-post-3-left",
+        "name": "portal-post-3-left",
+        "x": 3.75,
+        "y": 9.85,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-82-portal-post-3-right",
+        "name": "portal-post-3-right",
+        "x": 5.25,
+        "y": 9.85,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-82-portal-belt-3",
+        "name": "portal-belt-3",
+        "x": 4.5,
+        "y": 9.33,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-82-portal-keystone-3",
+        "name": "portal-keystone-3",
+        "x": 4.5,
+        "y": 8.94,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-82-portal-post-4-left",
+        "name": "portal-post-4-left",
+        "x": 3.75,
+        "y": 8.809999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-82-portal-post-4-right",
+        "name": "portal-post-4-right",
+        "x": 5.25,
+        "y": 8.809999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-82-portal-belt-4",
+        "name": "portal-belt-4",
+        "x": 4.550000000000001,
+        "y": 8.29,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-82-portal-post-5-left",
+        "name": "portal-post-5-left",
+        "x": 3.75,
+        "y": 7.77,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-82-portal-post-5-right",
+        "name": "portal-post-5-right",
+        "x": 5.25,
+        "y": 7.77,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-82-portal-belt-5",
+        "name": "portal-belt-5",
+        "x": 4.5,
+        "y": 7.25,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-82-portal-keystone-5",
+        "name": "portal-keystone-5",
+        "x": 4.5,
+        "y": 6.86,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-82-portal-post-6-left",
+        "name": "portal-post-6-left",
+        "x": 3.75,
+        "y": 6.7299999999999995,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-82-portal-post-6-right",
+        "name": "portal-post-6-right",
+        "x": 5.25,
+        "y": 6.7299999999999995,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-82-portal-belt-6",
+        "name": "portal-belt-6",
+        "x": 4.5,
+        "y": 6.21,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-82-crown-ledge",
+        "name": "crown-ledge",
+        "x": 4.5,
+        "y": 6,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-82-crown-flag",
+        "name": "crown-flag",
+        "x": 4.5,
+        "y": 5.74,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "square-1",
+        "name": "正方形",
+        "x": 3.9249999999999985,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-2",
+        "name": "正方形",
+        "x": 4.450000000000001,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "square-3",
+        "name": "正方形",
+        "x": 4.95,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

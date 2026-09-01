@@ -1,0 +1,377 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-30",
+  "level": {
+    "number": 30,
+    "name": "环形堡垒",
+    "difficulty": "super-hard",
+    "description": "摧毁偏心的木支撑，使不对称空心环绕右柱旋转并带动顶部载荷坠落。",
+    "normalAmmo": 10,
+    "explosiveAmmo": 1,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-30-off-center-support",
+        "name": "off-center-support",
+        "x": 3.55,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-30-left-ring-column-mid",
+        "name": "left-ring-column-mid",
+        "x": 3.55,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-30-left-ring-column-top",
+        "name": "left-ring-column-top",
+        "x": 3.55,
+        "y": 11.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-30-right-ring-column-base",
+        "name": "right-ring-column-base",
+        "x": 5.5,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-30-right-ring-column-mid",
+        "name": "right-ring-column-mid",
+        "x": 5.5,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-30-right-ring-column-top",
+        "name": "right-ring-column-top",
+        "x": 5.5,
+        "y": 11.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-30-ring-top",
+        "name": "ring-top",
+        "x": 4.5,
+        "y": 10.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-30-ring-top-load-west",
+        "name": "ring-top-load-west",
+        "x": 3.8,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-30-ring-top-load-center",
+        "name": "ring-top-load-center",
+        "x": 4.5,
+        "y": 10.46,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-30-ring-top-load-east",
+        "name": "ring-top-load-east",
+        "x": 5.2,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-30-right-ring-extension",
+        "name": "right-ring-extension",
+        "x": 6.3,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-30-right-ring-extension-load",
+        "name": "right-ring-extension-load",
+        "x": 6.3,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "圆形",
+        "x": 4.2,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "圆形副本",
+        "x": 4.9,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "细矩形",
+        "x": 4.55,
+        "y": 11.65,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "等腰三角形",
+        "x": 4.55,
+        "y": 11.24,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "right-ring-extension副本",
+        "x": 6.3,
+        "y": 11.15,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "right-ring-extension-load副本",
+        "x": 6.3,
+        "y": 10.65,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "right-ring-extension副本",
+        "x": 2.65,
+        "y": 12.04,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "right-ring-extension-load副本",
+        "x": 2.65,
+        "y": 11.54,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "right-ring-extension副本副本",
+        "x": 2.65,
+        "y": 11.1,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "right-ring-extension-load副本副本",
+        "x": 2.65,
+        "y": 10.6,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "细矩形",
+        "x": 6.1,
+        "y": 10.3,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-24",
+        "name": "细矩形副本",
+        "x": 2.85,
+        "y": 10.25,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-25",
+        "name": "细长矩形",
+        "x": 3.45,
+        "y": 10.01,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-26",
+        "name": "细长矩形副本",
+        "x": 5.7,
+        "y": 10.06,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-27",
+        "name": "正方形 · 小城墙",
+        "x": 3.95,
+        "y": 9.68,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-28",
+        "name": "正方形副本 · 小城墙",
+        "x": 4.55,
+        "y": 9.68,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-29",
+        "name": "正方形副本 · 小城墙",
+        "x": 3.95,
+        "y": 9.18,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-30",
+        "name": "正方形副本副本 · 小城墙",
+        "x": 4.55,
+        "y": 9.18,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-31",
+        "name": "正方形副本副本 · 小城墙",
+        "x": 5.15,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-32",
+        "name": "正方形副本副本副本 · 小城墙",
+        "x": 5.15,
+        "y": 9.15,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-33",
+        "name": "细长矩形 · 小城墙",
+        "x": 4.55,
+        "y": 8.79,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-34",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本副本副本副本 · 小城墙",
+        "x": 3.7,
+        "y": 8.43,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-35",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本副本副本副本副本 · 小城墙",
+        "x": 5.4,
+        "y": 8.43,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-36",
+        "name": "爆炸桶",
+        "x": 4.55,
+        "y": 8.43,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "editor-piece-37",
+        "name": "矩形",
+        "x": 6.39,
+        "y": 9.75,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-38",
+        "name": "矩形副本",
+        "x": 2.76,
+        "y": 9.7,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-39",
+        "name": "矩形副本副本",
+        "x": 6.39,
+        "y": 9.35,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-40",
+        "name": "矩形副本副本副本",
+        "x": 2.76,
+        "y": 9.3,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "difficulty": "normal",
+  "objectProfiles": {
+    "materials": {
+      "wood": { "id": "wood", "name": "木头", "color": "#D89B55", "mass": 2, "friction": 0.55, "restitution": 0.55, "destructible": true, "maxHp": 2, "hitSpeedThreshold": 3.5 },
+      "glass": { "id": "glass", "name": "玻璃", "color": "#79C8C7", "mass": 1.2, "friction": 0.25, "restitution": 0.65, "destructible": true, "maxHp": 1, "hitSpeedThreshold": 2.5 },
+      "stone": { "id": "stone", "name": "石材", "color": "#718DA8", "mass": 7, "friction": 0.8, "restitution": 0.45, "destructible": false, "maxHp": 1, "hitSpeedThreshold": 5.5 },
+      "metal": { "id": "metal", "name": "金属", "color": "#757A84", "mass": 8, "friction": 0.45, "restitution": 0.5, "destructible": false, "maxHp": 1, "hitSpeedThreshold": 7 },
+      "rubber": { "id": "rubber", "name": "气球", "color": "#A789BD", "mass": 1, "friction": 0.12, "restitution": 0.92, "destructible": false, "maxHp": 1, "hitSpeedThreshold": 4.5 }
+    },
+    "explosiveBarrel": {
+      "mass": 2,
+      "friction": 0.55,
+      "restitution": 0.55,
+      "maxHp": 1,
+      "hitSpeedThreshold": 3.5,
+      "destructible": true,
+      "color": "#d95f45",
+      "explosion": { "radius": 3, "maxImpulse": 120, "damage": 1, "falloffExponent": 1.5, "propagationSpeed": 8 }
+    }
+  },
+  "global": {
+    "gravity": 9.8,
+    "initialAmmo": 15,
+    "explosiveAmmo": 1,
+    "settleLinearSpeed": 0.12,
+    "settleAngularSpeed": 0.12,
+    "settleDurationMs": 1200
+  },
+  "meteor": { "radius": 0.32, "mass": 10, "initialDownSpeed": 28, "friction": 0.45, "restitution": 0.5 },
+  "explosive": { "radius": 3, "maxImpulse": 120, "damage": 1, "falloffExponent": 2, "meteorRadius": 0.32, "mass": 10, "initialDownSpeed": 28, "friction": 0.45, "restitution": 0.5 },
+  "launcher": { "totalArcDegrees": 150 },
+  "environment": { "baseWidth": 4.2, "baseFriction": 0.5, "baseRestitution": 0.5, "hillFriction": 0.65, "hillRestitution": 0.05 },
+  "castle": [
+    {
+      "id": "left-column",
+      "name": "左木柱",
+      "x": 3.2,
+      "y": 10,
+      "angle": 0,
+      "shape": { "kind": "box", "width": 0.7, "height": 2.4, "cornerRadius": 0.07 },
+      "mass": 3,
+      "friction": 0.6,
+      "restitution": 0.1,
+      "color": "#ffc857",
+      "materialId": "wood",
+      "destructible": true,
+      "maxHp": 2,
+      "hitSpeedThreshold": 4
+    },
+    {
+      "id": "right-column",
+      "name": "右石柱",
+      "x": 5.8,
+      "y": 10,
+      "angle": 0,
+      "shape": { "kind": "box", "width": 0.7, "height": 2.4, "cornerRadius": 0.07 },
+      "mass": 7,
+      "friction": 0.8,
+      "restitution": 0.05,
+      "color": "#62c3a5",
+      "materialId": "stone",
+      "destructible": false,
+      "maxHp": 1,
+      "hitSpeedThreshold": 6
+    },
+    {
+      "id": "middle-block",
+      "name": "中央木块",
+      "x": 4.5,
+      "y": 10.6,
+      "angle": 0,
+      "shape": { "kind": "box", "width": 0.8, "height": 1.3, "cornerRadius": 0.07 },
+      "mass": 2,
+      "friction": 0.5,
+      "restitution": 0.15,
+      "color": "#f29e4c",
+      "materialId": "wood",
+      "destructible": true,
+      "maxHp": 1,
+      "hitSpeedThreshold": 3.5
+    },
+    {
+      "id": "crossbeam",
+      "name": "金属横梁",
+      "x": 4.5,
+      "y": 8.55,
+      "angle": 0,
+      "shape": { "kind": "box", "width": 3.4, "height": 0.35, "cornerRadius": 0.07 },
+      "mass": 8,
+      "friction": 0.45,
+      "restitution": 0.08,
+      "color": "#70a4d8",
+      "materialId": "metal",
+      "destructible": false,
+      "maxHp": 1,
+      "hitSpeedThreshold": 7
+    },
+    {
+      "id": "roof",
+      "name": "可破坏屋顶",
+      "x": 4.5,
+      "y": 7.6,
+      "angle": 0,
+      "shape": { "kind": "polygon", "vertices": [{ "x": -1.6, "y": 0.5 }, { "x": 1.6, "y": 0.5 }, { "x": 0, "y": -0.65 }], "cornerRadius": 0.07 },
+      "mass": 4,
+      "friction": 0.55,
+      "restitution": 0.1,
+      "color": "#ef6f6c",
+      "materialId": "wood",
+      "destructible": true,
+      "maxHp": 3,
+      "hitSpeedThreshold": 4.5
+    }
+  ]
+}

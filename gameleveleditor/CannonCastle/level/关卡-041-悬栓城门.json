@@ -1,0 +1,323 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-41",
+  "level": {
+    "frozenBodies": [],
+    "number": 41,
+    "name": "悬栓城门",
+    "difficulty": "normal",
+    "description": "螺栓横梁偏右悬空，梁上石塔与旋转木柱。断梁或清塔，两路皆通。",
+    "normalAmmo": 9,
+    "explosiveAmmo": 0,
+    "platformType": "double-2",
+    "castle": [
+      {
+        "id": "rectangle-1",
+        "name": "矩形",
+        "x": 5.350509612477723,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-1-copy",
+        "name": "矩形",
+        "x": 6.497658736157077,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "long-thin-rectangle-1",
+        "name": "细长矩形",
+        "x": 5.944397842811227,
+        "y": 11.453290287247546,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "rectangle-1-copy-2",
+        "name": "矩形",
+        "x": 2.517719388445136,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-1-copy-copy",
+        "name": "矩形",
+        "x": 3.6648685121244897,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "long-thin-rectangle-1-copy",
+        "name": "细长矩形",
+        "x": 3.11160761877864,
+        "y": 11.453290287247546,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "small-square-1",
+        "name": "小正方形",
+        "x": 2.3883919337130846,
+        "y": 11.15869459794127,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "small-square-1-copy",
+        "name": "小正方形",
+        "x": 3.095980281790986,
+        "y": 11.168290287247546,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "small-square-1-copy-2",
+        "name": "小正方形",
+        "x": 3.855554820758018,
+        "y": 11.171176263801367,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "small-square-1-copy-3",
+        "name": "小正方形",
+        "x": 5.1779031353424125,
+        "y": 11.183804602780688,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "small-square-1-copy-copy",
+        "name": "小正方形",
+        "x": 5.8854914834203145,
+        "y": 11.193400292086963,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "small-square-1-copy-2-copy",
+        "name": "小正方形",
+        "x": 6.645066022387346,
+        "y": 11.196286268640785,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "long-thin-rectangle-2",
+        "name": "细长矩形",
+        "x": 4.519245540828665,
+        "y": 10.86786086956522,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "isosceles-triangle-1",
+        "name": "等腰三角形",
+        "x": 6.2604914834203145,
+        "y": 9.6187212546202,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "isosceles-triangle-1-copy",
+        "name": "等腰三角形",
+        "x": 2.7540192707007383,
+        "y": 9.645727574115533,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "rectangle-2",
+        "name": "矩形",
+        "x": 3.888763412380766,
+        "y": 10.541913043478262,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "rectangle-2-copy",
+        "name": "矩形",
+        "x": 5.130403398247489,
+        "y": 10.542092677855914,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "long-thin-rectangle-3",
+        "name": "细长矩形",
+        "x": 4.534496461013108,
+        "y": 10.268432100377664,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "isosceles-triangle-2",
+        "name": "等腰三角形",
+        "x": 3.9867913656759164,
+        "y": 9.868031224581074,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "isosceles-triangle-2-copy",
+        "name": "等腰三角形",
+        "x": 5.074907553067557,
+        "y": 9.853439920233251,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "long-thin-rectangle-4",
+        "name": "细长矩形",
+        "x": 4.517036161224467,
+        "y": 9.4726694121803,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "square-1",
+        "name": "正方形",
+        "x": 3.7664317283045,
+        "y": 9.127396595009472,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy",
+        "name": "正方形",
+        "x": 4.286791365675916,
+        "y": 9.127396595009472,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy-2",
+        "name": "正方形",
+        "x": 4.702030989850973,
+        "y": 9.148213986313827,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy-copy",
+        "name": "正方形",
+        "x": 5.2223906272223894,
+        "y": 9.148213986313827,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "long-thin-rectangle-4-copy",
+        "name": "细长矩形",
+        "x": 4.504325894513781,
+        "y": 8.775365064354213,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "square-1-copy-3",
+        "name": "正方形",
+        "x": 3.753721461593815,
+        "y": 8.430092247183385,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy-copy-2",
+        "name": "正方形",
+        "x": 4.2740810989652305,
+        "y": 8.430092247183385,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy-2-copy",
+        "name": "正方形",
+        "x": 4.689320723140288,
+        "y": 8.45090963848774,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy-copy-copy",
+        "name": "正方形",
+        "x": 5.209680360511704,
+        "y": 8.45090963848774,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "short-thin-rectangle-1",
+        "name": "细矩形",
+        "x": 2.7271403353927632,
+        "y": 10.86137391304348,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-3",
+        "name": "矩形",
+        "x": 2.739147063106729,
+        "y": 10.374250267814904,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "short-thin-rectangle-1-copy",
+        "name": "细矩形",
+        "x": 6.2663724624889685,
+        "y": 10.859943082788517,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-3-copy",
+        "name": "矩形",
+        "x": 6.2783791902029344,
+        "y": 10.372819437559942,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

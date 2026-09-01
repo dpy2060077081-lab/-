@@ -1,0 +1,232 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-02",
+  "level": {
+    "number": 2,
+    "name": "直射破坏1",
+    "difficulty": "normal",
+    "description": "攻击底部支柱，让上方结构失去支撑。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "editor-piece-11",
+        "name": "小正方形",
+        "x": 3.45,
+        "y": 12.18,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-2",
+        "name": "小正方形副本",
+        "x": 3.75,
+        "y": 12.18,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-3",
+        "name": "小正方形副本",
+        "x": 3.45,
+        "y": 11.86,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-4",
+        "name": "小正方形副本副本",
+        "x": 3.75,
+        "y": 11.86,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-5",
+        "name": "小正方形副本",
+        "x": 3.45,
+        "y": 11.52,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-6",
+        "name": "小正方形副本副本",
+        "x": 3.75,
+        "y": 11.52,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-7",
+        "name": "小正方形副本副本",
+        "x": 3.45,
+        "y": 11.2,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-8",
+        "name": "小正方形副本副本副本",
+        "x": 3.75,
+        "y": 11.2,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-9",
+        "name": "小正方形副本",
+        "x": 5.2,
+        "y": 12.13,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-10",
+        "name": "小正方形副本副本",
+        "x": 5.5,
+        "y": 12.13,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "小正方形副本副本",
+        "x": 5.2,
+        "y": 11.81,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "小正方形副本副本副本",
+        "x": 5.5,
+        "y": 11.81,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "小正方形副本副本",
+        "x": 5.2,
+        "y": 11.47,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "小正方形副本副本副本",
+        "x": 5.5,
+        "y": 11.47,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "小正方形副本副本副本",
+        "x": 5.2,
+        "y": 11.15,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "小正方形副本副本副本副本",
+        "x": 5.5,
+        "y": 11.15,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "细矩形",
+        "x": 5.35,
+        "y": 10.89,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "细矩形副本",
+        "x": 3.6,
+        "y": 10.94,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "等腰三角形",
+        "x": 3.6,
+        "y": 10.58,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "等腰三角形副本",
+        "x": 5.35,
+        "y": 10.53,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "圆形",
+        "x": 4.2,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "圆形副本",
+        "x": 4.75,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-24",
+        "name": "圆形副本副本",
+        "x": 4.2,
+        "y": 11.5,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-25",
+        "name": "圆形副本副本副本",
+        "x": 4.75,
+        "y": 11.5,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

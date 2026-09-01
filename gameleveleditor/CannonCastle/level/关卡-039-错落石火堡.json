@@ -1,0 +1,225 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-39",
+  "level": {
+    "number": 39,
+    "name": "错落石火堡",
+    "difficulty": "hard",
+    "description": "命中高处入口桶，让四级爆炸沿下降台阶逐层传递并释放玻璃木料雨。",
+    "normalAmmo": 6,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-39-pillar-1",
+        "name": "pillar-1",
+        "x": 3.6,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-pillar-2",
+        "name": "pillar-2",
+        "x": 5.3500000000000005,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-beam-1",
+        "name": "beam-1",
+        "x": 4.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-39-r1-c1",
+        "name": "r1-c1",
+        "x": 3.75,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-r1-c2",
+        "name": "r1-c2",
+        "x": 4.25,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-r1-c3",
+        "name": "r1-c3",
+        "x": 4.75,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-r1-c4",
+        "name": "r1-c4",
+        "x": 5.25,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-t-r1-c1",
+        "name": "t-r1-c1",
+        "x": 3.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-t-r1-c2",
+        "name": "t-r1-c2",
+        "x": 4.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-t-r2-c1",
+        "name": "t-r2-c1",
+        "x": 3.75,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-t-r2-c2",
+        "name": "t-r2-c2",
+        "x": 4.25,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-t-r3-c1",
+        "name": "t-r3-c1",
+        "x": 3.75,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-t-r3-c2",
+        "name": "t-r3-c2",
+        "x": 4.25,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-w-r1-c1",
+        "name": "w-r1-c1",
+        "x": 4.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-w-r1-c2",
+        "name": "w-r1-c2",
+        "x": 5.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-39-t-cap",
+        "name": "t-cap",
+        "x": 4,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-39-barrel-t",
+        "name": "barrel-t",
+        "x": 4,
+        "y": 8.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-39-w-cap",
+        "name": "爆炸桶",
+        "x": 5,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "矩形",
+        "x": 4,
+        "y": 8.42,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "矩形副本",
+        "x": 4,
+        "y": 8.02,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "等腰三角形",
+        "x": 5,
+        "y": 9.86,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1",
+        "name": "正方形",
+        "x": 4.147308031774051,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy",
+        "name": "正方形",
+        "x": 4.75,
+        "y": 12.070000000000006,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

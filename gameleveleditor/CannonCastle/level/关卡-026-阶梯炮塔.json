@@ -1,0 +1,206 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-26",
+  "level": {
+    "number": 26,
+    "name": "阶梯炮塔",
+    "difficulty": "normal",
+    "description": "击中最低一级下方半外露的火药桶，让冲击沿阶梯向上抬升并瓦解炮塔。",
+    "normalAmmo": 7,
+    "explosiveAmmo": 1,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-26-buried-stair-barrel",
+        "name": "buried-stair-barrel",
+        "x": 2.3499999999999996,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-26-lower-stair-foot",
+        "name": "lower-stair-foot",
+        "x": 4.3,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-26-lower-stair",
+        "name": "lower-stair",
+        "x": 3.45,
+        "y": 11.7,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-26-middle-stair-column",
+        "name": "middle-stair-column",
+        "x": 3.85,
+        "y": 11.34,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-26-middle-stair-column-right",
+        "name": "middle-stair-column-right",
+        "x": 4.3500000000000005,
+        "y": 11.34,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-26-middle-stair",
+        "name": "middle-stair",
+        "x": 4.1000000000000005,
+        "y": 10.98,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-26-upper-stair-column",
+        "name": "upper-stair-column",
+        "x": 4.250000000000001,
+        "y": 10.62,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-26-stair-load-low",
+        "name": "等腰三角形",
+        "x": 2.65,
+        "y": 11.33,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-26-stair-load-high",
+        "name": "stair-load-high",
+        "x": 4.250000000000001,
+        "y": 10.21,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-10",
+        "name": "left tower 1 1 · 木头 · 高塔2-木质",
+        "x": 5.4,
+        "y": 12.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-11",
+        "name": "left tower 1 2 · 石材 · 高塔2-木质",
+        "x": 5.4,
+        "y": 11.53,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "left tower 1 3 · 玻璃 · 高塔2-木质",
+        "x": 5.4,
+        "y": 11.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "left tower 2 1 · 金属 · 高塔2-木质",
+        "x": 5.9,
+        "y": 12.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "left tower 2 2 · 木头 · 高塔2-木质",
+        "x": 5.9,
+        "y": 11.53,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "left tower 2 3 · 石材 · 高塔2-木质",
+        "x": 5.9,
+        "y": 11.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "left tower 3 1 · 玻璃 · 高塔2-木质",
+        "x": 6.4,
+        "y": 12.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "left tower 3 2 · 金属 · 高塔2-木质",
+        "x": 6.4,
+        "y": 11.53,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "left tower 3 3 · 木头 · 高塔2-木质",
+        "x": 6.4,
+        "y": 11.03,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "left tower crown 1 · 金属 · 高塔2-木质",
+        "x": 5.9,
+        "y": 10.52,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "left tower crown 2 · 木头 · 高塔2-木质",
+        "x": 5.9,
+        "y": 10.02,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "left tower roof · 金属 · 高塔2-木质",
+        "x": 5.9,
+        "y": 9.5,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

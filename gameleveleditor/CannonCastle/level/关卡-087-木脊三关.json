@@ -1,0 +1,279 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-87",
+  "level": {
+    "number": 87,
+    "name": "木脊三关",
+    "difficulty": "normal",
+    "description": "三柱底层、双柱中层和中央高柱通过连续木梁逐级收束；仅在尖塔过梁设置一处必要拉结，底座、主柱和塔冠保持可破坏。",
+    "normalAmmo": 15,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-87-lower-pad-1",
+        "name": "lower-pad-1",
+        "x": 2.7,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-87-lower-pad-2",
+        "name": "lower-pad-2",
+        "x": 4.5,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-87-lower-pad-3",
+        "name": "lower-pad-3",
+        "x": 6.3,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-87-base-beam-left",
+        "name": "base-beam-left",
+        "x": 3.4,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-87-base-beam-right",
+        "name": "base-beam-right",
+        "x": 5.6,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-87-lower-post-1",
+        "name": "lower-post-1",
+        "x": 2.7,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-87-lower-post-2",
+        "name": "lower-post-2",
+        "x": 4.5,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-87-lower-post-3",
+        "name": "lower-post-3",
+        "x": 6.3,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-87-lower-transfer-beam",
+        "name": "lower-transfer-beam",
+        "x": 4.5,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-87-middle-left-post",
+        "name": "middle-left-post",
+        "x": 3.8,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-87-middle-right-post",
+        "name": "middle-right-post",
+        "x": 5.25,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-87-middle-window",
+        "name": "middle-window",
+        "x": 4.5,
+        "y": 10.42,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-87-middle-transfer-beam",
+        "name": "middle-transfer-beam",
+        "x": 4.5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-87-middle-stage-one-left-post",
+        "name": "middle-stage-one-left-post",
+        "x": 3.75,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-87-middle-stage-one-right-post",
+        "name": "middle-stage-one-right-post",
+        "x": 5.25,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-87-middle-stage-one-transfer-beam",
+        "name": "middle-stage-one-transfer-beam",
+        "x": 4.5,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-87-middle-stage-two-left-post",
+        "name": "middle-stage-two-left-post",
+        "x": 3.75,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-87-middle-stage-two-right-post",
+        "name": "middle-stage-two-right-post",
+        "x": 5.25,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-87-middle-stage-two-transfer-beam",
+        "name": "middle-stage-two-transfer-beam",
+        "x": 4.5,
+        "y": 7.57,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-87-upper-central-post",
+        "name": "upper-central-post",
+        "x": 4.5,
+        "y": 7.05,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-87-upper-transfer-beam",
+        "name": "upper-transfer-beam",
+        "x": 4.5,
+        "y": 6.53,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-87-spire-post",
+        "name": "spire-post",
+        "x": 4.5,
+        "y": 6.02,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-87-spire-cap-beam",
+        "name": "spire-cap-beam",
+        "x": 4.5,
+        "y": 5.5,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-87-crown-extension-block",
+        "name": "crown-extension-block",
+        "x": 4.5,
+        "y": 5.2,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-87-tower-crown",
+        "name": "tower-crown",
+        "x": 4.5,
+        "y": 4.75,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "square-1",
+        "name": "正方形",
+        "x": 3.2499999999999996,
+        "y": 11.370387831182068,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "square-2",
+        "name": "正方形",
+        "x": 3.8,
+        "y": 11.351559994904893,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "square-3",
+        "name": "正方形",
+        "x": 5,
+        "y": 11.351559994904893,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "square-4",
+        "name": "正方形",
+        "x": 5.55,
+        "y": 11.351556547214678,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      }
+    ]
+  }
+}

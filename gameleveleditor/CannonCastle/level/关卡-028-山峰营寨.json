@@ -1,0 +1,242 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-28",
+  "level": {
+    "number": 28,
+    "name": "山峰营寨",
+    "difficulty": "hard",
+    "description": "命中山脚外露木楔，解除两面斜坡的中央约束并引发向两侧的滑落。",
+    "normalAmmo": 10,
+    "explosiveAmmo": 1,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-28-wood-wedge-release",
+        "name": "wood-wedge-release",
+        "x": 3.4,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-28-left-mountain-rise",
+        "name": "left-mountain-rise",
+        "x": 3.4,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-28-right-mountain-foot",
+        "name": "right-mountain-foot",
+        "x": 5.6,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-28-right-mountain-rise",
+        "name": "right-mountain-rise",
+        "x": 5.6,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-28-mountain-release-deck",
+        "name": "mountain-release-deck",
+        "x": 4.5,
+        "y": 11.23,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-28-left-slope-load-low",
+        "name": "left-slope-load-low",
+        "x": 3.7,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-28-left-slope-load-high",
+        "name": "left-slope-load-high",
+        "x": 3.6,
+        "y": 10.46,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-28-right-slope-load-high",
+        "name": "right-slope-load-high",
+        "x": 5.4,
+        "y": 10.46,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-28-right-slope-load-low",
+        "name": "right-slope-load-low",
+        "x": 5.3,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-28-mountain-peak-deck",
+        "name": "mountain-peak-deck",
+        "x": 4.5,
+        "y": 10.19,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-28-mountain-peak",
+        "name": "mountain-peak",
+        "x": 4.5,
+        "y": 10.86,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "矩形",
+        "x": 4.1,
+        "y": 12.14,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "矩形副本",
+        "x": 4.9,
+        "y": 12.14,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "矩形",
+        "x": 4.5,
+        "y": 11.74,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "corridor-relay-barrel · 炸弹小屋",
+        "x": 4.45,
+        "y": 9.73,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "left-corridor-post-base · 炸弹小屋",
+        "x": 3.85,
+        "y": 9.76,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "left-corridor-post-top · 炸弹小屋",
+        "x": 3.85,
+        "y": 9.26,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "right-corridor-post-base · 炸弹小屋",
+        "x": 5.15,
+        "y": 9.76,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "right-corridor-post-top · 炸弹小屋",
+        "x": 5.15,
+        "y": 9.26,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "left-room-roof · 炸弹小屋",
+        "x": 3.85,
+        "y": 8.91,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "right-room-roof · 炸弹小屋",
+        "x": 5.15,
+        "y": 8.91,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "left-roof-load · 炸弹小屋",
+        "x": 3.85,
+        "y": 8.65,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "right-roof-load · 炸弹小屋",
+        "x": 5.15,
+        "y": 8.65,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-24",
+        "name": "等腰三角形 · 炸弹小屋",
+        "x": 4.5,
+        "y": 7.949999999999996,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "long-thin-rectangle-1",
+        "name": "细长矩形",
+        "x": 4.5,
+        "y": 8.350000000000005,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

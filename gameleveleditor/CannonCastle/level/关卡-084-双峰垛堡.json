@@ -1,0 +1,359 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-84",
+  "level": {
+    "frozenBodies": [],
+    "number": 84,
+    "name": "双峰垛堡",
+    "difficulty": "hard",
+    "description": "宽幅双垛塔以延伸首层翼梁、地面木柱和分层腰梁承重；玻璃窗与石质徽饰均落在木梁上，中段门楣横跨内柱形成真实城门开口。",
+    "normalAmmo": 10,
+    "explosiveAmmo": 0,
+    "platformType": "double-3",
+    "castle": [
+      {
+        "id": "level-84-left-wing-ground-post",
+        "name": "left-wing-ground-post",
+        "x": 1.85,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-84-left-outer-post-1",
+        "name": "left-outer-post-1",
+        "x": 2.55,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-84-left-belt-1",
+        "name": "left-belt-1",
+        "x": 2.625,
+        "y": 11.41,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-outer-post-2",
+        "name": "left-outer-post-2",
+        "x": 2.55,
+        "y": 10.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-inner-post-2",
+        "name": "left-inner-post-2",
+        "x": 3.4,
+        "y": 10.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-left-belt-2",
+        "name": "left-belt-2",
+        "x": 2.9750000000000005,
+        "y": 10.370000000000001,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-outer-post-3",
+        "name": "left-outer-post-3",
+        "x": 2.55,
+        "y": 9.85,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-84-left-inner-post-3",
+        "name": "left-inner-post-3",
+        "x": 3.4,
+        "y": 9.85,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-left-belt-3",
+        "name": "left-belt-3",
+        "x": 2.95,
+        "y": 9.33,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-left-outer-post-4",
+        "name": "left-outer-post-4",
+        "x": 2.55,
+        "y": 8.809999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-84-left-inner-post-4",
+        "name": "left-inner-post-4",
+        "x": 3.4,
+        "y": 8.809999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-left-belt-4",
+        "name": "left-belt-4",
+        "x": 2.95,
+        "y": 8.29,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-left-wing-upper-post",
+        "name": "left-wing-upper-post",
+        "x": 1.85,
+        "y": 10.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-wing-upper-belt",
+        "name": "left-wing-upper-belt",
+        "x": 2.1,
+        "y": 10.370000000000001,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-wing-ground-post",
+        "name": "right-wing-ground-post",
+        "x": 7.15,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-84-right-outer-post-1",
+        "name": "right-outer-post-1",
+        "x": 6.45,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-84-right-belt-1",
+        "name": "right-belt-1",
+        "x": 6.375,
+        "y": 11.41,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-outer-post-2",
+        "name": "right-outer-post-2",
+        "x": 6.45,
+        "y": 10.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-inner-post-2",
+        "name": "right-inner-post-2",
+        "x": 5.6,
+        "y": 10.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-right-belt-2",
+        "name": "right-belt-2",
+        "x": 6.05,
+        "y": 10.370000000000001,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-outer-post-3",
+        "name": "right-outer-post-3",
+        "x": 6.45,
+        "y": 9.85,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-84-right-inner-post-3",
+        "name": "right-inner-post-3",
+        "x": 5.6,
+        "y": 9.85,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-right-belt-3",
+        "name": "right-belt-3",
+        "x": 6.05,
+        "y": 9.33,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-right-outer-post-4",
+        "name": "right-outer-post-4",
+        "x": 6.45,
+        "y": 8.809999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-84-right-inner-post-4",
+        "name": "right-inner-post-4",
+        "x": 5.6,
+        "y": 8.809999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-right-belt-4",
+        "name": "right-belt-4",
+        "x": 6.05,
+        "y": 8.29,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-right-wing-upper-post",
+        "name": "right-wing-upper-post",
+        "x": 7.15,
+        "y": 10.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-wing-upper-belt",
+        "name": "right-wing-upper-belt",
+        "x": 6.95,
+        "y": 10.370000000000001,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-glass-window",
+        "name": "left-glass-window",
+        "x": 2.975,
+        "y": 10.110000000000001,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-84-right-stone-emblem",
+        "name": "right-stone-emblem",
+        "x": 6.025,
+        "y": 10.110000000000001,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-merlon-1",
+        "name": "left-merlon-1",
+        "x": 2.75,
+        "y": 7.94,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-left-merlon-2",
+        "name": "left-merlon-2",
+        "x": 3.3200000000000003,
+        "y": 7.929999999999999,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-right-merlon-1",
+        "name": "right-merlon-1",
+        "x": 5.68,
+        "y": 7.929999999999999,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-right-merlon-2",
+        "name": "right-merlon-2",
+        "x": 6.25,
+        "y": 7.94,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-gate-lintel",
+        "name": "gate-lintel",
+        "x": 4.5,
+        "y": 8.29,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-gate-gable",
+        "name": "gate-gable",
+        "x": 4.5,
+        "y": 7.8999999999999995,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "rectangle-1",
+        "name": "矩形",
+        "x": 3.325,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-2",
+        "name": "矩形",
+        "x": 5.675000000000001,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

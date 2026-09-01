@@ -1,0 +1,214 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-19",
+  "level": {
+    "number": 19,
+    "name": "双峰拱廊",
+    "difficulty": "hard",
+    "description": "Imported user-authored level.",
+    "normalAmmo": 8,
+    "explosiveAmmo": 1,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-19-weakpoint-ricochet-1-1",
+        "name": "weakpoint-ricochet-1",
+        "x": 3.3,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-19-weakpoint-ricochet-2-2",
+        "name": "weakpoint-ricochet-2",
+        "x": 3.8,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-3",
+        "name": "weakpoint-ricochet-1副本",
+        "x": 5.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-4",
+        "name": "weakpoint-ricochet-2副本",
+        "x": 5.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-5",
+        "name": "正方形",
+        "x": 5.25,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-7",
+        "name": "正方形副本",
+        "x": 3.3,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-8",
+        "name": "正方形副本副本",
+        "x": 3.8,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-9",
+        "name": "矩形",
+        "x": 3.55,
+        "y": 10.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-10",
+        "name": "矩形",
+        "x": 5.45,
+        "y": 10.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-11",
+        "name": "细长矩形",
+        "x": 4.5,
+        "y": 10.35,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "直角三角形",
+        "x": 4.14,
+        "y": 8.7,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "正方形",
+        "x": 4.05,
+        "y": 9.99,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "细矩形",
+        "x": 4.05,
+        "y": 9.64,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "正方形副本副本",
+        "x": 4.05,
+        "y": 9.29,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "正方形副本",
+        "x": 5.15,
+        "y": 9.99,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "正方形副本副本",
+        "x": 5.15,
+        "y": 9.49,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "矩形副本",
+        "x": 5.1,
+        "y": 8.83,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "直角三角形副本",
+        "x": 5.2,
+        "y": 8.1,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "圆形副本副本",
+        "x": 4.5,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "weakpoint-ricochet-2副本副本",
+        "x": 5.75,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "圆形副本副本副本",
+        "x": 4.5,
+        "y": 11.45,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "正方形",
+        "x": 4.6,
+        "y": 9.99,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-55",
+  "level": {
+    "frozenBodies": [],
+    "number": 55,
+    "name": "月门拱廊",
+    "difficulty": "super-hard",
+    "description": "左右两座螺栓桥，平台双桶震桥。桶爆桥塌塔落。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 0,
+    "platformType": "double-2",
+    "castle": [
+      {
+        "id": "level-55-bolted-arch-key-beam",
+        "name": "固定玻璃拱心梁",
+        "x": 4.5,
+        "y": 10.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-55-arch-load-1",
+        "name": "arch-load-1",
+        "x": 3.9,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-load-2",
+        "name": "圆形",
+        "x": 4.5,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-55-arch-load-3",
+        "name": "arch-load-3",
+        "x": 5.1,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-upper-1",
+        "name": "arch-upper-1",
+        "x": 3.9,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-upper-2",
+        "name": "arch-upper-2",
+        "x": 4.5,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-upper-3",
+        "name": "arch-upper-3",
+        "x": 5.1,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-crown-beam",
+        "name": "arch-crown-beam",
+        "x": 4.5,
+        "y": 9.51,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-55-arch-crown",
+        "name": "arch-crown",
+        "x": 4.5,
+        "y": 9.12,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-foot-1",
+        "name": "arch-foot-1",
+        "x": 3.3499999999999996,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-55-arch-foot-2",
+        "name": "arch-foot-2",
+        "x": 3.8499999999999996,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-55-bolted-arch-key-beam-copy",
+        "name": "固定玻璃拱心梁",
+        "x": 2.0015887025595758,
+        "y": 9.022417391304346,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-55-arch-load-1-copy",
+        "name": "arch-load-1",
+        "x": 1.4015887025595761,
+        "y": 8.662417391304345,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-load-2-copy",
+        "name": "圆形",
+        "x": 2.0015887025595758,
+        "y": 8.662417391304345,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-55-arch-load-3-copy",
+        "name": "arch-load-3",
+        "x": 2.6015887025595754,
+        "y": 8.662417391304345,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-upper-1-copy",
+        "name": "arch-upper-1",
+        "x": 1.4015887025595761,
+        "y": 8.162417391304345,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-upper-2-copy",
+        "name": "arch-upper-2",
+        "x": 2.0015887025595758,
+        "y": 8.162417391304345,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-upper-3-copy",
+        "name": "arch-upper-3",
+        "x": 2.6015887025595754,
+        "y": 8.162417391304345,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-crown-beam-copy",
+        "name": "arch-crown-beam",
+        "x": 2.0015887025595758,
+        "y": 7.8024173913043455,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-55-arch-crown-copy",
+        "name": "arch-crown",
+        "x": 2.0015887025595758,
+        "y": 7.412417391304345,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-bolted-arch-key-beam-copy-copy",
+        "name": "固定玻璃拱心梁",
+        "x": 7.176654898499559,
+        "y": 9.002417391304345,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-55-arch-load-1-copy-copy",
+        "name": "arch-load-1",
+        "x": 6.57665489849956,
+        "y": 8.642417391304345,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-load-2-copy-copy",
+        "name": "圆形",
+        "x": 7.176654898499559,
+        "y": 8.642417391304345,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-55-arch-load-3-copy-copy",
+        "name": "arch-load-3",
+        "x": 7.776654898499559,
+        "y": 8.642417391304345,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-upper-1-copy-copy",
+        "name": "arch-upper-1",
+        "x": 6.57665489849956,
+        "y": 8.142417391304345,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-upper-2-copy-copy",
+        "name": "arch-upper-2",
+        "x": 7.176654898499559,
+        "y": 8.142417391304345,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-upper-3-copy-copy",
+        "name": "arch-upper-3",
+        "x": 7.776654898499559,
+        "y": 8.142417391304345,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-crown-beam-copy-copy",
+        "name": "arch-crown-beam",
+        "x": 7.176654898499559,
+        "y": 7.782417391304343,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "glass",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-55-arch-crown-copy-copy",
+        "name": "arch-crown",
+        "x": 7.176654898499559,
+        "y": 7.392417391304343,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-55-arch-foot-1-copy",
+        "name": "arch-foot-1",
+        "x": 2.35,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-55-arch-foot-2-copy",
+        "name": "arch-foot-2",
+        "x": 2.85,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-55-arch-foot-1-copy-2",
+        "name": "arch-foot-1",
+        "x": 6.1699999999999955,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-55-arch-foot-2-copy-2",
+        "name": "arch-foot-2",
+        "x": 6.6699999999999955,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-55-arch-foot-1-copy-copy",
+        "name": "arch-foot-1",
+        "x": 5.1699999999999955,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-55-arch-foot-2-copy-copy",
+        "name": "arch-foot-2",
+        "x": 5.6699999999999955,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-55-arch-foot-1-copy-2-copy",
+        "name": "arch-foot-1",
+        "x": 6.1699999999999955,
+        "y": 11.589999999999991,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-55-arch-foot-2-copy-2-copy",
+        "name": "arch-foot-2",
+        "x": 6.6699999999999955,
+        "y": 11.589999999999991,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-55-arch-foot-1-copy-copy-copy",
+        "name": "arch-foot-1",
+        "x": 5.1699999999999955,
+        "y": 11.589999999999991,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-55-arch-foot-2-copy-copy-copy",
+        "name": "arch-foot-2",
+        "x": 5.6699999999999955,
+        "y": 11.589999999999991,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-55-arch-foot-1-copy-2-copy-copy",
+        "name": "arch-foot-1",
+        "x": 3.356716681376869,
+        "y": 11.589999999999998,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-55-arch-foot-2-copy-2-copy-copy",
+        "name": "arch-foot-2",
+        "x": 3.856716681376869,
+        "y": 11.589999999999998,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-55-arch-foot-1-copy-copy-copy-copy",
+        "name": "arch-foot-1",
+        "x": 2.356716681376869,
+        "y": 11.589999999999998,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-55-arch-foot-2-copy-copy-copy-copy",
+        "name": "arch-foot-2",
+        "x": 2.856716681376869,
+        "y": 11.589999999999998,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      }
+    ]
+  }
+}

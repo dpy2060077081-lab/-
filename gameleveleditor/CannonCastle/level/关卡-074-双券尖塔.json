@@ -1,0 +1,421 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-74",
+  "level": {
+    "number": 74,
+    "name": "双券尖塔",
+    "difficulty": "hard",
+    "description": "双堡全靠螺栓板托举悬空，中缝栓板桶，断栓全堡坠。",
+    "normalAmmo": 7,
+    "explosiveAmmo": 0,
+    "platformType": "double-3",
+    "castle": [
+      {
+        "id": "level-74-glass-footing-1",
+        "name": "glass-footing-1",
+        "x": 2.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-74-glass-footing-2",
+        "name": "glass-footing-2",
+        "x": 2.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-74-glass-footing-3",
+        "name": "glass-footing-3",
+        "x": 3.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-74-glass-footing-4",
+        "name": "glass-footing-4",
+        "x": 3.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-74-glass-footing-5",
+        "name": "glass-footing-5",
+        "x": 4.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-74-glass-footing-6",
+        "name": "glass-footing-6",
+        "x": 4.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-74-glass-footing-7",
+        "name": "glass-footing-7",
+        "x": 5.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-74-glass-footing-8",
+        "name": "glass-footing-8",
+        "x": 5.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-74-glass-footing-9",
+        "name": "glass-footing-9",
+        "x": 6.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-74-glass-footing-10",
+        "name": "glass-footing-10",
+        "x": 6.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-74-gate-lintel-west",
+        "name": "gate-lintel-west",
+        "x": 2.95,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-74-gate-lintel-middle",
+        "name": "gate-lintel-middle",
+        "x": 4.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-gate-lintel-east",
+        "name": "gate-lintel-east",
+        "x": 6.05,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-gate-pier-1",
+        "name": "gate-pier-1",
+        "x": 2.35,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-gate-pier-2",
+        "name": "gate-pier-2",
+        "x": 3.65,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-gate-pier-3",
+        "name": "gate-pier-3",
+        "x": 4.2,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-74-gate-pier-4",
+        "name": "gate-pier-4",
+        "x": 4.8,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-gate-pier-5",
+        "name": "gate-pier-5",
+        "x": 5.35,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-gate-pier-6",
+        "name": "gate-pier-6",
+        "x": 6.65,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-middle-belt-west",
+        "name": "middle-belt-west",
+        "x": 2.95,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-middle-belt-middle",
+        "name": "middle-belt-middle",
+        "x": 4.5,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-middle-belt-east",
+        "name": "middle-belt-east",
+        "x": 6.05,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-middle-window-pier-1",
+        "name": "middle-window-pier-1",
+        "x": 2.35,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-middle-window-pier-2",
+        "name": "middle-window-pier-2",
+        "x": 3.25,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-middle-window-pier-3",
+        "name": "middle-window-pier-3",
+        "x": 4.2,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-middle-window-pier-4",
+        "name": "middle-window-pier-4",
+        "x": 4.8,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-74-middle-window-pier-5",
+        "name": "middle-window-pier-5",
+        "x": 5.75,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-middle-window-pier-6",
+        "name": "middle-window-pier-6",
+        "x": 6.65,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-upper-belt-west",
+        "name": "upper-belt-west",
+        "x": 2.95,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-upper-belt-middle",
+        "name": "upper-belt-middle",
+        "x": 4.5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-upper-belt-east",
+        "name": "upper-belt-east",
+        "x": 6.05,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-upper-arcade-pier-1",
+        "name": "upper-arcade-pier-1",
+        "x": 2.35,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-upper-arcade-pier-2",
+        "name": "upper-arcade-pier-2",
+        "x": 3.35,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-upper-arcade-pier-3",
+        "name": "upper-arcade-pier-3",
+        "x": 4.2,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-upper-arcade-pier-4",
+        "name": "upper-arcade-pier-4",
+        "x": 4.8,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-upper-arcade-pier-5",
+        "name": "upper-arcade-pier-5",
+        "x": 5.65,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-74-upper-arcade-pier-6",
+        "name": "upper-arcade-pier-6",
+        "x": 6.65,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-roof-belt-west",
+        "name": "roof-belt-west",
+        "x": 2.95,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-roof-belt-middle",
+        "name": "roof-belt-middle",
+        "x": 4.5,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-roof-belt-east",
+        "name": "roof-belt-east",
+        "x": 6.05,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-roof-pier-1",
+        "name": "roof-pier-1",
+        "x": 3.55,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-roof-pier-2",
+        "name": "roof-pier-2",
+        "x": 5.45,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-roof-base",
+        "name": "roof-base",
+        "x": 4.5,
+        "y": 7.57,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-single-slope-roof",
+        "name": "single-slope-roof",
+        "x": 4.15,
+        "y": 7.18,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-74-offset-cap-post",
+        "name": "offset-cap-post",
+        "x": 5.15,
+        "y": 7.05,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      }
+    ]
+  }
+}

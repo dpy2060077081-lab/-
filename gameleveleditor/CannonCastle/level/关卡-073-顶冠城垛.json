@@ -1,0 +1,342 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-73",
+  "level": {
+    "frozenBodies": [],
+    "number": 73,
+    "name": "顶冠城垛",
+    "difficulty": "normal",
+    "description": "高塔左右交替螺栓阳台，台桶与格错落。",
+    "normalAmmo": 10,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-84-left-wing-ground-post-copy",
+        "name": "left-wing-ground-post",
+        "x": 2.2606796116504855,
+        "y": 11.888782608695651,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-outer-post-1-copy",
+        "name": "left-outer-post-1",
+        "x": 2.960679611650485,
+        "y": 11.888782608695651,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-belt-1-copy",
+        "name": "left-belt-1",
+        "x": 3.0356796116504854,
+        "y": 11.368782608695652,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-outer-post-2-copy",
+        "name": "left-outer-post-2",
+        "x": 2.960679611650485,
+        "y": 10.848782608695652,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-inner-post-2-copy",
+        "name": "left-inner-post-2",
+        "x": 3.7606796116504855,
+        "y": 10.848782608695652,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-left-belt-2-copy",
+        "name": "left-belt-2",
+        "x": 3.4356796116504857,
+        "y": 10.328782608695652,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-outer-post-3-copy",
+        "name": "left-outer-post-3",
+        "x": 2.5606796116504866,
+        "y": 9.793782608695647,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-left-inner-post-3-copy",
+        "name": "left-inner-post-3",
+        "x": 3.360679611650487,
+        "y": 9.808782608695651,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-left-belt-3-copy",
+        "name": "left-belt-3",
+        "x": 2.960679611650487,
+        "y": 9.288782608695652,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-left-outer-post-4-copy",
+        "name": "left-outer-post-4",
+        "x": 2.6106796116504865,
+        "y": 8.76878260869565,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-left-inner-post-4-copy",
+        "name": "left-inner-post-4",
+        "x": 3.360679611650487,
+        "y": 8.76878260869565,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-left-belt-4-copy",
+        "name": "left-belt-4",
+        "x": 2.960679611650487,
+        "y": 8.24878260869565,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-left-wing-upper-post-copy",
+        "name": "left-wing-upper-post",
+        "x": 2.2606796116504855,
+        "y": 10.848782608695652,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-wing-upper-belt-copy",
+        "name": "left-wing-upper-belt",
+        "x": 2.5106796116504855,
+        "y": 10.328782608695652,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-wing-ground-post-copy",
+        "name": "right-wing-ground-post",
+        "x": 6.610679611650489,
+        "y": 11.888782608695651,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-outer-post-1-copy",
+        "name": "right-outer-post-1",
+        "x": 5.9106796116504885,
+        "y": 11.888782608695651,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-belt-1-copy",
+        "name": "right-belt-1",
+        "x": 5.835679611650488,
+        "y": 11.368782608695652,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-outer-post-2-copy",
+        "name": "right-outer-post-2",
+        "x": 5.9106796116504885,
+        "y": 10.848782608695652,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-inner-post-2-copy",
+        "name": "right-inner-post-2",
+        "x": 5.010679611650488,
+        "y": 10.848782608695652,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-right-belt-2-copy",
+        "name": "right-belt-2",
+        "x": 5.4106796116504885,
+        "y": 10.328782608695652,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-outer-post-3-copy",
+        "name": "right-outer-post-3",
+        "x": 6.260679611650487,
+        "y": 9.808782608695651,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-right-inner-post-3-copy",
+        "name": "right-inner-post-3",
+        "x": 5.410679611650487,
+        "y": 9.808782608695651,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-right-belt-3-copy",
+        "name": "right-belt-3",
+        "x": 5.860679611650487,
+        "y": 9.288782608695652,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-right-outer-post-4-copy",
+        "name": "right-outer-post-4",
+        "x": 6.260679611650487,
+        "y": 8.76878260869565,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-right-inner-post-4-copy",
+        "name": "right-inner-post-4",
+        "x": 5.410679611650487,
+        "y": 8.76878260869565,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-84-right-belt-4-copy",
+        "name": "right-belt-4",
+        "x": 5.860679611650487,
+        "y": 8.24878260869565,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-84-right-wing-upper-post-copy",
+        "name": "right-wing-upper-post",
+        "x": 6.610679611650489,
+        "y": 10.848782608695652,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-right-wing-upper-belt-copy",
+        "name": "right-wing-upper-belt",
+        "x": 6.360679611650489,
+        "y": 10.328782608695652,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-84-left-glass-window-copy",
+        "name": "left-glass-window",
+        "x": 2.985679611650487,
+        "y": 10.068782608695653,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-84-right-stone-emblem-copy",
+        "name": "right-stone-emblem",
+        "x": 5.835679611650487,
+        "y": 10.068782608695653,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-1-copy",
+        "name": "矩形",
+        "x": 3.7356796116504856,
+        "y": 11.888782608695651,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-2-copy",
+        "name": "矩形",
+        "x": 5.135679611650489,
+        "y": 11.888782608695651,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "isosceles-triangle-1",
+        "name": "等腰三角形",
+        "x": 2.9748455428067078,
+        "y": 7.865269565217391,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "isosceles-triangle-1-copy",
+        "name": "等腰三角形",
+        "x": 5.857987643424536,
+        "y": 7.850678260869562,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "explosive-barrel-1",
+        "name": "爆炸桶",
+        "x": 4.425,
+        "y": 12.04,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "isosceles-triangle-2",
+        "name": "等腰三角形",
+        "x": 4.410679611650489,
+        "y": 10.535,
+        "angle": 3.141592653589793,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "metal"
+      }
+    ]
+  }
+}

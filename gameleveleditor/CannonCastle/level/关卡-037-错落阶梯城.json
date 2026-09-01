@@ -1,0 +1,232 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-37",
+  "level": {
+    "number": 37,
+    "name": "错落阶梯城",
+    "difficulty": "normal",
+    "description": "直射近仓或借侧墙进入远仓，爆炸都会穿过玻璃走廊抵达另一座弹药库。",
+    "normalAmmo": 7,
+    "explosiveAmmo": 0,
+    "platformType": "single-3",
+    "castle": [
+      {
+        "id": "level-37-pillar-1",
+        "name": "pillar-1",
+        "x": 3.6,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-37-pillar-2",
+        "name": "pillar-2",
+        "x": 5.4,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-37-beam-1",
+        "name": "beam-1",
+        "x": 4.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-37-r1-c1",
+        "name": "r1-c1",
+        "x": 3.75,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-37-r1-c2",
+        "name": "r1-c2",
+        "x": 4.25,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-37-r1-c3",
+        "name": "r1-c3",
+        "x": 4.75,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-37-r1-c4",
+        "name": "r1-c4",
+        "x": 5.25,
+        "y": 11.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-37-t-r1-c1",
+        "name": "t-r1-c1",
+        "x": 3.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-37-t-r1-c2",
+        "name": "t-r1-c2",
+        "x": 4.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-37-t-r2-c1",
+        "name": "t-r2-c1",
+        "x": 3.75,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-37-t-r2-c2",
+        "name": "t-r2-c2",
+        "x": 4.25,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-37-t-r3-c1",
+        "name": "t-r3-c1",
+        "x": 3.75,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-37-t-r3-c2",
+        "name": "t-r3-c2",
+        "x": 4.25,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-37-s-r1-c1",
+        "name": "s-r1-c1",
+        "x": 4.75,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-37-s-r1-c2",
+        "name": "s-r1-c2",
+        "x": 5.25,
+        "y": 10.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-37-s-r2-c1",
+        "name": "s-r2-c1",
+        "x": 4.75,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-37-s-r2-c2",
+        "name": "s-r2-c2",
+        "x": 5.25,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-37-s-r3-c1",
+        "name": "s-r3-c1",
+        "x": 5,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-37-t-roof",
+        "name": "t-roof",
+        "x": 4,
+        "y": 9.34,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-37-s-cap",
+        "name": "s-cap",
+        "x": 5,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "矩形",
+        "x": 5,
+        "y": 8.92,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "矩形副本",
+        "x": 5,
+        "y": 8.52,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "矩形副本副本",
+        "x": 5,
+        "y": 8.12,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "editor-piece-24",
+        "name": "直角三角形",
+        "x": 5,
+        "y": 7.72,
+        "angle": 0,
+        "shapePresetId": "right-triangle",
+        "materialId": "glass"
+      }
+    ]
+  }
+}

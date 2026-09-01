@@ -1,0 +1,511 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-72",
+  "level": {
+    "number": 72,
+    "name": "双拱阶台",
+    "difficulty": "normal",
+    "description": "三段螺栓桥阶梯下行，桥桶逐级引爆。",
+    "normalAmmo": 12,
+    "explosiveAmmo": 0,
+    "platformType": "double-3",
+    "castle": [
+      {
+        "id": "level-72-glass-footing-1",
+        "name": "glass-footing-1",
+        "x": 1.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-glass-footing-2",
+        "name": "glass-footing-2",
+        "x": 2.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-glass-footing-3",
+        "name": "glass-footing-3",
+        "x": 2.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-glass-footing-4",
+        "name": "glass-footing-4",
+        "x": 3.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-glass-footing-5",
+        "name": "glass-footing-5",
+        "x": 3.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-glass-footing-6",
+        "name": "glass-footing-6",
+        "x": 4.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-glass-footing-7",
+        "name": "glass-footing-7",
+        "x": 4.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-glass-footing-8",
+        "name": "glass-footing-8",
+        "x": 5.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-glass-footing-9",
+        "name": "glass-footing-9",
+        "x": 5.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-glass-footing-10",
+        "name": "glass-footing-10",
+        "x": 6.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-glass-footing-11",
+        "name": "glass-footing-11",
+        "x": 6.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-glass-footing-12",
+        "name": "glass-footing-12",
+        "x": 7.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-lower-lintel-west",
+        "name": "lower-lintel-west",
+        "x": 2.95,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-lower-lintel-middle",
+        "name": "lower-lintel-middle",
+        "x": 4.5,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-lower-lintel-east",
+        "name": "lower-lintel-east",
+        "x": 6.05,
+        "y": 11.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-lower-arch-post-1",
+        "name": "lower-arch-post-1",
+        "x": 2.35,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-lower-arch-post-2",
+        "name": "lower-arch-post-2",
+        "x": 3.45,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-lower-arch-post-3",
+        "name": "lower-arch-post-3",
+        "x": 4.2,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-lower-arch-post-4",
+        "name": "lower-arch-post-4",
+        "x": 4.8,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-lower-arch-post-5",
+        "name": "lower-arch-post-5",
+        "x": 5.55,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-lower-arch-post-6",
+        "name": "lower-arch-post-6",
+        "x": 6.65,
+        "y": 11.21,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-72-gallery-lintel-west",
+        "name": "gallery-lintel-west",
+        "x": 2.95,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-gallery-lintel-middle",
+        "name": "gallery-lintel-middle",
+        "x": 4.5,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-gallery-lintel-east",
+        "name": "gallery-lintel-east",
+        "x": 6.05,
+        "y": 10.69,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-upper-arch-post-1",
+        "name": "upper-arch-post-1",
+        "x": 2.6,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-upper-arch-post-2",
+        "name": "upper-arch-post-2",
+        "x": 3.35,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-upper-arch-post-3",
+        "name": "upper-arch-post-3",
+        "x": 4.2,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-72-upper-arch-post-4",
+        "name": "upper-arch-post-4",
+        "x": 4.8,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-72-upper-arch-post-5",
+        "name": "upper-arch-post-5",
+        "x": 5.65,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-upper-arch-post-6",
+        "name": "upper-arch-post-6",
+        "x": 6.4,
+        "y": 10.17,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-pyramid-sill-west",
+        "name": "pyramid-sill-west",
+        "x": 2.95,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-pyramid-sill-middle",
+        "name": "pyramid-sill-middle",
+        "x": 4.5,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-pyramid-sill-east",
+        "name": "pyramid-sill-east",
+        "x": 6.05,
+        "y": 9.65,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-first-step-post-1",
+        "name": "first-step-post-1",
+        "x": 2.95,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-72-first-step-post-2",
+        "name": "first-step-post-2",
+        "x": 3.95,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-first-step-post-3",
+        "name": "first-step-post-3",
+        "x": 5.05,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-first-step-post-4",
+        "name": "first-step-post-4",
+        "x": 6.05,
+        "y": 9.13,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-first-step-lintel-west",
+        "name": "first-step-lintel-west",
+        "x": 2.95,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-first-step-lintel-middle",
+        "name": "first-step-lintel-middle",
+        "x": 4.5,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-first-step-lintel-east",
+        "name": "first-step-lintel-east",
+        "x": 6.05,
+        "y": 8.61,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-second-step-post-1",
+        "name": "second-step-post-1",
+        "x": 3.3,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-second-step-post-2",
+        "name": "second-step-post-2",
+        "x": 3.7,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-72-second-step-post-3",
+        "name": "second-step-post-3",
+        "x": 4.3,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-second-step-post-4",
+        "name": "second-step-post-4",
+        "x": 4.7,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-second-step-post-5",
+        "name": "second-step-post-5",
+        "x": 5.3,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-second-step-post-6",
+        "name": "second-step-post-6",
+        "x": 5.7,
+        "y": 8.09,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-second-step-lintel-1",
+        "name": "second-step-lintel-1",
+        "x": 3.6,
+        "y": 7.57,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-second-step-lintel-2",
+        "name": "second-step-lintel-2",
+        "x": 4.5,
+        "y": 7.57,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-second-step-lintel-3",
+        "name": "second-step-lintel-3",
+        "x": 5.4,
+        "y": 7.57,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-crown-post-1",
+        "name": "crown-post-1",
+        "x": 4.2,
+        "y": 7.05,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-72-crown-post-2",
+        "name": "crown-post-2",
+        "x": 4.8,
+        "y": 7.05,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-crown-lintel",
+        "name": "crown-lintel",
+        "x": 4.5,
+        "y": 6.53,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-crown-roof",
+        "name": "crown-roof",
+        "x": 4.5,
+        "y": 6.14,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-72-west-flank-roof",
+        "name": "west-flank-roof",
+        "x": 2.3,
+        "y": 8.22,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-72-east-flank-roof",
+        "name": "east-flank-roof",
+        "x": 6.7,
+        "y": 8.22,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "glass"
+      }
+    ]
+  }
+}

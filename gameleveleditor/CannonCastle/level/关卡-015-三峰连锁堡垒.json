@@ -1,0 +1,431 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-15",
+  "level": {
+    "frozenBodies": [],
+    "number": 15,
+    "name": "三峰连锁堡垒",
+    "difficulty": "super-hard",
+    "description": "Imported user-authored level.",
+    "normalAmmo": 10,
+    "explosiveAmmo": 1,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-15-weakpoint-two-stage-1-1",
+        "name": "weakpoint-two-stage-1",
+        "x": 2.45,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-15-foundation-r-1-c2-2",
+        "name": "foundation-r-1-c2",
+        "x": 3,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-15-weakpoint-two-stage-3-3",
+        "name": "weakpoint-two-stage-3",
+        "x": 3.5,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-4",
+        "name": "weakpoint-two-stage-1副本",
+        "x": 4.1,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-5",
+        "name": "foundation-r-1-c2副本",
+        "x": 4.65,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-6",
+        "name": "weakpoint-two-stage-3副本",
+        "x": 5.15,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-7",
+        "name": "weakpoint-two-stage-1副本副本",
+        "x": 5.7,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-8",
+        "name": "foundation-r-1-c2副本副本",
+        "x": 6.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-9",
+        "name": "weakpoint-two-stage-3副本副本",
+        "x": 6.75,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-10",
+        "name": "foundation-r-1-c2副本副本副本",
+        "x": 6,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-11",
+        "name": "weakpoint-two-stage-3副本副本副本",
+        "x": 6.5,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-12",
+        "name": "foundation-r-1-c2副本副本副本副本",
+        "x": 4.4,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "weakpoint-two-stage-3副本副本副本副本",
+        "x": 4.9,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "foundation-r-1-c2副本副本副本副本副本",
+        "x": 2.75,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本",
+        "x": 3.25,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本",
+        "x": 6.25,
+        "y": 11.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本副本",
+        "x": 4.65,
+        "y": 11.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本副本副本",
+        "x": 3,
+        "y": 11.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "细长矩形",
+        "x": 3.5,
+        "y": 10.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "细长矩形副本",
+        "x": 5.8,
+        "y": 10.73,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-21",
+        "name": "weakpoint-two-stage-1副本副本副本",
+        "x": 2.7,
+        "y": 10.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-22",
+        "name": "foundation-r-1-c2副本副本副本",
+        "x": 3.25,
+        "y": 10.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-23",
+        "name": "weakpoint-two-stage-3副本副本副本",
+        "x": 3.75,
+        "y": 10.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-24",
+        "name": "foundation-r-1-c2副本副本副本副本",
+        "x": 3,
+        "y": 9.85,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-25",
+        "name": "weakpoint-two-stage-3副本副本副本副本",
+        "x": 3.5,
+        "y": 9.85,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-26",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本副本",
+        "x": 3.25,
+        "y": 9.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-27",
+        "name": "weakpoint-two-stage-1副本副本副本副本",
+        "x": 5.5,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-28",
+        "name": "foundation-r-1-c2副本副本副本副本",
+        "x": 6.05,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-29",
+        "name": "weakpoint-two-stage-3副本副本副本副本",
+        "x": 6.55,
+        "y": 10.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-30",
+        "name": "foundation-r-1-c2副本副本副本副本副本",
+        "x": 5.8,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-31",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本",
+        "x": 6.3,
+        "y": 9.87,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-32",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本副本副本",
+        "x": 6.05,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-33",
+        "name": "细长矩形",
+        "x": 4.65,
+        "y": 9.49,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-34",
+        "name": "正方形",
+        "x": 4.1,
+        "y": 9.13,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-35",
+        "name": "正方形副本",
+        "x": 4.7,
+        "y": 9.13,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-36",
+        "name": "正方形副本",
+        "x": 4.1,
+        "y": 8.63,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-37",
+        "name": "正方形副本副本",
+        "x": 4.7,
+        "y": 8.63,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-38",
+        "name": "正方形副本副本",
+        "x": 5.3,
+        "y": 9.1,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-39",
+        "name": "正方形副本副本副本",
+        "x": 5.3,
+        "y": 8.6,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-40",
+        "name": "细长矩形",
+        "x": 4.7,
+        "y": 8.24,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-41",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本副本副本副本",
+        "x": 3.85,
+        "y": 7.88,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-42",
+        "name": "weakpoint-two-stage-3副本副本副本副本副本副本副本副本副本",
+        "x": 5.55,
+        "y": 7.88,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-43",
+        "name": "等腰三角形",
+        "x": 4.7,
+        "y": 7.85,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-44",
+        "name": "圆形",
+        "x": 5.43,
+        "y": 11.56,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-45",
+        "name": "圆形",
+        "x": 3.8,
+        "y": 11.56,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "stone"
+      },
+      {
+        "id": "rectangle-1",
+        "name": "矩形",
+        "x": 4.610000000000001,
+        "y": 10.400000000000004,
+        "angle": 0,
+        "shapePresetId": "rectangle",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

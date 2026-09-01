@@ -1,0 +1,383 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-92",
+  "level": {
+    "frozenBodies": [
+      {
+        "id": "frozen-1",
+        "memberIds": [
+          "level-92-arch-post-1-1",
+          "level-92-arch-post-1-2",
+          "level-92-arch-post-1-3",
+          "level-92-arch-post-1-4",
+          "level-92-arch-post-1-5",
+          "level-92-arch-post-1-6",
+          "level-92-arch-post-1-7",
+          "level-92-stair-tread-1",
+          "level-92-landing-cap-1"
+        ]
+      },
+      {
+        "id": "frozen-2",
+        "memberIds": [
+          "level-92-arch-post-3-1",
+          "level-92-arch-post-3-2",
+          "level-92-arch-post-3-3",
+          "level-92-arch-post-3-4",
+          "level-92-arch-post-3-5",
+          "level-92-stair-tread-3"
+        ]
+      },
+      {
+        "id": "frozen-3",
+        "memberIds": [
+          "level-92-arch-post-5-1",
+          "level-92-arch-post-5-2",
+          "level-92-arch-post-5-3",
+          "level-92-stair-tread-5"
+        ]
+      },
+      {
+        "id": "frozen-4",
+        "memberIds": [
+          "level-92-arch-post-7-1",
+          "level-92-stair-tread-7"
+        ]
+      }
+    ],
+    "number": 92,
+    "name": "斜阶木廊",
+    "difficulty": "normal",
+    "description": "严格按示例图搭建：单向逐级木台由多根直接落地的竖木承接，形成可读的长斜阶门架与开放拱下空间。",
+    "normalAmmo": 10,
+    "explosiveAmmo": 0,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-92-arch-post-1-1",
+        "name": "arch-post-1-1",
+        "x": 2.55,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-1-2",
+        "name": "arch-post-1-2",
+        "x": 2.55,
+        "y": 11.11,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-1-3",
+        "name": "arch-post-1-3",
+        "x": 2.55,
+        "y": 10.29,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-1-4",
+        "name": "arch-post-1-4",
+        "x": 2.55,
+        "y": 9.469999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-1-5",
+        "name": "arch-post-1-5",
+        "x": 2.55,
+        "y": 8.65,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-1-6",
+        "name": "arch-post-1-6",
+        "x": 2.55,
+        "y": 7.83,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-1-7",
+        "name": "arch-post-1-7",
+        "x": 2.55,
+        "y": 7.01,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-stair-tread-1",
+        "name": "stair-tread-1",
+        "x": 2.55,
+        "y": 6.35,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-2-1",
+        "name": "arch-post-2-1",
+        "x": 3.0999999999999996,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-2-2",
+        "name": "arch-post-2-2",
+        "x": 3.0999999999999996,
+        "y": 11.11,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-2-3",
+        "name": "arch-post-2-3",
+        "x": 3.0999999999999996,
+        "y": 10.29,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-2-4",
+        "name": "arch-post-2-4",
+        "x": 3.0999999999999996,
+        "y": 9.469999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-2-5",
+        "name": "arch-post-2-5",
+        "x": 3.0999999999999996,
+        "y": 8.65,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-2-6",
+        "name": "arch-post-2-6",
+        "x": 3.0999999999999996,
+        "y": 7.83,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-stair-tread-2",
+        "name": "stair-tread-2",
+        "x": 3.0999999999999996,
+        "y": 7.17,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-3-1",
+        "name": "arch-post-3-1",
+        "x": 3.65,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-3-2",
+        "name": "arch-post-3-2",
+        "x": 3.65,
+        "y": 11.11,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-3-3",
+        "name": "arch-post-3-3",
+        "x": 3.65,
+        "y": 10.29,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-3-4",
+        "name": "arch-post-3-4",
+        "x": 3.65,
+        "y": 9.469999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-3-5",
+        "name": "arch-post-3-5",
+        "x": 3.65,
+        "y": 8.65,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-stair-tread-3",
+        "name": "stair-tread-3",
+        "x": 3.65,
+        "y": 7.99,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-4-1",
+        "name": "arch-post-4-1",
+        "x": 4.2,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-4-2",
+        "name": "arch-post-4-2",
+        "x": 4.2,
+        "y": 11.11,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-4-3",
+        "name": "arch-post-4-3",
+        "x": 4.2,
+        "y": 10.29,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-4-4",
+        "name": "arch-post-4-4",
+        "x": 4.2,
+        "y": 9.469999999999999,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-stair-tread-4",
+        "name": "stair-tread-4",
+        "x": 4.2,
+        "y": 8.809999999999999,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-5-1",
+        "name": "arch-post-5-1",
+        "x": 4.75,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-5-2",
+        "name": "arch-post-5-2",
+        "x": 4.75,
+        "y": 11.11,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-5-3",
+        "name": "arch-post-5-3",
+        "x": 4.75,
+        "y": 10.29,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-stair-tread-5",
+        "name": "stair-tread-5",
+        "x": 4.75,
+        "y": 9.629999999999999,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-arch-post-6-1",
+        "name": "arch-post-6-1",
+        "x": 5.3,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-6-2",
+        "name": "arch-post-6-2",
+        "x": 5.3,
+        "y": 11.11,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-stair-tread-6",
+        "name": "stair-tread-6",
+        "x": 5.3,
+        "y": 10.45,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "metal"
+      },
+      {
+        "id": "level-92-arch-post-7-1",
+        "name": "arch-post-7-1",
+        "x": 5.85,
+        "y": 11.93,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "rectangle",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-stair-tread-7",
+        "name": "stair-tread-7",
+        "x": 5.85,
+        "y": 11.27,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "rubber"
+      },
+      {
+        "id": "level-92-landing-cap-1",
+        "name": "landing-cap-1",
+        "x": 2.55,
+        "y": 5.9399999999999995,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "rubber"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+level/*.json text eol=lf
+static/vendor/*.js text eol=lf

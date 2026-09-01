@@ -1,0 +1,251 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-27",
+  "level": {
+    "number": 27,
+    "name": "双翼城堡",
+    "difficulty": "normal",
+    "description": "击断外露的左翼内支撑，让高处翼载荷向中央落下并撞击城堡核心。",
+    "normalAmmo": 8,
+    "explosiveAmmo": 1,
+    "platformType": "single-5",
+    "castle": [
+      {
+        "id": "level-27-left-outer-wing-post",
+        "name": "left-outer-wing-post",
+        "x": 2.35,
+        "y": 11.24,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-27-wing-release-support",
+        "name": "wing-release-support",
+        "x": 3.45,
+        "y": 11.24,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-27-left-wing-deck",
+        "name": "left-wing-deck",
+        "x": 2.9,
+        "y": 10.03,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-27-falling-wing-load-outer",
+        "name": "falling-wing-load-outer",
+        "x": 2.5,
+        "y": 9.67,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-27-falling-wing-load",
+        "name": "falling-wing-load",
+        "x": 3,
+        "y": 9.67,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-27-falling-wing-load-upper",
+        "name": "falling-wing-load-upper",
+        "x": 3,
+        "y": 9.26,
+        "angle": 0,
+        "shapePresetId": "small-square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-27-center-core-base",
+        "name": "center-core-base",
+        "x": 4.25,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-27-center-core-upper",
+        "name": "center-core-upper",
+        "x": 4.25,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-27-right-inner-wing-post",
+        "name": "right-inner-wing-post",
+        "x": 5.45,
+        "y": 11.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-27-right-outer-wing-post",
+        "name": "right-outer-wing-post",
+        "x": 6.55,
+        "y": 11.89,
+        "angle": 1.5707963267948966,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-27-right-wing-deck",
+        "name": "right-wing-deck",
+        "x": 6,
+        "y": 11.33,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-27-right-wing-load",
+        "name": "right-wing-load",
+        "x": 6,
+        "y": 11.020000000000001,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-13",
+        "name": "falling-wing-load副本",
+        "x": 3.5,
+        "y": 9.67,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "center-core-base副本",
+        "x": 2.9,
+        "y": 12.05,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "center-core-upper副本",
+        "x": 2.9,
+        "y": 11.55,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "center-core-base副本副本",
+        "x": 2.9,
+        "y": 11.1,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "center-core-upper副本副本",
+        "x": 2.9,
+        "y": 10.6,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-18",
+        "name": "等腰三角形",
+        "x": 3,
+        "y": 8.84,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-19",
+        "name": "等腰三角形",
+        "x": 4.25,
+        "y": 11.08,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-20",
+        "name": "爆炸桶",
+        "x": 5.95,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "square-1",
+        "name": "正方形",
+        "x": 6.6398838821599275,
+        "y": 10.988377199547314,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy",
+        "name": "正方形",
+        "x": 5.33,
+        "y": 11.013508798189248,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-27-right-wing-load-copy",
+        "name": "right-wing-load",
+        "x": 5.984941941079963,
+        "y": 10.506622800452693,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "square-1-copy-2",
+        "name": "正方形",
+        "x": 6.624825823239891,
+        "y": 10.475000000000005,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "square-1-copy-copy",
+        "name": "正方形",
+        "x": 5.314941941079963,
+        "y": 10.50013159864194,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "isosceles-triangle-1",
+        "name": "等腰三角形",
+        "x": 5.975813116688177,
+        "y": 9.928508798189243,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

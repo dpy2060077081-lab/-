@@ -1,0 +1,189 @@
+{
+  "version": 2,
+  "type": "level",
+  "levelId": "level-53",
+  "level": {
+    "number": 53,
+    "name": "钥柱王冠",
+    "difficulty": "normal",
+    "description": "旋转螺栓竖梁跨过中央缝隙，撑起横板双塔。",
+    "normalAmmo": 9,
+    "explosiveAmmo": 0,
+    "platformType": "double-2",
+    "castle": [
+      {
+        "id": "level-53-bolted-key-column",
+        "name": "固定玻璃钥梁",
+        "x": 4.5,
+        "y": 10.46,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "wood",
+        "fixedBolt": true
+      },
+      {
+        "id": "level-53-crown-block-1",
+        "name": "crown-block-1",
+        "x": 3.85,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood",
+        "specialType": "explosive-barrel"
+      },
+      {
+        "id": "level-53-crown-block-2",
+        "name": "crown-block-2",
+        "x": 4.5,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-53-crown-block-3",
+        "name": "crown-block-3",
+        "x": 5,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-53-crown-roof-beam",
+        "name": "crown-roof-beam",
+        "x": 4.5,
+        "y": 9.74,
+        "angle": 0,
+        "shapePresetId": "long-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-53-crown-top",
+        "name": "crown-top",
+        "x": 4.5,
+        "y": 9.37,
+        "angle": 0,
+        "shapePresetId": "isosceles-triangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-53-crown-orb",
+        "name": "crown-orb",
+        "x": 5.18,
+        "y": 12.06,
+        "angle": 0,
+        "shapePresetId": "circle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-53-court-post-1",
+        "name": "court-post-1",
+        "x": 3.1,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-53-court-post-2",
+        "name": "court-post-2",
+        "x": 3.85,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-53-court-post-3",
+        "name": "court-post-3",
+        "x": 5.85,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "glass"
+      },
+      {
+        "id": "level-53-court-post-4",
+        "name": "court-post-4",
+        "x": 6.45,
+        "y": 12.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "wood"
+      },
+      {
+        "id": "level-53-left-court-cap",
+        "name": "left-court-cap",
+        "x": 3.85,
+        "y": 11.24,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "stone"
+      },
+      {
+        "id": "level-53-right-court-cap",
+        "name": "right-court-cap",
+        "x": 6.15,
+        "y": 11.74,
+        "angle": 0,
+        "shapePresetId": "short-thin-rectangle",
+        "materialId": "wood"
+      },
+      {
+        "id": "editor-piece-14",
+        "name": "court-post-1副本",
+        "x": 3.1,
+        "y": 11.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-15",
+        "name": "court-post-1副本副本",
+        "x": 3.1,
+        "y": 11.09,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-16",
+        "name": "court-post-1副本副本副本",
+        "x": 3.1,
+        "y": 10.59,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-17",
+        "name": "court-post-1副本副本副本副本",
+        "x": 3.95,
+        "y": 10.1,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-14-copy",
+        "name": "court-post-1副本",
+        "x": 6.137334510150044,
+        "y": 11.430000000000001,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      },
+      {
+        "id": "editor-piece-15-copy",
+        "name": "court-post-1副本副本",
+        "x": 6.137334510150044,
+        "y": 10.930000000000001,
+        "angle": 0,
+        "shapePresetId": "square",
+        "materialId": "stone"
+      }
+    ]
+  }
+}

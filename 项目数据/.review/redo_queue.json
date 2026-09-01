@@ -1,0 +1,83 @@
+[
+  {
+    "image_id": "000215",
+    "folder": "000022",
+    "original_path": "原图/000022/000215.png",
+    "current_path": "修改图/000022/000215_v001.png",
+    "current_version": 1,
+    "reason": "与原图差异不足",
+    "updated_at": "2026-08-27T18:33:46+08:00"
+  },
+  {
+    "image_id": "000224",
+    "folder": "000023",
+    "original_path": "原图/000023/000224.png",
+    "current_path": "修改图/000023/000224_v001.png",
+    "current_version": 1,
+    "reason": "主体或结构不合理",
+    "updated_at": "2026-08-27T18:34:37+08:00"
+  },
+  {
+    "image_id": "000270",
+    "folder": "000027",
+    "original_path": "原图/000027/000270.png",
+    "current_path": "修改图/000027/000270_v001.png",
+    "current_version": 1,
+    "reason": "主体或结构不合理",
+    "updated_at": "2026-08-28T09:37:00+08:00"
+  },
+  {
+    "image_id": "000347",
+    "folder": "000035",
+    "original_path": "原图/000035/000347.png",
+    "current_path": "修改图/000035/000347_v001.png",
+    "current_version": 1,
+    "reason": "主体或结构不合理",
+    "updated_at": "2026-08-28T12:20:33+08:00"
+  },
+  {
+    "image_id": "000368",
+    "folder": "000037",
+    "original_path": "原图/000037/000368.png",
+    "current_path": "修改图/000037/000368_v001.png",
+    "current_version": 1,
+    "reason": "主体或结构不合理",
+    "updated_at": "2026-08-28T13:42:58+08:00"
+  },
+  {
+    "image_id": "000541",
+    "folder": "000055",
+    "original_path": "原图/000055/000541.png",
+    "current_path": "修改图/000055/000541_v001.png",
+    "current_version": 1,
+    "reason": "主体或结构不合理",
+    "updated_at": "2026-08-31T14:29:45+08:00"
+  },
+  {
+    "image_id": "000608",
+    "folder": "000061",
+    "original_path": "原图/000061/000608.png",
+    "current_path": "修改图/000061/000608_v001.png",
+    "current_version": 1,
+    "reason": "主体或结构不合理",
+    "updated_at": "2026-09-01T10:15:46+08:00"
+  },
+  {
+    "image_id": "000628",
+    "folder": "000063",
+    "original_path": "原图/000063/000628.png",
+    "current_path": "修改图/000063/000628_v001.png",
+    "current_version": 1,
+    "reason": "与原图差异不足",
+    "updated_at": "2026-09-01T10:42:26+08:00"
+  },
+  {
+    "image_id": "000647",
+    "folder": "000065",
+    "original_path": "原图/000065/000647.png",
+    "current_path": "修改图/000065/000647_v001.png",
+    "current_version": 1,
+    "reason": "与原图差异不足",
+    "updated_at": "2026-09-01T10:59:31+08:00"
+  }
+]
